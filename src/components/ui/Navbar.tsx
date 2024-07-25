@@ -32,7 +32,7 @@ const Navbar = ({ className }: { className?: string }) => {
         </MenuItem>
       </Menu>
     </div>
-      <Link href={"#"} className="border-2 h-6 flex justify-center items-center border-black bg-black p-4 rounded-full ">Join us</Link>
+      <Link href={"#"} className="border border-zinc-600 h-6 flex justify-center items-center  bg-black p-4 py-6 rounded-full ">Join us</Link>
     </div>
   )
 }
