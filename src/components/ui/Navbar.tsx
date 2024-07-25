@@ -9,17 +9,17 @@ const Navbar = ({ className }: { className?: string }) => {
 
   return (
 
-    <div className="flex items-center justify-between backdrop-blur-lg  fixed  top-15 w-full px-8 py-4 ">
+    <div className="flex items-center justify-between bg-transparent backdrop-blur-lg  fixed  top-15 w-full px-8 py-4  text-[#F5EBEB] ">
       <img className="h-24" src="https://greatertechhub.com/assets/img/logo/logo.png" alt="" />
       <div
       className={cn(" ", className)}
     >
       <Menu setActive={setActive} >
-        <Link href={"/"} >Home</Link>
-        <Link href={"/about"} >About</Link>
-        <Link href={"/service"} >Service</Link>
-        <Link href={"/contact"} >Contact</Link>
-        <Link href={"/company"} >Company</Link>
+        <Link href={"/"}  className="hover:border-b  hover:border-white duration-200" >Home</Link>
+        <Link href={"/about"}  className="hover:border-b  hover:border-white duration-200" >About</Link>
+        <Link href={"/service"}  className="hover:border-b  hover:border-white duration-200" >Service</Link>
+        <Link href={"/contact"}  className="hover:border-b  hover:border-white duration-200" >Contact</Link>
+        <Link href={"/company"}  className="hover:border-b  hover:border-white duration-200" >Company</Link>
         <MenuItem setActive={setActive} active={active} item="Pricing">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/event">Event</HoveredLink>

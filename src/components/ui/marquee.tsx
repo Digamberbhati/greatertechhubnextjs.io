@@ -57,7 +57,7 @@ const marquee = () => {
         },
     ])
   return (
-    <div className="overflow-hidden bg-zinc-900 mt-10">
+    <div className="overflow-hidden  mt-10">
         
 
         <div className="flex  flex-shrink-0 gap-40 w-full   filter grayscale-[95%]  px-40 pt-20 ">

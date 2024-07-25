@@ -7,14 +7,16 @@ padding: 0;
 box-sizing: border-box;
 }
  
+
+
 html,body{
 height: 100%;
 width: 100%;
 } 
 
 body{
-  background-color: #000;
-  color: #fff;
+  background-color: #867070;
+  color: #F5EBEB;
 }
 
 ::selection{

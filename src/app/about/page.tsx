@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='py-32  bg-'>
+    <div className='py-32  '>
         <h1 className='text-6xl'>This is our About Section</h1>
     </div>
   )
