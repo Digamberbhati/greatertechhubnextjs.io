@@ -2,7 +2,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
-import Marquee from '../components/ui/marquee'
+import ServicePage from "@/app/service/page";
+import Marquee from '../components/ui/marquee';
 const World = dynamic(() => import("../components/ui/globe").then((m) => m.World), {
   ssr: false,
 });
@@ -427,6 +428,8 @@ export function Home() {
 
     </div>
       <Marquee/>
+      <ServicePage/>
+      
     </>
   );
 }

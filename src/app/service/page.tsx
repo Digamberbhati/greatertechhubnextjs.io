@@ -4,52 +4,52 @@ import { HoverEffect } from '@/components/ui/card-hover-effect'
 import React from 'react'
 export const projects = [
   {
-    title: "Stripe",
+    title: "Web Development",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
-    link: "https://stripe.com",
+      "We provide professional web development services to help businesses establish a strong online presence and achieve their digital goals",
+    link: "#",
   },
   {
-    title: "Netflix",
+    title: "App Development",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    link: "https://netflix.com",
+      "We provide professional APP development services to help businesses establish a strong online presence and achieve their digital goals.",
+    link: "#",
   },
   {
-    title: "Google",
+    title: "Social Media Marketing (SMM)&SEO Projects",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    link: "https://google.com",
+      "Our dedicated team of Social Media Marketing (SMM) & SEO experts is committed to helping our clients achieve higher rankings in search engine Results",
+    link: "#",
   },
   {
-    title: "Meta",
+    title: "Market Analysis",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-    link: "https://meta.com",
+      "We provide market challenges analysis to help businesses identify and address the obstacles they face in their respective industries.",
+    link: "#",
   },
   {
-    title: "Amazon",
+    title: "Tax & Insurance",
     description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-    link: "https://amazon.com",
+      "Emphasize how your software solutions are designed to seamlessly integrate with tax and insurance processes, making it easier for businesses to manage their financial and compliance needs.",
+    link: "#",
   },
   {
-    title: "Microsoft",
+    title: "Business Research",
     description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-    link: "https://microsoft.com",
+      "I'm here to help with any questions or guidance you need regarding business planning. What specific notice or query do you have related to Business Planning? Please feel free to ask, and I'll do my best to assist you..",
+    link: "#",
   },
 ];
 
-const servicePage = () => {
+const ServicePage = () => {
   return (
-    <div className=" max-w-5xl py-32 mx-auto px-8">
+    <div className=" max-w-5xl -z-10 py-32 mx-auto relative px-8">
 
       
-    <h1 className='text-3xl z-[100]  '>Our Services</h1>
+    <h1 className='text-3xl text-[#F5EBEB]  w-full text-center font-semibold  '>Our Services</h1>
     <HoverEffect items={projects} />
   </div>
   )
 }
 
-export default servicePage
+export default ServicePage

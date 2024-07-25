@@ -23,3 +23,13 @@ body{
   background-color: #fff;
   color: #000;
 }
+
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E4D0D0; 
+  border-radius: 10px;
+}
