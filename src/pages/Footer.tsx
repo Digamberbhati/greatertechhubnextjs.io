@@ -6,7 +6,7 @@ import { FaFacebook } from "react-icons/fa";
 import { LuInstagram } from "react-icons/lu";
 const Footer = () => {  
   return (
-    <div className=' flex flex-col lg:flex-col justify-between items-start gap-10 px-12   py-3 tracking-tighter'>
+    <div className=' flex flex-col lg:flex-row justify-between items-start gap-10 px-12   py-3 tracking-tighter'>
       <div className='flex flex-col gap-2 '>
         <h1 className='text-4xl font-bold'>Greatertechhub</h1>
         <h3 className='font-light'>Social-medialinks</h3>  
