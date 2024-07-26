@@ -33,3 +33,12 @@ body{
   background: #E4D0D0; 
   border-radius: 10px;
 }
+
+.custom-list li {
+  list-style-type: disc; /* or any other list style type */
+  list-style-position: inside;
+  color: white; /* Change this to the desired color */
+  padding-left: 1rem;
+}
+
+

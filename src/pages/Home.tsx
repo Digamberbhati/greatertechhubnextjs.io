@@ -5,7 +5,7 @@ import dynamic from "next/dynamic";
 import ServicePage from "@/app/service/page";
 import Marquee from '../components/ui/marquee';
 import Aboutpage from "@/app/about/page";
-import Footer from "./Footer";
+
 const World = dynamic(() => import("../components/ui/globe").then((m) => m.World), {
   ssr: false,
 });
