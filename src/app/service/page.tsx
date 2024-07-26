@@ -43,7 +43,7 @@ export const projects = [
 
 const ServicePage = () => {
   return (
-    <div className=" max-w-5xl -z-10 py-32 mx-auto relative px-8">
+    <div className=" max-w-5xl -z-10 py-32 mx-auto  px-8">
 
       
     <h1 className='text-3xl text-[#F5EBEB]  w-full text-center font-semibold  '>Our Services</h1>

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 import ServicePage from "@/app/service/page";
 import Marquee from '../components/ui/marquee';
+import Aboutpage from "@/app/about/page";
 const World = dynamic(() => import("../components/ui/globe").then((m) => m.World), {
   ssr: false,
 });
@@ -428,6 +429,7 @@ export function Home() {
 
     </div>
       <Marquee/>
+      <Aboutpage/>
       <ServicePage/>
       
     </>

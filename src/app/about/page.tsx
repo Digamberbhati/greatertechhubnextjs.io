@@ -48,13 +48,13 @@ const content = [
     },
   ];
 
-const page = () => {
+const Aboutpage = () => {
   return (
-    <div className='py-32 max-w-screen-lg mx-auto  '>
-        <h1 className='text-4xl font-bold py-4 '>Why Choose Us</h1>
+    <div className='py-32 max-w-screen-lg mx-auto -z-10 '>
+        <h1 className='text-3xl text-[#F5EBEB]  w-full text-center py-8 font-semibold'>Why Choose Us</h1>
         <StickyScroll content={content} />
     </div>
   )
 }
 
-export default page
+export default Aboutpage

@@ -70,7 +70,7 @@ export const Menu = ({
   return (
     <nav
       onMouseLeave={() => setActive(null)} // resets the state
-      className="relative rounded-full border  border-white/[0.5] bg-black shadow-input flex justify-center space-x-4 px-8 py-6 "
+      className="relative rounded-full border z-[100]  border-white/[0.5] bg-black shadow-input flex justify-center space-x-4 px-8 py-6 "
     >
       {children}
     </nav>
@@ -89,19 +89,19 @@ export const ProductItem = ({
   src: string;
 }) => {
   return (
-    <Link href={href} className="flex space-x-2">
+    <Link href={href} className="flex z-50  space-x-2">
       <Image
         src={src}
         width={140}
         height={70}
         alt={title}
-        className="flex-shrink-0 rounded-md shadow-2xl"
+        className="flex-shrink-0 rounded-md z-50 shadow-2xl"
       />
       <div>
-        <h4 className="text-xl font-bold mb-1 text-black  dark:text-white">
+        <h4 className="text-xl font-bold mb-1 text-black z-50 dark:text-white">
           {title}
         </h4>
-        <p className="text-neutral-700 text-sm max-w-[10rem] bg-black dark:text-neutral-300">
+        <p className="text-neutral-700 text-sm max-w-[10rem] z-50 bg-black dark:text-neutral-300">
           {description}
         </p>
       </div>
@@ -113,7 +113,7 @@ export const HoveredLink = ({ children, ...rest }: any) => {
   return (
     <Link
       {...rest}
-      className="text-white  hover:text-zinc-400  "
+      className="text-white z-50  hover:text-zinc-400  "
     >
       {children}
     </Link>
