@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "topic": "The Future of Web Development",
+        "description": "Explore the emerging trends in web development and how technologies like AI, serverless architectures, and progressive web apps are shaping the future of the industry.",
+        "image": "https://greatertechhub.com/assets/img/blog/blog-recent-4.jpg",
+        "author": "Digamber Bhati",
+        "date": "2024-07-27",
+        "blogLink": "https://greatertechhub.com/blog/future-of-web-development"
+    },
+    {
+        "id": 2,
+        "topic": "Understanding React Hooks",
+        "description": "A comprehensive guide to React Hooks, including useState, useEffect, and custom hooks, and how they can simplify your code and enhance your React applications.",
+        "image": "https://greatertechhub.com/assets/img/blog/blog-2.jpg",
+        "author": "Divya",
+        "date": "26/feb",
+        "blogLink": "https://greatertechhub.com/blog/understanding-react-hooks"
+    },
+    {
+        "id": 3,
+        "topic": "Tailwind CSS vs. Bootstrap",
+        "description": "A comparison between Tailwind CSS and Bootstrap, examining the pros and cons of each framework to help you decide which is best for your next project.",
+        "image": "https://greatertechhub.com/assets/img/blog/blog-6.jpg",
+        "author": "Alice Johnson",
+        "date": "2024-07-15",
+        "blogLink": "https://greatertechhub.com/blog/tailwind-css-vs-bootstrap"
+    },
+    {
+        "id": 4,
+        "topic": "Introduction to TypeScript",
+        "description": "Learn about TypeScript, a statically typed superset of JavaScript, and how it can help catch errors early and improve code quality in your applications.",
+        "image": "https://greatertechhub.com/assets/img/blog/blog-inside-post.jpg",
+        "author": "Michael Lee",
+        "date": "2024-07-10",
+        "blogLink": "https://greatertechhub.com/blog/introduction-to-typescript"
+    },
+    {
+        "id": 5,
+        "topic": "Serverless Architecture Explained",
+        "description": "Understand the concept of serverless architecture, its benefits, and how it can streamline development and reduce operational costs.",
+        "image": "https://greatertechhub.com/assets/img/blog/blog-recent-4.jpg",
+        "author": "Emily Clark",
+        "date": "2024-07-05",
+        "blogLink": "https://greatertechhub.com/blog/serverless-architecture-explained"
+    },
+    {
+        "id": 6,
+        "topic": "Mastering CSS Grid Layout",
+        "description": "A deep dive into CSS Grid Layout, its powerful features, and how to use it to create complex and responsive web designs with ease.",
+        "image": "https://greatertechhub.com/assets/img/blog/blog-recent-4.jpg",
+        "author": "Sarah Brown",
+        "date": "2024-06-30",
+        "blogLink": "https://greatertechhub.com/blog/mastering-css-grid-layout"
+    },
+    {
+        "id": 7,
+        "topic": "The Rise of JAMstack",
+        "description": "Explore the JAMstack architecture and how it is revolutionizing modern web development with improved performance, security, and scalability.",
+        "image": "https://greatertechhub.com/assets/img/blog/blog-recent-4.jpg",
+        "author": "David Wilson",
+        "date": "2024-06-25",
+        "blogLink": "https://greatertechhub.com/blog/rise-of-jamstack"
+    },
+    {
+        "id": 8,
+        "topic": "Building Progressive Web Apps",
+        "description": "Discover the principles of Progressive Web Apps (PWAs) and how they combine the best of web and mobile apps to provide a seamless user experience.",
+        "image": "https://greatertechhub.com/assets/img/blog/blog-recent-4.jpg",
+        "author": "Laura Martinez",
+        "date": "2024-06-20",
+        "blogLink": "https://greatertechhub.com/blog/building-progressive-web-apps"
+    },
+    {
+        "id": 9,
+        "topic": "Getting Started with Next.js",
+        "description": "An introductory guide to Next.js, a popular React framework for server-side rendering, static site generation, and building modern web applications.",
+        "image": "https://greatertechhub.com/assets/img/blog/blog-recent-4.jpg",
+        "author": "Chris Davis",
+        "date": "2024-06-15",
+        "blogLink": "https://greatertechhub.com/blog/getting-started-with-nextjs"
+    },
+    {
+        "id": 10,
+        "topic": "Effective API Design Principles",
+        "description": "Learn about best practices for designing APIs that are robust, scalable, and easy to use, ensuring a smooth experience for developers and consumers.",
+        "image": "https://greatertechhub.com/assets/img/blog/blog-recent-4.jpg",
+        "author": "Rebecca Hall",
+        "date": "2024-06-10",
+        "blogLink": "https://greatertechhub.com/blog/effective-api-design-principles"
+    },
+    {
+        "id": 11,
+        "topic": "Exploring GraphQL",
+        "description": "An introduction to GraphQL, a query language for APIs, and how it can provide more efficient and flexible data fetching compared to traditional REST APIs.",
+        "image": "https://greatertechhub.com/assets/img/blog/blog-recent-4.jpg",
+        "author": "Jason Green",
+        "date": "2024-06-05",
+        "blogLink": "https://greatertechhub.com/blog/exploring-graphql"
+    }
+]

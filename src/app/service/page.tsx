@@ -46,7 +46,7 @@ const ServicePage = () => {
     <div className=" max-w-5xl -z-10 py-32 mx-auto  px-8">
 
       
-    <h1 className='text-3xl text-[#F5EBEB]  w-full text-center font-semibold  '>Our Services</h1>
+    <h1 className='text-3xl text-[#F5EBEB]  w-full text-center py-8 font-semibold '>Our Services</h1>
     <HoverEffect items={projects} />
   </div>
   )
