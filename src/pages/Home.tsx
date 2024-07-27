@@ -415,10 +415,10 @@ export function Home() {
           }}
           className="div"
         >
-          <h2 className="text-center text-xl md:text-4xl font-bold text-[#F5EBEB] bg-[#867070]">
+          <h2 className="text-center text-xl md:text-4xl font-bold text-[#F5EBEB] ">
           We Provide Solution On Your IT Sector
           </h2>
-          <p className="text-center text-base md:text-lg font-normal text-[#F5EBEB] bg-[#867070] max-w-md mt-2 mx-auto">
+          <p className="text-center text-base md:text-lg font-normal text-[#F5EBEB]  max-w-md mt-2 mx-auto">
           Take Our Help To Reach The Top Level
           </p>
         </motion.div>
