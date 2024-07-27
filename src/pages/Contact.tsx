@@ -13,21 +13,21 @@ const Contact = () => {
         Leverage the power of canvas to create a beautiful hero section
       </p>
 
-      <div className='bg-transparent text-white  top-[20%] z-40 w-2/3'>
+      <div className='bg-transparent text-white  top-[20%]  z-40 w-2/3'>
         <form action="/submit-form" method="post" className='flex gap-4 bg-transparent  backdrop-blur-sm w-full flex-col p-4 rounded-lg mt-20 border border-zinc-600'>
           <div className='w-full flex flex-col'>
             <label htmlFor="name" className='w-[20%] text-lg font-sm'>Name</label>
-            <input id="name" className='w-full p-2 mt-2 rounded-lg bg-transparent border' type="text" name="name" />
+            <input id="name" className='w-full p-2 mt-2 rounded-lg bg-transparent border outline-none required:' type="text" name="name" />
           </div>
 
           <div className='w-full flex flex-col'>
             <label htmlFor="email" className='w-[20%] text-lg font-sm'>Email</label>
-            <input id="email" className='w-full p-2 mt-2 rounded-lg bg-transparent border' type="email" name="email" />
+            <input id="email" className='w-full p-2 mt-2 rounded-lg bg-transparent border outline-none required:' type="email" name="email" />
           </div>
 
           <div className='w-full flex flex-col'>
             <label htmlFor="message" className='w-[20%] text-lg font-sm'>Message</label>
-            <textarea id="message" className='w-full p-2 mt-2 rounded-lg bg-transparent border' name="message"></textarea>
+            <textarea id="message" className='w-full p-2 mt-2 rounded-lg bg-transparent border outline-none required:' name="message"></textarea>
           </div>
 
           <button className="inline-flex h-12 animate-shimmer w-1/3 items-center justify-center rounded-lg border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 ">
