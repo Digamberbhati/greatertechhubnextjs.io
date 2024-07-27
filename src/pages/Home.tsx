@@ -3,8 +3,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 import ServicePage from "@/app/service/page";
-import Marquee from '../components/ui/marquee';
 import Aboutpage from "@/app/about/page";
+import ClientPage from "@/app/client/page";
 
 const World = dynamic(() => import("../components/ui/globe").then((m) => m.World), {
   ssr: false,
@@ -429,9 +429,11 @@ export function Home() {
       </div>
 
     </div>
-      <Marquee/>
+      
       <Aboutpage/>
       <ServicePage/>
+      <ClientPage/>
+      
       
     </>
   );
