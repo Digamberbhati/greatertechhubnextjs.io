@@ -1,101 +1,203 @@
 [
     {
-        "id": 1,
-        "topic": "The Future of Web Development",
-        "description": "Explore the emerging trends in web development and how technologies like AI, serverless architectures, and progressive web apps are shaping the future of the industry.",
-        "image": "https://greatertechhub.com/assets/img/blog/blog-recent-4.jpg",
-        "author": "Digamber Bhati",
-        "date": "2024-07-27",
-        "blogLink": "https://greatertechhub.com/blog/future-of-web-development"
+      "id": 1,
+      "topic": "Web Development",
+      "description": "These notes cover a broad overview of web development topics, and the field is continuously evolving. .",
+      "image": "https://greatertechhub.com/assets/img/blog/blog-recent-4.jpg",
+      "author": "Digamber Bhati",
+      "date": "2024-07-27",
+      "blogLink": "https://greatertechhub.com/#recent-posts"
     },
     {
-        "id": 2,
-        "topic": "Understanding React Hooks",
-        "description": "A comprehensive guide to React Hooks, including useState, useEffect, and custom hooks, and how they can simplify your code and enhance your React applications.",
-        "image": "https://greatertechhub.com/assets/img/blog/blog-2.jpg",
-        "author": "Divya",
-        "date": "26/feb",
-        "blogLink": "https://greatertechhub.com/blog/understanding-react-hooks"
+      "id": 2,
+      "topic": "Wordpress website",
+      "description": "WordPress provides a user-friendly environment for website creation, and there are extensive resources and communities available for support and further customization",
+      "image": "https://greatertechhub.com/assets/img/blog/blog-2.jpg",
+      "author": "Divya",
+      "date": "26/feb",
+      "blogLink": "https://greatertechhub.com/#recent-posts"
     },
     {
-        "id": 3,
-        "topic": "Tailwind CSS vs. Bootstrap",
-        "description": "A comparison between Tailwind CSS and Bootstrap, examining the pros and cons of each framework to help you decide which is best for your next project.",
-        "image": "https://greatertechhub.com/assets/img/blog/blog-6.jpg",
-        "author": "Alice Johnson",
-        "date": "2024-07-15",
-        "blogLink": "https://greatertechhub.com/blog/tailwind-css-vs-bootstrap"
+      "id": 3,
+      "topic": "Project Management",
+      "description": "A community for project managers across various industries, offering expertise, how-to articles, and certification-related information.....",
+      "image": "https://greatertechhub.com/assets/img/blog/blog-6.jpg",
+      "author": "Dipanshu",
+      "date": "1/March ",
+      "blogLink": "https://greatertechhub.com/#recent-posts"
     },
     {
-        "id": 4,
-        "topic": "Introduction to TypeScript",
-        "description": "Learn about TypeScript, a statically typed superset of JavaScript, and how it can help catch errors early and improve code quality in your applications.",
-        "image": "https://greatertechhub.com/assets/img/blog/blog-inside-post.jpg",
-        "author": "Michael Lee",
-        "date": "2024-07-10",
-        "blogLink": "https://greatertechhub.com/blog/introduction-to-typescript"
+      "id": 4,
+      "topic": "Digital marketing",
+      "description": "Digital marketing is dynamic, and successful strategies often involve a combination of these elements. .",
+      "image": "https://greatertechhub.com/assets/img/blog/blog-inside-post.jpg",
+      "author": "Michael Lee",
+      "date": "1 March ",
+      "blogLink": "https://greatertechhub.com/#recent-posts"
     },
     {
-        "id": 5,
-        "topic": "Serverless Architecture Explained",
-        "description": "Understand the concept of serverless architecture, its benefits, and how it can streamline development and reduce operational costs.",
-        "image": "https://greatertechhub.com/assets/img/blog/blog-recent-4.jpg",
-        "author": "Emily Clark",
-        "date": "2024-07-05",
-        "blogLink": "https://greatertechhub.com/blog/serverless-architecture-explained"
+      "id": 5,
+      "topic": "How Artificial Intelligence is Reshaping the",
+      "description": "magine you’re analyzing piles of resumes with a deadline to cater to. With glazing eyes, you go through one after the other resumes. It is super slow, plus a very laborious task, right?",
+      "image": "https://www.systemart.com/blogs/upload/blog/main_image/ai_in_staffing_banner.png",
+      "author": "Systemart,LLC ",
+      "date": " 28 June",
+      "blogLink": "https://www.systemart.com/blogs/artificial-intelligence-reshaping-staffing-industry"
     },
     {
-        "id": 6,
-        "topic": "Mastering CSS Grid Layout",
-        "description": "A deep dive into CSS Grid Layout, its powerful features, and how to use it to create complex and responsive web designs with ease.",
-        "image": "https://greatertechhub.com/assets/img/blog/blog-recent-4.jpg",
-        "author": "Sarah Brown",
-        "date": "2024-06-30",
-        "blogLink": "https://greatertechhub.com/blog/mastering-css-grid-layout"
+      "id": 6,
+      "topic": "Gig Economy Tango: A Two-Step for Employers and Freelancers",
+      "description": "However, it’s important to note that the gig economy comes with its own set of challenges. It’s a two-sided coin, offering incredible opportunities for both employers and freelancers. So, let’s delve into this dynamic landscape together, exploring its vast potential and the hurdles it presents, with a sense of optimism for the future of work. ",
+      "image": "https://www.systemart.com/blogs/upload/blog/main_image/Banner2.png",
+      "author": "Systemart,LLC ",
+      "date": "9 July  ",
+      "blogLink": "https://www.systemart.com/blogs/gig-economy-tango-employers-freelancers"
     },
     {
-        "id": 7,
-        "topic": "The Rise of JAMstack",
-        "description": "Explore the JAMstack architecture and how it is revolutionizing modern web development with improved performance, security, and scalability.",
-        "image": "https://greatertechhub.com/assets/img/blog/blog-recent-4.jpg",
-        "author": "David Wilson",
-        "date": "2024-06-25",
-        "blogLink": "https://greatertechhub.com/blog/rise-of-jamstack"
+      "id": 7,
+      "topic": "Top 10 Managed Service Providers(MSPs) in USA Staffing",
+      "description": "In today’s world, finding the right talent for your business can feel like looking for a needle in a haystack. It’s not just about filling a position anymore; it’s about finding someone who fits your company culture, meets your needs, and can help in your business growth. That’s where Managed Service Providers(MSPs) come in, especially in the staffing industry. These companies are the superheroes of recruitment, taking the heavy lifting off your shoulders and making sure you get the best match for your team.",
+      "image": "https://www.systemart.com/blogs/upload/blog/main_image/Top_MSPS_USA_Banner.png",
+      "author": "Systemart,LLC",
+      "date": "14 February 2024",
+      "blogLink": "https://www.systemart.com/blogs/best-managed-service-providers-in-usa-staffing"
     },
     {
-        "id": 8,
-        "topic": "Building Progressive Web Apps",
-        "description": "Discover the principles of Progressive Web Apps (PWAs) and how they combine the best of web and mobile apps to provide a seamless user experience.",
-        "image": "https://greatertechhub.com/assets/img/blog/blog-recent-4.jpg",
-        "author": "Laura Martinez",
-        "date": "2024-06-20",
-        "blogLink": "https://greatertechhub.com/blog/building-progressive-web-apps"
+      "id": 8,
+      "topic": "Seize 2024: Navigate Towards Your Dream Career with Systemart",
+      "description": "2024 holds tremendous promise for job seekers, and it's an ideal time to proactively pursue your dream career. In today's dynamic job market, finding the right employment opportunities can be challenging, but with the right guidance and a strategic approach, you can set yourself up for success. In this comprehensive guide, we'll show you how to navigate the job hunt and seize your dream career in 2024 with the help of Systemart.",
+      "image": "https://www.systemart.com/blogs/upload/blog/main_image/Navigate_towards_your_dream_career_Banner.png",
+      "author": "Systemart,LLC ",
+      "date": "27 December 2023",
+      "blogLink": "https://www.systemart.com/blogs/navigate-towards-your-dream-career"
     },
     {
-        "id": 9,
-        "topic": "Getting Started with Next.js",
-        "description": "An introductory guide to Next.js, a popular React framework for server-side rendering, static site generation, and building modern web applications.",
-        "image": "https://greatertechhub.com/assets/img/blog/blog-recent-4.jpg",
-        "author": "Chris Davis",
-        "date": "2024-06-15",
-        "blogLink": "https://greatertechhub.com/blog/getting-started-with-nextjs"
+      "id": 9,
+      "topic": "Top 3 Strategies to Attract Gen Z to Your Organization",
+      "description": "Total number of existing small businesses in the USA:33.2 millionTotal number of Gen Z population living in the USA:67 millionLogical Conclusion: Not having strategies to attract Gen Z into your workforce is a sure shot recipe for disaster. ",
+      "image": "https://www.systemart.com/blogs/upload/blog/main_image/Banner1.jpg",
+      "author": "Systemart,LLC ",
+      "date": "20 March 2023",
+      "blogLink": "https://www.systemart.com/blogs/top-strategies-to-attract-gen-z"
     },
     {
         "id": 10,
-        "topic": "Effective API Design Principles",
-        "description": "Learn about best practices for designing APIs that are robust, scalable, and easy to use, ensuring a smooth experience for developers and consumers.",
-        "image": "https://greatertechhub.com/assets/img/blog/blog-recent-4.jpg",
-        "author": "Rebecca Hall",
-        "date": "2024-06-10",
-        "blogLink": "https://greatertechhub.com/blog/effective-api-design-principles"
-    },
-    {
-        "id": 11,
-        "topic": "Exploring GraphQL",
-        "description": "An introduction to GraphQL, a query language for APIs, and how it can provide more efficient and flexible data fetching compared to traditional REST APIs.",
-        "image": "https://greatertechhub.com/assets/img/blog/blog-recent-4.jpg",
-        "author": "Jason Green",
-        "date": "2024-06-05",
-        "blogLink": "https://greatertechhub.com/blog/exploring-graphql"
-    }
-]
+        "topic": "10 Tips to make your HR Team more Efficient",
+        "description": "When we consider the success of any organization, we talk about the staff and employees who work hard day and night to help the firm reach a certain height. They guarantee that the people working in their company receive a pleasant work environment and plenty of opportunities to feel motivated and achieve professional advancement. But not only them, but the success rate also depends on the company's HR department. ",
+        "image": "https://www.systemart.com/blogs/upload/blog/main_image/BloG_Banner_1.png",
+        "author": "Systemart,LLC ",
+        "date": "8 November 2022",
+        "blogLink": "https://www.systemart.com/blogs/tips-to-make-your-hr-team-more-efficient"
+      },
+
+  {
+    "id": 11,
+    "topic": "7 Ways to build an effective employee referral program",
+    "description": "It is a well-known fact that employee referrals are among the best sources for quality hires. It's an integral part of every company's recruitment strategy because every recruiter knows that an effective referral program yields the best results and return on investment.  ",
+    "image": "https://www.systemart.com/blogs/upload/blog/main_image/Employee_Referral_Program_Banner_(1200_%C3%97_628px).png",
+    "author": "Systemart,LLC ",
+    "date": "20 September 2022",
+    "blogLink": "https://www.systemart.com/blogs/effective-employee-referral-program"
+  },
+  {
+    "id": 12,
+    "topic": "15 Ways to Encourage Diversity in the Workplace",
+    "description": "The current global society is multicultural, dynamic, and diverse. With this in mind, many firms are implementing programs and policies to create a diverse and inclusive workplace. But what are the effective ways to encourage diversity? How can we effectively promote diversity in the Workplace? ",
+    "image": "https://www.systemart.com/blogs/upload/blog/main_image/Diversity_in_the_workplace_(Banner).jpg",
+    "author": "Systemart,LLC",
+    "date": "28 July 2022",
+    "blogLink": "https://www.systemart.com/blogs/encourage-diversity-in-the-workplace"
+  },
+  {
+    "id": 13,
+    "topic": "A Guide to build a Strategic Workforce Planning for your Business",
+    "description": "Building Workforce planning is a business activity HR needs to conduct to meet the organization's future needs. Covid-19 changed the face of business activities, and while some trends may be forgotten, others are here to stay. Strategic workforce planning is the core focus of businesses these days to cut costs and maximize efficiencies. As an employer, you need to know how strategic workforce planning can add value to your business. In this blog, you can read about vital facets of strategic workforce planning that will prepare you for managing future uncertainties. ",
+    "image": "https://www.systemart.com/blogs/upload/blog/main_image/strategic_workforce_planning_banner.jpg",
+    "author": " Systemart,LLC ",
+    "date": "13 July 2022",
+    "blogLink": "https://www.systemart.com/blogs/build-strategic-workforce-planning"
+  },
+  {
+    "id": 14,
+    "topic": "6 ways to encourage employees back to work from the office",
+    "description": "With the arrival of Covid-19 in 2020, the world shut down. However, organizations were facing losses because work came to a standstill. To combat this issue, employers imposed work-from-home policies where employees could work within the boundaries of their homes. The problem began when vaccines were introduced, and people returned to their everyday lives. The difficulty now was and still is to bring them back to the Office. ",
+    "image": "https://www.systemart.com/blogs/upload/blog/main_image/WFO_Banner_Image.jpg",
+    "author": "Systemart,LLC ",
+    "date": "6 July 2022",
+    "blogLink": "https://www.systemart.com/blogs/encourage-employees-back-to-work-from-the-office"
+  },
+  {
+    "id": 15,
+    "topic": "How to create an effective employee compensation plan",
+    "description": "Employee compensation is the benefit you provide your employees for their hard work and efforts. To keep them motivated, you should have an effective employee compensation plan. 75% of employees in a survey reported that they are more likely to stay with an organization that provides better compensation programs. As an employer, you need to plan for employee compensation according to the interests of your employees. In this blog, you will find the guide to employee compensation plans you can use in your organization for better results. If you don't want to skip any important details, read till the end.",
+    "image": "https://www.systemart.com/blogs/upload/blog/main_image/Employee_Compensation_Plan2.png",
+    "author": "Systemart,LLC ",
+    "date": "14 June 2022",
+    "blogLink": "https://www.systemart.com/blogs/how-to-create-an-effective-employee-compensation-plan"
+  },
+  {
+    "id": 16,
+    "topic": "Best practices to Improve an HR Audit Process",
+    "description": "Being an employer you must be knowing the importance of your human resource development. It is through HR audits that you know your shortcomings and identify the area for improvement.",
+    "image": "https://www.systemart.com/blogs/upload/blog/main_image/HR_Audit_Process.jpg",
+    "author": "Systemart,LLC",
+    "date": " 2 June 2022",
+    "blogLink": "https://www.systemart.com/blogs/best-practices-to-improve-an-hr-audit-process"
+  },
+  {
+    "id": 17,
+    "topic": "How staffing agency can help you find top talent? ",
+    "description": "A staffing agency is your savior when you require quality employees but have no clue how to reach them. Staffing agencies help you find your desired employees. They are so good at their job that in 2019, theygenerated $497 Billion in the USA alone. ",
+    "image": "https://www.systemart.com/blogs/upload/blog/main_image/staffing_agency1-compressed.jpg",
+    "author": "Systemart,LLC",
+    "date": "3 May 2022",
+    "blogLink": "https://www.systemart.com/blogs/how-staffing-agency-can-help-you-find-top-talent"
+  },
+  {
+    "id": 18,
+    "topic": "Psychometric assessment in recruitment and its importance",
+    "description": "How often have you experienced receiving a perfect CV with high achievements but when you hire the candidate, they turn out to be unfit? Not very often but sometimes too often too. Awards, distinctions, education, and skills, all are great. But, they cannot tell you about a candidate's personality, traits, critical analysis skills, and logical thinking skills. For that, you need to test them. Psychometric assessment in recruitment is a testing method that60% of recruiters used in 2017 to analyze the hidden traits and skills of an individual. ",
+    "image": "https://www.systemart.com/blogs/upload/blog/main_image/psychometrictest_banner-compressed.jpg",
+    "author": "Systemart,LLC",
+    "date": "3 May 2022",
+    "blogLink": "https://www.systemart.com/blogs/psychometric-assessment-in-recruitment"
+  },
+  {
+    "id": 19,
+    "topic": "Top 7 effective HR strategies for onboarding employees successfully",
+    "description": "Onboarding is often referred to as a critical stage of hiring. It is a stage in which you teach new employees about your organizational culture and train them for best behaviors, attitudes, and job duties. An employee's future performances are dependent on their onboarding processes. Today, even though many employers realize the importance of onboarding, only 12% of employers onboard well. Good onboarding results in82% greater employee retention, reduce hiring costs, and improves organizational productivity by 70%. In this blog, you will learn about 7 effective HR strategies for onboarding employees successfully.",
+    "image": "https://www.systemart.com/blogs/upload/blog/main_image/effective_hr_stratagies.jpg",
+    "author": "Systemart,LLC",
+    "date": " 6 April 2022",
+    "blogLink": "https://www.systemart.com/blogs/hr-strategies-for-onboarding-employees"
+  },
+  {
+    "id": 20,
+    "topic": "How AI Improves Candidate Engagement during the Recruitment process?",
+    "description": "Artificial intelligence is now taking over the world faster than ever before. All the work sectors incorporate AI in some way or the other. Artificial intelligence automates all the manual processes that are very time-consuming. Candidate engagement is also backed by artificial intelligence. AI improves candidate engagement during recruiting by streamlining the recruitment processes and workflows. An HR automation software not only automates the candidate sourcing and screening process but also helps in onboarding and building rapport",
+    "image": "https://www.systemart.com/blogs/upload/blog/main_image/AI-and-Automation-compressed.jpg",
+    "author": "Systemart,LLC",
+    "date": "5 April 2022",
+    "blogLink": "https://www.systemart.com/blogs/improve-candidate-engagement-using-ai"
+  },
+  {
+    "id": 21,
+    "topic": "Best Job Boards for Finding a Job in the USA",
+    "description": "Finding a job can be hard. Once you have finished your degree or any level of education, it can be quite daunting to step into the job market. More often than not, people have no idea where they should start and how they can apply for a job. They end up randomly applying to whatever they come across, which causes confusion and stress. Consequently, they end up with either no job or a job that they don’t like or aren’t qualified for. Thankfully, this is the era of the internet and so people have the option of job boards.",
+    "image": "https://www.systemart.com/blogs/upload/blog/main_image/Job_Boarding-compressed.jpg",
+    "author": "Systemart,LLC ",
+    "date": "22 March 2022",
+    "blogLink": "https://www.systemart.com/blogs/job-boards-for-finding-a-job-in-the-usa"
+  },
+  {
+    "id": 22,
+    "topic": "Top HR Challenges for a Growing Startups",
+    "description": "Start-ups are all the rage nowadays, with new ones popping up almost every day. With the availability of sandboxes, people can now confidently venture into start-ups and establish their businesses. These sandboxes ensure that even if startups fail they don’t have to face that many serious repercussions. There are of course downsides to start-ups as there are with everything. Star-ups often are understaffed and have to make do with minimal resources, which can prove to be exhausting and time-consuming.",
+    "image": "https://www.systemart.com/blogs/upload/blog/main_image/HR_Challenges1.png",
+    "author": "Systemart,LLC",
+    "date": "15 March 2022",
+    "blogLink": "https://www.systemart.com/blogs/hr-challenges-for-startups"
+  }
+
+
+  ]
