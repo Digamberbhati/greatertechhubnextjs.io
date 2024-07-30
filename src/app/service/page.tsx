@@ -39,6 +39,7 @@ export const projects = [
       "I'm here to help with any questions or guidance you need regarding business planning. What specific notice or query do you have related to Business Planning? Please feel free to ask, and I'll do my best to assist you..",
     link: "#",
   },
+  
 ];
 
 const ServicePage = () => {
