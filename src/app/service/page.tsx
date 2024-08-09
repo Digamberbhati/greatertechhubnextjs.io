@@ -39,7 +39,43 @@ export const projects = [
       "I'm here to help with any questions or guidance you need regarding business planning. What specific notice or query do you have related to Business Planning? Please feel free to ask, and I'll do my best to assist you..",
     link: "#",
   },
-  
+  {
+    title: "Network and Infrastructure Services",
+    description:
+      "I'm here to help with any questions or guidance you need regarding business planning. What specific notice or query do you have related to Business Planning? Please feel free to ask, and I'll do my best to assist you..",
+    link: "#",
+  },
+  {
+    title: "Cloud Services",
+    description:
+      "I'm here to help with any questions or guidance you need regarding business planning. What specific notice or query do you have related to Business Planning? Please feel free to ask, and I'll do my best to assist you..",
+    link: "#",
+  },
+  {
+    title: "Enterprise Resource Planning (ERP) Services",
+    description:
+      "I'm here to help with any questions or guidance you need regarding business planning. What specific notice or query do you have related to Business Planning? Please feel free to ask, and I'll do my best to assist you..",
+    link: "#",
+  },
+  {
+    title: "Customer Relationship Management (CRM) Services",
+    description:
+      "I'm here to help with any questions or guidance you need regarding business planning. What specific notice or query do you have related to Business Planning? Please feel free to ask, and I'll do my best to assist you..",
+    link: "#",
+  },
+  {
+    title: "IT Asset Management",
+    description:
+      "I'm here to help with any questions or guidance you need regarding business planning. What specific notice or query do you have related to Business Planning? Please feel free to ask, and I'll do my best to assist you..",
+    link: "#",
+  },
+  {
+    title: "DevOps Services",
+    description:
+      "I'm here to help with any questions or guidance you need regarding business planning. What specific notice or query do you have related to Business Planning? Please feel free to ask, and I'll do my best to assist you..",
+    link: "#",
+  },
+
 ];
 
 const ServicePage = () => {

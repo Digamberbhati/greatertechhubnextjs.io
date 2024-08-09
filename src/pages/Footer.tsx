@@ -40,8 +40,8 @@ const Footer = () => {
           <h4>Faridabad ,Haryana 121001</h4>
           <h4>India</h4>
           <h4><b>Phone:</b> +91 9588160069</h4>
-          <h4><b>Email:</b> Greatertechhub@gmail.com</h4>
-          <h4>info@greatertechhub.com</h4>
+          <h4><b>Email:</b> info@greatertechhub.com</h4>
+          {/* <h4>info@greatertechhub.com</h4> */}
 
         </div>
       </div>
