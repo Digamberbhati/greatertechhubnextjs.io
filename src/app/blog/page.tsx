@@ -5,7 +5,7 @@ import data from '@/data/blog.json';
 const blogPage = () => {
   return (
     <div className='py-32'>
-      <h1 className='text-3xl text-[#F5EBEB]  w-full text-center py-8 font-semibold'>Recent Blog Posts</h1>
+      <h1 className='text-3xl text-[#F5EBEB] w-full text-center py-8 font-semibold'>Recent Blog Posts</h1>
       <div className='container mx-auto px-4'>
         <div className='flex flex-wrap flex-col lg:flex-row'>
           {data.map((post,id) => (

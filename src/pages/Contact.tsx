@@ -38,7 +38,7 @@ Submit
     </WavyBackground>
 
     <div className="overflow-hidden  h-[100] relative pb-[30%]">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d877.4713533848752!2d77.31076921724093!3d28.3925286971835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdd193b9fc4b1%3A0x507e6415a7ae5df0!2sVr2020%20Dental%20Designing%20Solutions%20%26%20Digital%20Laboratory%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1721973947907!5m2!1sen!2sin" width="600" height="450"  allowFullScreen loading="eager" referrerPolicy="no-referrer-when-downgrade" className="border-0 h-full w-1/2 absolute left-[25%] right-[25%] bottom-0"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d877.4713533848752!2d77.31076921724093!3d28.3925286971835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdd193b9fc4b1%3A0x507e6415a7ae5df0!2sVr2020%20Dental%20Designing%20Solutions%20%26%20Digital%20Laboratory%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1721973947907!5m2!1sen!2sin" width="600" height="450"  allowFullScreen loading="eager" referrerPolicy="no-referrer-when-downgrade" className="border-0 h-full w-1/2 absolute left-[25%] right-[25%] rounded-md bottom-0"></iframe>
     </div>
     </div>
   )
