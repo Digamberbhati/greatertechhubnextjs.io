@@ -9,8 +9,8 @@ const Navbar = ({ className }: { className?: string }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <div className="flex items-center  justify-between bg-transparent backdrop-blur-lg fixed top-0 w-full px-8 py-4 z-50 text-[#F5EBEB]">
-            <img className="h-16" src="/images/logo.png" alt="Logo" />
+        <div className="flex items-center  justify-between bg-transparent backdrop-blur-lg fixed top-0 w-full px-8 py-4 z-100 text-[#F5EBEB]">
+            <img className=" h-16 " src="/images/logo.png" alt="Logo" />
             <div className="lg:hidden ">
                 <button
                     className="text-white focus:outline-none pr-2 "
@@ -37,13 +37,14 @@ const Navbar = ({ className }: { className?: string }) => {
                     <Link href="/about" className="hover:border-b hover:border-white duration-200">About</Link>
                     <Link href="/service" className="hover:border-b hover:border-white duration-200">Service</Link>
                     <Link href="/contact" className="hover:border-b hover:border-white duration-200">Contact</Link>
+                    <Link href="/careers" className="hover:border-b hover:border-white duration-200">Careers</Link>
                     <MenuItem setActive={setActive} active={active} item="Company">
                         <div className="flex flex-col space-y-4 z-[100] text-sm">
                             <HoveredLink href="/event">Event</HoveredLink>
                             <HoveredLink href="/team">Team</HoveredLink>
                             <HoveredLink href="/blog">Blog</HoveredLink>
                             <HoveredLink href="/client">Client</HoveredLink>
-                            <HoveredLink href="/careers">Careers</HoveredLink>
+                            {/* <HoveredLink href="/careers">Careers</HoveredLink> */}
                             <HoveredLink href="/support">Support</HoveredLink>
                         </div>
                     </MenuItem>
