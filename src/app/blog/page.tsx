@@ -20,6 +20,7 @@ const blogPage = () => {
               />
             </div>
           ))}
+          
         </div>
       </div>
     </div>
