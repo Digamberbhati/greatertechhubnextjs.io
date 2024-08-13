@@ -14,7 +14,7 @@ const supportPage = () => {
         particleDensity={100}
         className="w-full h-full"
         particleColor="#FFFFFF"
-      />
+      /> 
     </div>
     <h1 className="md:text-7xl text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
       Build great products
