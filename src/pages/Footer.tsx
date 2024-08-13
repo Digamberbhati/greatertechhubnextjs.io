@@ -9,7 +9,7 @@ const Footer = () => {
     <div className=' flex flex-col lg:flex-row justify-around pt-8 mt-4 items-start gap-8 px-12   py-3 tracking-tighter bg-zinc-900'>
       <div className='flex flex-col gap-2 '>
         <h1 className='text-4xl font-bold'>Greatertechhub</h1>
-        <h3 className='font-light'>Social-medialinks</h3>  
+        <h3 className='font-light'>Social-media links</h3>  
         <div className='icons flex gap-2 '>
         <Link href={"https://wa.me/+919588160069"} className='bg-zinc-800  rounded-full p-2 hover:bg-transparent' ><FaWhatsapp className='text-2xl  ' /></Link>
         <Link href={"https://twitter.com/Greatertechhub"} className='bg-zinc-800  rounded-full p-2 hover:bg-transparent' ><IoLogoTwitter className='text-2xl  ' /></Link>
