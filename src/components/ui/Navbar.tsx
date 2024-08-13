@@ -9,8 +9,8 @@ const Navbar = ({ className }: { className?: string }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <div className="flex items-center  justify-between bg-transparent backdrop-blur-lg fixed top-0 w-full px-8 py-4 z-100 text-[#F5EBEB]">
-            <img className=" h-16 " src="/images/logo.png" alt="Logo" />
+        <div className="flex items-center  justify-between bg-transparent backdrop-blur-lg fixed top-0 w-full px-8 py-4 z-100 text-[#F5EBEB] z-20">
+            <img className=" h-16  bg-slate-50 rounded-3xl" src="/images/logo.png" alt="Logo" />
             <div className="lg:hidden ">
                 <button
                     className="text-white focus:outline-none pr-2 "
@@ -50,7 +50,7 @@ const Navbar = ({ className }: { className?: string }) => {
                     </MenuItem>
                 </Menu>
             </div>
-            <Link href="#" className="hidden lg:flex border border-zinc-600 h-6 justify-center items-center bg-black px-8 py-8 rounded-full">
+            <Link href="#" className="hidden lg:flex border border-zinc-600 h-6 justify-center items-center bg-black px-8 py-8 rounded-full hover:bg-transparent">
                 Join us
             </Link>
         </div>
