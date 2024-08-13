@@ -2,7 +2,6 @@
 import { cn } from "@/lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
 import React, { useEffect, useState } from "react";
-import { Url } from "url";
 
 export const ImagesSlider = ({
   images,
