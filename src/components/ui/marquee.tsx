@@ -21,7 +21,7 @@ const MarqueeComponent = () => {
         'https://greatertechhub.com/assets/img/clients/Logo.png',
         'https://greatertechhub.com/assets/img/clients/allaboutfoodist.jpeg',
         'https://greatertechhub.com/assets/img/clients/logo.jpg',
-        'https://greatertechhub.com/assets/img/clients/5.jpg',
+        'https://greatertechhub.com/assets/img/clients/5.jpg',  
         
     ])
 
