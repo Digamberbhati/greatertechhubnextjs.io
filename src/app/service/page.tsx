@@ -16,7 +16,7 @@ export const projects = [
     link: "#",
   },
   {
-    title: "Social Media Marketing (SMM)&SEO Projects",
+    title: "Digital Marketing ",
     description:
       "Our dedicated team of Social Media Marketing (SMM) & SEO experts is committed to helping our clients achieve higher rankings in search engine Results",
     link: "#",
