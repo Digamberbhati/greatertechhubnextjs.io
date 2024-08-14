@@ -4,16 +4,16 @@ import { HoverEffect } from '@/components/ui/card-hover-effect'
 import React from 'react'
 export const projects = [
   {
-    title: "Web Development",
+    title: "Web development",
     description:
       "We provide professional web development services to help businesses establish a strong online presence and achieve their digital goals",
-    link: "#",
+    link: "webdevPage",
   },
   {
     title: "App Development",
     description:
       "We provide professional APP development services to help businesses establish a strong online presence and achieve their digital goals.",
-    link: "#",
+    link: "appdevPage",
   },
   {
     title: "Social Media Marketing (SMM)&SEO Projects",
