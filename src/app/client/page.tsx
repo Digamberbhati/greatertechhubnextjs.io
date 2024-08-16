@@ -1,5 +1,5 @@
 'use client'
-import Marquee from '@/components/ui/Marquee'
+import Marquee from '@/components/ui/marquee'
 import React from 'react'
 
 const ClientPage = () => {
@@ -8,7 +8,7 @@ const ClientPage = () => {
   return (
     
 
-    <div className='py-32'>
+    <div className='32'>
       <h1 className='text-3xl text-[#F5EBEB]  w-full text-center py-8 font-semibold'>Our Clients</h1>
 <Marquee/>
     </div>
