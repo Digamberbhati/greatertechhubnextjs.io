@@ -19,61 +19,61 @@ export const projects = [
     title: "Digital Marketing ",
     description:
       "Our dedicated team of Social Media Marketing (SMM) & SEO experts is committed to helping our clients achieve higher rankings in search engine Results",
-    link: "#",
+    link: "digitalMarketing",
   },
   {
     title: "Market Analysis",
     description:
       "We provide market challenges analysis to help businesses identify and address the obstacles they face in their respective industries.",
-    link: "#",
+    link: "marketAnalysis",
   },
   {
     title: "Tax & Insurance",
     description:
       "Emphasize how your software solutions are designed to seamlessly integrate with tax and insurance processes, making it easier for businesses to manage their financial and compliance needs.",
-    link: "#",
+    link: "tax_insurance",
   },
   {
     title: "Business Research",
     description:
       "I'm here to help with any questions or guidance you need regarding business planning. What specific notice or query do you have related to Business Planning? Please feel free to ask, and I'll do my best to assist you..",
-    link: "#",
+    link: "businessResearch",
   },
   {
     title: "Network and Infrastructure Services",
     description:
       "I'm here to help with any questions or guidance you need regarding business planning. What specific notice or query do you have related to Business Planning? Please feel free to ask, and I'll do my best to assist you..",
-    link: "#",
+    link: "Network-and-Infrastructure-Services",
   },
   {
     title: "Cloud Services",
     description:
       "I'm here to help with any questions or guidance you need regarding business planning. What specific notice or query do you have related to Business Planning? Please feel free to ask, and I'll do my best to assist you..",
-    link: "#",
+    link: "cloud-services",
   },
   {
     title: "Enterprise Resource Planning (ERP) Services",
     description:
       "I'm here to help with any questions or guidance you need regarding business planning. What specific notice or query do you have related to Business Planning? Please feel free to ask, and I'll do my best to assist you..",
-    link: "#",
+    link: "ERP-Services",
   },
   {
     title: "Customer Relationship Management (CRM) Services",
     description:
       "I'm here to help with any questions or guidance you need regarding business planning. What specific notice or query do you have related to Business Planning? Please feel free to ask, and I'll do my best to assist you..",
-    link: "#",
+    link: "CRM-Services",
   },
   {
     title: "IT Asset Management",
     description:
       "I'm here to help with any questions or guidance you need regarding business planning. What specific notice or query do you have related to Business Planning? Please feel free to ask, and I'll do my best to assist you..",
-    link: "#",
+    link: "IT-Asset-Management",
   },
   {
     title: "DevOps Services",
     description:
       "I'm here to help with any questions or guidance you need regarding business planning. What specific notice or query do you have related to Business Planning? Please feel free to ask, and I'll do my best to assist you..",
-    link: "#",
+    link: "DevOps-Services",
   },
 
 ];
