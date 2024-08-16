@@ -4,7 +4,7 @@ import { HoverEffect } from '@/components/ui/card-hover-effect'
 import React from 'react'
 export const projects = [
   {
-    title: "Web development",
+    title: "Web Development",
     description:
       "We provide professional web development services to help businesses establish a strong online presence and achieve their digital goals",
     link: "webdevPage",
@@ -48,7 +48,7 @@ export const projects = [
   {
     title: "Cloud Services",
     description:
-      "I'm here to help with any questions or guidance you need regarding business planning. What specific notice or query do you have related to Business Planning? Please feel free to ask, and I'll do my best to assist you..",
+      "GreaterTech-HUB offers cutting-edge scalable cloud solutions designed to grow with your business, ensuring flexibility and efficiency in all your operations, eliminating the need for costly hardware upgrades and minimizing downtime..",
     link: "cloud-services",
   },
   {
