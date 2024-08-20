@@ -7,19 +7,19 @@ export const projects = [
     title: "Web Development",
     description:
       "We provide professional web development services to help businesses establish a strong online presence and achieve their digital goals",
-    link: "webdevPage",
+    link: "web-development-services",
   },
   {
     title: "App Development",
     description:
       "We provide professional APP development services to help businesses establish a strong online presence and achieve their digital goals.",
-    link: "appdevPage",
+    link: "app-development-service",
   },
   {
     title: "Digital Marketing ",
     description:
       "Our dedicated team of Social Media Marketing (SMM) & SEO experts is committed to helping our clients achieve higher rankings in search engine Results",
-    link: "digitalMarketing",
+    link: "digital-marketing",
   },
   {
     title: "Market Analysis",
