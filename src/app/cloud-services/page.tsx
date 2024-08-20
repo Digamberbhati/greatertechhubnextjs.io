@@ -136,13 +136,17 @@ function cloudServices() {
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
-          <span className="title-font font-medium">24/7 Monitoring</span>
+          <span className="title-font font-medium">24/7 Monitoring </span>
         </div>
       </div>
     </div>
     <button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Contact</button>
   </div>
 </section>
+
+
+    
+
     </div>
    </div>
   )
