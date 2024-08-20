@@ -46,7 +46,7 @@ export const projects = [
     link: "Network-and-Infrastructure-Services",
   },
   {
-    title: "Cloud Services",
+    title: "Cloud-Services",
     description:
       "GreaterTech-HUB offers cutting-edge scalable cloud solutions designed to grow with your business, ensuring flexibility and efficiency in all your operations, eliminating the need for costly hardware upgrades and minimizing downtime..",
     link: "cloud-services",
