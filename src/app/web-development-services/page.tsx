@@ -18,6 +18,7 @@ function webdevpage() {
     </div>
   
 {/* first section */}
+<div className='mx-20'>
 
 <section className="text-gray-400 bg-gray-900 body-font mt-24 w-full">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
@@ -404,6 +405,7 @@ function webdevpage() {
     </div>
   </div>
 </section>
+</div>
     </div>
     </div>
   )
