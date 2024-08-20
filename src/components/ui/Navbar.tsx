@@ -9,8 +9,8 @@ const Navbar = ({ className }: { className?: string }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <div className="flex items-center  justify-between bg-transparent backdrop-blur-lg fixed top-0 w-full px-8 py-4 z-100 text-[#F5EBEB] z-20">
-            <img className=" h-16  bg-slate-50 rounded-3xl" src="/images/logo.png" alt="Logo" />
+        <div className="flex items-center  justify-between bg-transparent backdrop-blur-lg fixed top-0 w-full px-8 py-0 z-100 text-[#F5EBEB] z-20 my-0">
+            <img  src="/images/logo.png" alt="Logo" className="w-40 h-25" />
             <div className="lg:hidden ">
                 <button
                     className="text-white focus:outline-none pr-2 "
@@ -24,7 +24,7 @@ const Navbar = ({ className }: { className?: string }) => {
             <div className={cn("lg:flex items-center", className, isMenuOpen ? "block" : "hidden")}>
                 {isMenuOpen && (
                     <button
-                        className="absolute top-4 right-4 text-white focus:outline-none lg:hidden"
+                        className="absolute top-1 right-4 text-white focus:outline-none lg:hidden"
                         onClick={() => setIsMenuOpen(false)}
                     >
                         <svg className="w-6 h-6 absolute right-8 top-4 z-[101] " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

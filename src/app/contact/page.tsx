@@ -3,7 +3,7 @@ import React from 'react';
 
 const ContactPage = () => {
   return (
-    <div className='py-32 overflow-x-hidden '>
+    <div className='py-32 mt-50 overflow-x-hidden '>
       <Contact />
   
     </div>

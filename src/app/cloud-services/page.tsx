@@ -1,7 +1,10 @@
+"use client"
 import React from 'react'
 import { SparklesCore } from '@/components/ui/sparkle'
+import { HoverEffect } from '@/components/ui/card-hover-effect'
 
 function cloudServices() {
+ 
   return (
     <div>
          <div>
@@ -22,7 +25,9 @@ function cloudServices() {
   <h1 className="md:text-7xl text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
       cloud services
     </h1>
+  np
     </div>
+   
     </div>
     </div>
   )
