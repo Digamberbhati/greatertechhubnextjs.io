@@ -20,22 +20,7 @@ function cloudServices() {
         particleDensity={100}
         className="w-full h-full"
         particleColor="#FFFFFF"
-      />
-      
-    </div>
-    
-    </div>
-    </div>
-   </div>
-  
-<<<<<<< HEAD
-    
-=======
-
-  <h1 className="md:text-7xl text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
-      Cloud Services
-    </h1>
-    <p>Safeguard Your Business with Trusted Cybersecurity Solutions</p>
+      /> 
     </div>
     </div>
     <section className="text-gray-600 body-font">
@@ -158,10 +143,8 @@ function cloudServices() {
     <button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Contact</button>
   </div>
 </section>
-    
     </div>
-  
->>>>>>> abcbdd7d23032d25aad9f7deceaafd3414784fd3
+   </div>
   )
 }
 
