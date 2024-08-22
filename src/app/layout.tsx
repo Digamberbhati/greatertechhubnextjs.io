@@ -6,6 +6,7 @@ import Navbar from "@/components/ui/Navbar";
 import Link from "next/link";
 import Footer from "@/pages/Footer";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -24,6 +25,7 @@ export default function RootLayout({
         
         <Navbar/>
         {children}
+        <button/>
         <Footer/>
         </body>
     </html>
