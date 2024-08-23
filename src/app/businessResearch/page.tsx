@@ -1,5 +1,7 @@
 import React from 'react'
 import { SparklesCore } from '@/components/ui/sparkle'
+import "./page.css";
+
 
 function businessResearch() {
   return (
@@ -23,6 +25,7 @@ function businessResearch() {
   <h1 className="md:text-7xl text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
       business research
     </h1>
+ 
     </div>
     </div>
     </div>
