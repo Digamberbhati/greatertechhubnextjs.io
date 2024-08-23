@@ -3,56 +3,99 @@ import React from 'react'
 function sample() {
   return (
     <div>
-      <section className="text-gray-600 body-font">
-  <div className="container px-5 py-24 mx-auto">
-    <div className="flex flex-col text-center w-full mb-20">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Master Cleanse Reliac Heirloom</h1>
-      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
-    </div>
-    <div className="flex flex-wrap -m-4 text-center">
-      <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-        <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
-            <path d="M8 17l4 4 4-4m-4-5v9"></path>
-            <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
-          </svg>
-          <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
-          <p className="leading-relaxed">Downloads</p>
+ <div className="min-h-screen py-12 bg-gray-100">
+    <section>
+        <h2 className="text-4xl font-extrabold text-center text-gray-700">Dev Challenge</h2>
+        <p className="text-center text-gray-600 text-md">Follow these steps to complete the challenge.</p>
+        <div className="content-center lg:flex lg:justify-center lg:items-center">
+
+            <div className="flex justify-center pt-10 m-auto lg:w-1/4 lg:mx-6 lg:my-8">
+                <div className="relative w-64 h-48">
+                    <div
+                        className="absolute top-0 left-0 flex items-center w-64 h-40 mt-6 ml-6 bg-white border-8 border-gray-700 border-solid rounded-lg">
+                        <div className="w-1/3 h-40"></div>
+                        <div className="w-2/3 h-32 pr-4">
+                            <h3 className="pt-1 text-xl font-semibold text-gray-700">Analyse</h3>
+                            <p className="pt-1 text-sm text-gray-600">Analyse the problem sets to find a better solution to the issue.</p>
+                        </div>
+                    </div>
+                    <div className="absolute top-0 left-0 z-20 w-12 h-12 mt-6 ml-6 bg-white rounded-full">
+                        <svg className="mt-2 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#e53e3e"
+                            width="32px" height="32px">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" />
+                        </svg>
+                    </div>
+                    <div
+                        className="absolute top-0 left-0 z-10 w-24 h-40 py-20 text-5xl font-bold text-center text-white bg-red-600 rounded-lg">
+                        01</div>
+                    <div className="absolute top-0 left-0 z-30 w-24 h-2 mt-40 ml-48 bg-red-600"></div>
+                </div>
+            </div>
+            <div className="flex justify-center pt-10 m-auto lg:w-1/4 lg:mx-6 lg:my-8">
+                <div className="relative w-64 h-48">
+                    <div
+                        className="absolute top-0 left-0 flex items-center w-64 h-40 mt-6 ml-6 bg-white border-8 border-gray-700 border-solid rounded-lg">
+                        <div className="w-1/3 h-40"></div>
+                        <div className="w-2/3 h-32 pr-4">
+                            <h3 className="pt-1 text-xl font-semibold text-gray-700">Design</h3>
+                            <p className="pt-1 text-sm text-gray-600">Design is how the solution will be interacted with.</p>
+                        </div>
+                    </div>
+                    <div className="absolute top-0 left-0 z-20 w-12 h-12 mt-6 ml-6 bg-white rounded-full">
+                        <svg className="mt-2 ml-2" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"
+                            viewBox="0 0 24 24" fill="#38a169" width="32px" height="32px">
+                            <g>
+                                <rect fill="none" height="24" width="24" />
+                            </g>
+                            <g>
+                                <g>
+                                    <path
+                                        d="M6.36,18.78L6.61,21l1.62-1.54l2.77-7.6c-0.68-0.17-1.28-0.51-1.77-0.98L6.36,18.78z" />
+                                    <path
+                                        d="M14.77,10.88c-0.49,0.47-1.1,0.81-1.77,0.98l2.77,7.6L17.39,21l0.26-2.22L14.77,10.88z" />
+                                    <path
+                                        d="M15,8c0-1.3-0.84-2.4-2-2.82V3h-2v2.18C9.84,5.6,9,6.7,9,8c0,1.66,1.34,3,3,3S15,9.66,15,8z M12,9c-0.55,0-1-0.45-1-1 c0-0.55,0.45-1,1-1s1,0.45,1,1C13,8.55,12.55,9,12,9z" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div
+                        className="absolute top-0 left-0 z-10 w-24 h-40 py-20 text-5xl font-bold text-center text-white bg-green-600 rounded-lg">
+                        02</div>
+                    <div className="absolute top-0 left-0 z-30 w-24 h-2 mt-40 ml-48 bg-green-600"></div>
+                </div>
+            </div>
+            <div className="flex justify-center pt-10 m-auto lg:w-1/4 lg:mx-6 lg:my-8">
+                <div className="relative w-64 h-48">
+                    <div
+                        className="absolute top-0 left-0 flex items-center w-64 h-40 mt-6 ml-6 bg-white border-8 border-gray-700 border-solid rounded-lg">
+                        <div className="w-1/3 h-40"></div>
+                        <div className="w-2/3 h-32 pr-4">
+                            <h3 className="pt-1 text-xl font-semibold text-gray-700">Develop</h3>
+                            <p className="pt-1 text-sm text-gray-600">Submit a developed solution to the given problem sets.</p>
+                        </div>
+                    </div>
+                    <div className="absolute top-0 left-0 z-20 w-12 h-12 mt-6 ml-6 bg-white rounded-full">
+                        <svg className="mt-2 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#3182ce"
+                            width="32px" height="32px">
+                            <path d="M0 0h24v24H0V0z" fill="none" />
+                            <path
+                                d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z" />
+                        </svg>
+                    </div>
+                    <div
+                        className="absolute top-0 left-0 z-10 w-24 h-40 py-20 text-5xl font-bold text-center text-white bg-blue-600 rounded-lg">
+                        03</div>
+                    <div className="absolute top-0 left-0 z-30 w-24 h-2 mt-40 ml-48 bg-blue-600"></div>
+                </div>
+            </div>
+
         </div>
-      </div>
-      <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-        <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
-            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
-            <circle cx="9" cy="7" r="4"></circle>
-            <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
-          </svg>
-          <h2 className="title-font font-medium text-3xl text-gray-900">1.3K</h2>
-          <p className="leading-relaxed">Users</p>
-        </div>
-      </div>
-      <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-        <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
-            <path d="M3 18v-6a9 9 0 0118 0v6"></path>
-            <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"></path>
-          </svg>
-          <h2 className="title-font font-medium text-3xl text-gray-900">74</h2>
-          <p className="leading-relaxed">Files</p>
-        </div>
-      </div>
-      <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-        <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
-            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-          </svg>
-          <h2 className="title-font font-medium text-3xl text-gray-900">46</h2>
-          <p className="leading-relaxed">Places</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
+</div>
+
     </div>
   )
 }
