@@ -1,0 +1,24 @@
+.bg-car{
+    background-image:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2e0ddeba-a2f5-49c5-aea1-c56a41c3b12f/dcqb283-69b6c8c8-521f-4c60-87b9-b81870121015.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJlMGRkZWJhLWEyZjUtNDljNS1hZWExLWM1NmE0MWMzYjEyZlwvZGNxYjI4My02OWI2YzhjOC01MjFmLTRjNjAtODdiOS1iODE4NzAxMjEwMTUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.DGnyLV3h7iINDoiN0WLHTUfcs9QfZpLOOkHDlH0K80g'),
+ }
+ .bg-lights{
+   background-image: url('https://i.pinimg.com/originals/bd/05/8f/bd058fbaee7be1f65cd197a41d774d91.jpg')
+ }
+ dialog{
+   animation: show 0.3s linear
+ }
+ dialog::backdrop {
+   background: black;
+  
+   opacity:80%;
+ }
+ @keyframes show{
+   from{
+     opacity:0;
+   }
+   to{
+     opacity:100%
+   }
+ }
+ 
+ 
