@@ -1,6 +1,7 @@
 import React from 'react'
 import { SparklesCore } from '@/components/ui/sparkle'
 import Button from '@/components/ui/button'
+import { color } from 'framer-motion'
 
 function digitalMarketing() {
   return (
@@ -13,45 +14,17 @@ function digitalMarketing() {
 
       {/* strategy section */}
       <section className='bg-white text-black h-96'>
-        <h1 className='py-10 pl-40'>Leverage Us for Your Best Cloud Strategy</h1>
-        <p className='pl-40 '>Our Cloud Managed services make it possible for organizations to reduce their overheads and better productivity, in addition to lowering costs and reducing time-to-market. <br />
-
-Veritis Cloud solutions have proven to help clients become more agile and responsive to changing market landscape. Our team of experts will work with you to understand your specific requirements and design a custom solution that meets your needs and budget. With our cloud services, you'll be able to focus on your core business while we take care of the rest.</p>
+        <h1 className='py-10 pl-40'>Search that Fits, Optimization that Converts
+         </h1>
+        <p className='pl-40 '>
+        There is neck-to-neck competition in the digital business world, and being the best is not enough, but making your target audience believe you are the best is crucial.<br />
+        <b>Greatertechhub</b>is a rising digital marketing company in world that combines proven strategies to make your products and services reach the target audience. Our qualified personnel ensures that your website comes in the top results when a prospect searches for a product or service you offer. With ongoing and effective optimization, we make your website perform well in search results.
+</p>
 
       </section>
 
       {/* outcome section */}
-      <section className="text-gray-600 body-font mt-0">
-        <div className="container px-2 py-24 mx-auto">
-          <div className="flex flex-wrap -m-4">
-            <div className="p-4 lg:w-1/3">
-              <div className="h-full bg-white bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                <h2 className="tracking-widest text-xs title-font font-medium text-gray-600 mb-1">Public Cloud</h2>
-                {/* <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Our public cloud services offer online accessibility, scalability, cost-efficiency, and seamless deployment. Pay-as-you-go ensures payment for used resources, enhancing efficiency.</h1> */}
-                <p className="leading-relaxed mb-3">Our public cloud services offer online accessibility, scalability, cost-efficiency, and seamless deployment. Pay-as-you-go ensures payment for used resources, enhancing efficiency.</p>
-              </div>
-            </div>
-            <div className="p-4 lg:w-1/3">
-              <div className="h-full bg-white bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                <h2 className="tracking-widest text-xs title-font font-medium text-gray-600 mb-1 ">Private Cloud</h2>
-                {/* <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Ennui Snackwave Thundercats</h1> */}
-                <p className="leading-relaxed mb-3">Our private cloud services enhance security and control for organizations with compliance needs, enabling complete data storage, maintenance, and access oversight.
-                </p>
-              </div>
-            </div>
-
-            <div className="p-4 lg:w-1/3">
-              <div className="h-full bg-white bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                <h2 className="tracking-widest text-xs title-font font-medium text-gray-600 mb-1">Hybrid Cloud</h2>
-                {/* <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Selvage Poke Waistcoat Godard</h1> */}
-                <p className="leading-relaxed mb-3">Our Hybrid cloud services offer the best of both worlds, combining the flexibility and scalability of public cloud services with the security and control of private cloud environments.</p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
+      
       {/* stepper section */}
       {/* <div className="min-h-screen py-0 bg-gray-100">
         <section>
