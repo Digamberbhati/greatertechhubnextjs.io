@@ -199,7 +199,8 @@ Veritis Cloud solutions have proven to help clients become more agile and respon
         </section>
       </div>
  */}
- 
+ {/* stepper section */}
+ <section>
 <div className="mt-10">
   <div className="flex">
     
@@ -271,6 +272,7 @@ Veritis Cloud solutions have proven to help clients become more agile and respon
      
   </div>
 </div>
+</section>
 
       {/* approach section */}
 

@@ -14,7 +14,7 @@ import Image from "next/image";
 export function FloatingDockDemo() {
   const links = [
     {
-      title: "Home",
+      title: "Instagram",
       icon: (
         <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
@@ -22,14 +22,14 @@ export function FloatingDockDemo() {
     },
 
     {
-      title: "Products",
+      title: "Facebook",
       icon: (
         <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "#",
     },
     {
-      title: "Components",
+      title: "Twitter",
       icon: (
         <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
@@ -48,21 +48,14 @@ export function FloatingDockDemo() {
       href: "#",
     },
     {
-      title: "Changelog",
+      title: "Linkedin",
       icon: (
         <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "#",
     },
 
-    {
-      title: "Twitter",
-      icon: (
-        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-    {
+   {
       title: "GitHub",
       icon: (
         <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
@@ -71,9 +64,9 @@ export function FloatingDockDemo() {
     },
   ];
   return (
-    <div className="flex items-center justify-center h-[35rem] w-full">
+    <div className="flex items-start justify-start h-[35rem] w-full">
       <FloatingDock
-        mobileClassName="translate-y-20" // only for demo, remove for production
+        mobileClassName="translate-y-10" // only for demo, remove for production
         items={links}
       />
     </div>

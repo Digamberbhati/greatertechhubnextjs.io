@@ -2,7 +2,7 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
-      domains: ['greatertechhub.com', 'www.systemart.com'], // Add your domain here
+      domains: ['greatertechhub.com', 'www.systemart.com','assets.aceternity.com'], // Add your domain here
     },
   };
   

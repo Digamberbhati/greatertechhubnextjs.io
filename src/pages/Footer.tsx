@@ -4,6 +4,7 @@ import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { IoLogoTwitter } from "react-icons/io5";
 import { FaFacebook } from "react-icons/fa";
 import { LuInstagram } from "react-icons/lu";
+import { FloatingDockDemo } from '@/components/ui/FooterComponent';
 const Footer = () => {  
   return (
     <div className=' flex flex-col lg:flex-row justify-around pt-8 mt-4 items-start gap-8 px-12   py-3 tracking-tighter bg-zinc-900'>
@@ -11,11 +12,9 @@ const Footer = () => {
         <h1 className='text-4xl font-bold'>Greatertechhub</h1>
         <h3 className='font-light'>Social-media links</h3>  
         <div className='icons flex gap-2 '>
-        <Link href={"https://wa.me/+919588160069"} className='bg-zinc-800  rounded-full p-2 hover:bg-transparent' ><FaWhatsapp className='text-2xl  ' /></Link>
-        <Link href={"https://twitter.com/Greatertechhub"} className='bg-zinc-800  rounded-full p-2 hover:bg-transparent' ><IoLogoTwitter className='text-2xl  ' /></Link>
-        <Link href={"https://www.facebook.com/profile.php?id=61554896472495"} className='bg-zinc-800  rounded-full p-2 hover:bg-transparent' ><FaFacebook className='text-2xl  ' /></Link>
-        <Link href={"https://www.instagram.com/greatertechhub/"} className='bg-zinc-800  rounded-full p-2 hover:bg-transparent' ><LuInstagram className='text-2xl  ' /></Link>
-        <Link href={"https://www.linkedin.com/company/greatertechhub/"} className='bg-zinc-800  rounded-full p-2 hover:bg-transparent ' ><FaLinkedinIn className='text-2xl ' /></Link>
+          <div className='mt-5'>
+    <FloatingDockDemo/>
+    </div>
         </div>
       </div>
       <div className='flex gap-20 flex-col lg:flex-row '>
