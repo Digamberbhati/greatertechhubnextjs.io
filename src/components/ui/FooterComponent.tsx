@@ -1,17 +1,10 @@
 "use client"
 import React from "react";
 import { FloatingDock } from "@/components/ui/floating-doc";
-import {
-  IconBrandGithub,
-  IconBrandX,
-  IconExchange,
-  IconHome,
-  IconNewSection,
-  IconTerminal2,
-}
- from "@tabler/icons-react";
+
 import Image from "next/image";
 import { FaFacebook } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { FaSquareInstagram, FaSquareXTwitter,  FaLinkedin  } from "react-icons/fa6";
 
 export function FloatingDockDemo() {
@@ -51,7 +44,7 @@ export function FloatingDockDemo() {
    {
       title: "GitHub",
       icon: (
-        <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <FaGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "#",
     },
