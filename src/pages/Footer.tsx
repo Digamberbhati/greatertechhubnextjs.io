@@ -1,10 +1,5 @@
 import Link from 'next/link';
 import React from 'react'
-
-import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
-import { IoLogoTwitter } from "react-icons/io5";
-import { FaFacebook } from "react-icons/fa";
-import { LuInstagram } from "react-icons/lu";
 import { FloatingDockDemo } from '@/components/ui/FooterComponent';
 const Footer = () => {  
   return (
