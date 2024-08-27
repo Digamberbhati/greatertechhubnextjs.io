@@ -50,11 +50,9 @@ const Navbar = ({ className }: { className?: string }) => {
                     </MenuItem>
                 </Menu>
             </div>
-    
-        <button><Link href={'/referearn'}className="hidden lg:flex border border-zinc-600 h-6 justify-center items-center bg-black px-8 py-8 rounded-full hover:bg-transparent">
+            <Link href="" className="hidden lg:flex border border-zinc-600 h-6 justify-center items-center bg-black px-8 py-8 rounded-full hover:bg-transparent">
                 Refer&Earn
-            </Link> </button>
-            
+            </Link>
         </div>
     );
 }
