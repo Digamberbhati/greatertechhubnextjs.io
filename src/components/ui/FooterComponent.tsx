@@ -1,18 +1,10 @@
 "use client"
 import React from "react";
 import { FloatingDock } from "@/components/ui/floating-doc";
-import {
-  IconBrandGithub,
-  IconBrandX,
-  IconExchange,
-  IconHome,
-  IconNewSection,
-  IconTerminal2,
-}
- from "@tabler/icons-react";
 import Image from "next/image";
 import { FaFacebook } from "react-icons/fa";
 import { FaSquareInstagram, FaSquareXTwitter,  FaLinkedin  } from "react-icons/fa6";
+import {IconBrandGithub} from "@tabler/icons-react";
 
 export function FloatingDockDemo() {
   const links = [
