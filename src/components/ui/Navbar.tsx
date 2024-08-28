@@ -46,11 +46,12 @@ const Navbar = ({ className }: { className?: string }) => {
                             <HoveredLink href="/client">Client</HoveredLink>
                             {/* <HoveredLink href="/careers">Careers</HoveredLink> */}
                             <HoveredLink href="/support">Support</HoveredLink>
+                            <HoveredLink href="/partnership">Partnership</HoveredLink>
                         </div>
                     </MenuItem>
                 </Menu>
             </div>
-            <Link href="" className="hidden lg:flex border border-zinc-600 h-6 justify-center items-center bg-black px-8 py-8 rounded-full hover:bg-transparent">
+            <Link href="" className="hidden lg:flex border border-zinc-600 h-6 justify-center items-center bg-black px-8 py-8 rounded-full hover:bg-transparent duration-150">
                 Refer&Earn
             </Link>
         </div>

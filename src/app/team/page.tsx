@@ -1,6 +1,4 @@
 import React from 'react'
-import { SparklesCore } from '@/components/ui/sparkle'
-
 const teamPage = () => {
   return (
 
@@ -19,7 +17,7 @@ const teamPage = () => {
     //     />
     //   </div>
 
-
+<div className='mt-3'>
       <div className="font-[sans-serif] my-4 mt-52 z-auto">
         <div className="max-w-5xl max-lg:max-w-2xl mx-auto">
           <div className="max-w-2xl mx-auto text-center">
@@ -270,7 +268,7 @@ const teamPage = () => {
           </div>
         </div>
       </div>
-    // </div>
+     </div>
   )
 }
 

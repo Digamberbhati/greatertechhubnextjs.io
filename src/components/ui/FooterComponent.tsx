@@ -14,7 +14,7 @@ export function FloatingDockDemo() {
       icon: (
         <FaSquareInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://www.instagram.com/greatertechhub/",
     },
 
     {
@@ -23,7 +23,7 @@ export function FloatingDockDemo() {
         <FaFacebook
         className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://www.facebook.com/profile.php?id=61557357627522",
     },
     {
       title: "Twitter",
@@ -38,16 +38,10 @@ export function FloatingDockDemo() {
       icon: (
         <FaLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://www.linkedin.com/company/greatertechhub/",
     },
 
-   {
-      title: "GitHub",
-      icon: (
-        <FaGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
+  
   ];
   return (
     <div className="flex items-start justify-start h-[35rem] w-full">
