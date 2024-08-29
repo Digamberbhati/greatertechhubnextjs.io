@@ -106,6 +106,7 @@ function webdevpage() {
           <li>Allows client to focus on core business</li>
         </ul>
       </section>
+
 {/* steps */}
 <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto flex flex-wrap">
@@ -121,8 +122,8 @@ function webdevpage() {
             </svg>
           </div>
           <div className="flex-grow pl-4">
-            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Consult your idea.</h2>
-            <p className="leading-relaxed"> Setting the direction with our web development consultants</p>
+            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 1</h2>
+            <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
           </div>
         </div>
         <div className="flex relative pb-12">
@@ -135,8 +136,8 @@ function webdevpage() {
             </svg>
           </div>
           <div className="flex-grow pl-4">
-            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Choose a technology.</h2>
-            <p className="leading-relaxed"> Deciding about the tech stack and the overall approach</p>
+            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 2</h2>
+            <p className="leading-relaxed">Vice migas literally kitsch +1 pok pok. Truffaut hot chicken slow-carb health goth, vape typewriter.</p>
           </div>
         </div>
         <div className="flex relative pb-12">
@@ -150,9 +151,8 @@ function webdevpage() {
             </svg>
           </div>
           <div className="flex-grow pl-4">
-            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Design. </h2>
-            <p className="leading-relaxed">Crafting a beautiful and user-friendly web solution with our design specialists
-            </p>
+            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 3</h2>
+            <p className="leading-relaxed">Coloring book nar whal glossier master cleanse umami. Salvia +1 master cleanse blog taiyaki.</p>
           </div>
         </div>
         <div className="flex relative pb-12">
@@ -166,8 +166,8 @@ function webdevpage() {
             </svg>
           </div>
           <div className="flex-grow pl-4">
-            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Develop.</h2>
-            <p className="leading-relaxed"> Coding the web app courtesy of our experienced engineers</p>
+            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 4</h2>
+            <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
           </div>
         </div>
         <div className="flex relative">
@@ -178,8 +178,8 @@ function webdevpage() {
             </svg>
           </div>
           <div className="flex-grow pl-4">
-            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Reach the market. </h2>
-            <p className="leading-relaxed">Launching your product and keeping it in good form with support and maintenance</p>
+            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">FINISH</h2>
+            <p className="leading-relaxed">Pitchfork ugh tattooed scenester echo park gastropub whatever cold-pressed retro.</p>
           </div>
         </div>
       </div>
@@ -198,6 +198,7 @@ function webdevpage() {
               <Button />
             </div>
           </div>
+          
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img className="object-cover object-center rounded" alt="hero" src="https://img.freepik.com/free-photo/group-colleagues-wearing-protective-face-masks-fist-bumping-while-having-business-meeting-coronavirus-pandemic_637285-6698.jpg?t=st=1724393302~exp=1724396902~hmac=99e66d9333e97ba69b6af4008eca9b9143edb4d7ca44c4910a0ae8918bacd9a7&w=826" />
           </div>
