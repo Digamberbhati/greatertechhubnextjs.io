@@ -1,27 +1,16 @@
 import React from 'react'
 import { SparklesCore } from '@/components/ui/sparkle'
 import Button from '@/components/ui/button'
+import HeroSection from '@/components/ui/hero'
 
 function webdevpage() {
   return (
     <div>
-          {/* <div className="h-[full] relative w-full bg-green flex flex-col items-center justify-center overflow-hidden rounded-md">
-    <div className="w-full absolute inset-0 h-screen">
-      <SparklesCore
-        id="tsparticlesfullpage"
-        background="transparent"
-        minSize={0.6}
-        maxSize={1.4}
-        particleDensity={100}
-        className="w-full h-full"
-        particleColor="#FFFFFF"
-      />
-    </div> */}
-  
-  <div>
-        <img src='https://images.unsplash.com/photo-1561736778-92e52a7769ef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='image' height={500} width={1600}></img>
-
-      </div>
+    
+    <HeroSection
+     title="Web Development"
+      imgurl="https://images.unsplash.com/photo-1691435828932-911a7801adfb?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      text="we use reactjs, nextjs ,tailwind, bootstrap for our web development service " />
 
       {/* strategy section */}
       <section className='bg-white text-black h-96'>

@@ -4,6 +4,7 @@ import { ImagesSlider } from "@/components/ui/images-slider";
 import { motion } from "framer-motion";
 import { SparklesCore } from "@/components/ui/sparkle";
 import Button from "@/components/ui/button";
+import HeroSection from "@/components/ui/hero";
 
 
 
@@ -13,10 +14,13 @@ export default function appdevPage() {
   return (
     <>
 
-<div>
-        <img src='https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='image' height={400} width={1600}></img>
+<HeroSection
+     title="App Development"
 
-      </div>
+      imgurl="https://images.unsplash.com/photo-1561883088-039e53143d73?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+      text="we use reactjs, nextjs ,tailwind, bootstrap for our web development service "
+       />
 
       {/* strategy section */}
       <section className='bg-white text-black h-96'>
