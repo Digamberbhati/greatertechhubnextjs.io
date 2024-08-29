@@ -121,8 +121,8 @@ function webdevpage() {
             </svg>
           </div>
           <div className="flex-grow pl-4">
-            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 1</h2>
-            <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Consult your idea.</h2>
+            <p className="leading-relaxed"> Setting the direction with our web development consultants</p>
           </div>
         </div>
         <div className="flex relative pb-12">
@@ -135,8 +135,8 @@ function webdevpage() {
             </svg>
           </div>
           <div className="flex-grow pl-4">
-            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 2</h2>
-            <p className="leading-relaxed">Vice migas literally kitsch +1 pok pok. Truffaut hot chicken slow-carb health goth, vape typewriter.</p>
+            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Choose a technology.</h2>
+            <p className="leading-relaxed"> Deciding about the tech stack and the overall approach</p>
           </div>
         </div>
         <div className="flex relative pb-12">
@@ -150,8 +150,9 @@ function webdevpage() {
             </svg>
           </div>
           <div className="flex-grow pl-4">
-            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 3</h2>
-            <p className="leading-relaxed">Coloring book nar whal glossier master cleanse umami. Salvia +1 master cleanse blog taiyaki.</p>
+            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Design. </h2>
+            <p className="leading-relaxed">Crafting a beautiful and user-friendly web solution with our design specialists
+            </p>
           </div>
         </div>
         <div className="flex relative pb-12">
@@ -165,8 +166,8 @@ function webdevpage() {
             </svg>
           </div>
           <div className="flex-grow pl-4">
-            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 4</h2>
-            <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Develop.</h2>
+            <p className="leading-relaxed"> Coding the web app courtesy of our experienced engineers</p>
           </div>
         </div>
         <div className="flex relative">
@@ -177,8 +178,8 @@ function webdevpage() {
             </svg>
           </div>
           <div className="flex-grow pl-4">
-            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">FINISH</h2>
-            <p className="leading-relaxed">Pitchfork ugh tattooed scenester echo park gastropub whatever cold-pressed retro.</p>
+            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Reach the market. </h2>
+            <p className="leading-relaxed">Launching your product and keeping it in good form with support and maintenance</p>
           </div>
         </div>
       </div>
