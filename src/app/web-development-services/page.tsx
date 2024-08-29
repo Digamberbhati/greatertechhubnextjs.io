@@ -33,8 +33,8 @@ function webdevpage() {
         <div className="container px-2 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
             <div className="p-4 lg:w-1/3">
-              <div className="h-full bg-white bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                <h2 className="tracking-widest text-xs title-font font-medium text-gray-600 mb-1">Front-end Development</h2>
+              <div className="h-full bg-white text-xs bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 className="tracking-widest text-2xs title-font font-medium text-gray-600 mb-1">Front-end Development</h2>
                 {/* <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Our public cloud services offer online accessibility, scalability, cost-efficiency, and seamless deployment. Pay-as-you-go ensures payment for used resources, enhancing efficiency.</h1> */}
                 <p className="leading-relaxed mb-3">We use the most popular frontend frameworks like React.js, Vue.js, Angular.js, Next.js, Three.js ,TailwindCSS, Bootstrap that enable us to create the surface layer of your product.</p>
               </div>
@@ -55,10 +55,25 @@ function webdevpage() {
                 <p className="leading-relaxed mb-3">We deliver end-to-end web development, combining frontend and backend solutions and other technologies necessary to make your product a success.</p>
               </div>
             </div>
+            <div className="p-4 lg:w-1/3">
+              <div className="h-full bg-white bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 className="tracking-widest text-xs title-font font-medium text-gray-600 mb-1">Low-Code Development.</h2>
+                {/* <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Selvage Poke Waistcoat Godard</h1> */}
+                <p className="leading-relaxed mb-3">We also specialize in building no-code and low-code web solutions that allow clients to save time and money. We use platforms like Webflow or Mendix.</p>
+              </div>
+            </div>
+            <div className="p-4 lg:w-1/3">
+              <div className="h-full bg-white bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 className="tracking-widest text-xs title-font font-medium text-gray-600 mb-1">Cloud Development</h2>
+                {/* <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Selvage Poke Waistcoat Godard</h1> */}
+                <p className="leading-relaxed mb-3">Furthermore, we use cloud services like Google Cloud, Amazon Web Services, and Microsoft Azure for fast and secure application deployment.</p>
+              </div>
+            </div>
 
           </div>
         </div>
       </section>
+      
 
       {/* stepper section */}
  
@@ -91,7 +106,86 @@ function webdevpage() {
           <li>Allows client to focus on core business</li>
         </ul>
       </section>
-
+{/* steps */}
+<section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto flex flex-wrap">
+    <div className="flex flex-wrap w-full">
+      <div className="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
+        <div className="flex relative pb-12">
+          <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
+            <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+          </div>
+          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <div className="flex-grow pl-4">
+            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 1</h2>
+            <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+          </div>
+        </div>
+        <div className="flex relative pb-12">
+          <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
+            <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+          </div>
+          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+          </div>
+          <div className="flex-grow pl-4">
+            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 2</h2>
+            <p className="leading-relaxed">Vice migas literally kitsch +1 pok pok. Truffaut hot chicken slow-carb health goth, vape typewriter.</p>
+          </div>
+        </div>
+        <div className="flex relative pb-12">
+          <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
+            <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+          </div>
+          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+              <circle cx="12" cy="5" r="3"></circle>
+              <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+            </svg>
+          </div>
+          <div className="flex-grow pl-4">
+            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 3</h2>
+            <p className="leading-relaxed">Coloring book nar whal glossier master cleanse umami. Salvia +1 master cleanse blog taiyaki.</p>
+          </div>
+        </div>
+        <div className="flex relative pb-12">
+          <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
+            <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+          </div>
+          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <div className="flex-grow pl-4">
+            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 4</h2>
+            <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+          </div>
+        </div>
+        <div className="flex relative">
+          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+          </div>
+          <div className="flex-grow pl-4">
+            <h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">FINISH</h2>
+            <p className="leading-relaxed">Pitchfork ugh tattooed scenester echo park gastropub whatever cold-pressed retro.</p>
+          </div>
+        </div>
+      </div>
+      <img className="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12" src="https://dummyimage.com/1200x500" alt="step"/>
+    </div>
+  </div>
+</section>
         {/* banner section */}
         <section className="text-white-600 body-font">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center pl-24">
