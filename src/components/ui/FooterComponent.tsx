@@ -4,7 +4,6 @@ import { FloatingDock } from "@/components/ui/floating-doc";
 
 import Image from "next/image";
 import { FaFacebook } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
 import { FaSquareInstagram, FaSquareXTwitter,  FaLinkedin  } from "react-icons/fa6";
 
 export function FloatingDockDemo() {
