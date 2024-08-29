@@ -25,10 +25,10 @@ function webdevpage() {
 
       {/* strategy section */}
       <section className='bg-white text-black h-96'>
-        <h1 className='py-10 pl-40'>Leverage Us for Your Best Cloud Strategy</h1>
-        <p className='pl-40 '>Our Cloud Managed services make it possible for organizations to reduce their overheads and better productivity, in addition to lowering costs and reducing time-to-market. <br />
+        <h1 className='py-10 pl-40'>Website development services company</h1>
+        <p className='pl-40 '>If you're in search of top-quality web development services, you've come to the right place: a web site development services company. We're your ultimate destination for transforming your web dreams into reality. <br />
 
-Veritis Cloud solutions have proven to help clients become more agile and responsive to changing market landscape. Our team of experts will work with you to understand your specific requirements and design a custom solution that meets your needs and budget. With our cloud services, you'll be able to focus on your core business while we take care of the rest.</p>
+        Our expert team is highly skilled in web development, and equipped to craft stellar products tailored specifically to your business needs. At our company, we don't just build websites; we become your partners in success. With a proven track record of handling projects of all complexities, we're committed to delivering cutting-edge, customized web solutions that align perfectly with your business objectives.</p>
 
       </section>
         {/* outcome section */}
