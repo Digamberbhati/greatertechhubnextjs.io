@@ -4,7 +4,6 @@ import { FloatingDock } from "@/components/ui/floating-doc";
 
 import Image from "next/image";
 import { FaFacebook } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
 import { FaSquareInstagram, FaSquareXTwitter,  FaLinkedin  } from "react-icons/fa6";
 
 export function FloatingDockDemo() {
@@ -30,7 +29,7 @@ export function FloatingDockDemo() {
       icon: (
         <FaSquareXTwitter className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://x.com/Greatertechhub",
     },
   
     {

@@ -19,14 +19,22 @@ const Footer = () => {
           <Link href={"/"}> <h4>- Home</h4></Link>
           <Link href={"/about"}> <h4>- About us</h4></Link>
           <Link href={"/service"}> <h4>- Service</h4></Link>
-          <Link href={"/terms-of-service"}> <h4>- Terms of Services</h4></Link>
-          <Link href={"/privacy-policy"}> <h4>- Privacy Policy</h4></Link>
+          <Link href={"/contact"}> <h4>- Contact us</h4></Link>
+          {/* <Link href={"/terms-of-service"}> <h4>- Terms of Services</h4></Link> */}
+          {/* <Link href={"/privacy-policy"}> <h4>- Privacy Policy</h4></Link> */}
         </div>
         <div>
-          <h2 className='text-xl font-bold pb-4'>Our Service</h2>
-          <Link href={"/blog"}> <h4>- Blog</h4></Link>
+          <h2 className='text-xl font-bold pb-4'>Helpful Links</h2>
+          <Link href={"/careers"}> <h4>- Career</h4></Link>
           <Link href={"/event"}> <h4>- Event</h4></Link>
-          <Link href={"/faq"}> <h4>- FQA</h4></Link>
+          <Link href={"/support"}> <h4>- Support</h4></Link>
+        </div>
+
+        <div>
+          <h2 className='text-xl font-bold pb-4'>Legal Links</h2>
+          <Link href={"/terms-of-service"}> <h4>- Term of service</h4></Link>
+          <Link href={"/privacy-policy"}> <h4>- Privacy policy</h4></Link>
+          
         </div>
         <div>
           <h2 className='text-xl font-bold pb-4'>Contact us</h2>
@@ -36,8 +44,6 @@ const Footer = () => {
           <h4>India</h4>
           <h4><b>Phone:</b> +91 9588160069</h4>
           <h4><b>Email:</b> info@greatertechhub.com</h4>
-          {/* <h4>info@greatertechhub.com</h4> */}
-
         </div>
       </div>
     </div>
