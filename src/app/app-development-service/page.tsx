@@ -19,7 +19,7 @@ export default function appdevPage() {
 
       imgurl="https://images.unsplash.com/photo-1561883088-039e53143d73?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 
-      text="we use reactjs, nextjs ,tailwind, bootstrap for our web development service "
+      text="Achieve your digital goals with our professional app development services. We provide innovative, user-centric solutions that enhance functionality and user experience. Connect with us to bring your app vision to life! "
        />
 
       {/* strategy section */}
