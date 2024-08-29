@@ -11,13 +11,16 @@ function Partnership() {
   };
   return (
     <div className="  p-4 md:p-8 shadow-input bg-white dark:bg-black">
-    <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
-    Referral Program
+    <h2 className="font-bold text-2xl text-neutral-800 dark:text-neutral-200">
+    Partnership Form
     </h2>
-    <p className="text-neutral-600 text-sm max-w-sm mt-2 dark:text-neutral-300">
-    It's simple. We know personal recommendations carry a lot of weight, and we value our clients' judgment. If you know anyone looking for assistance in the tech landscape, we're all ears! We'd love to connect with other businesses that you think could benefit from our services.
-    </p>
-
+    <p className="text-neutral-600 text-2xs  dark:text-neutral-300">
+    
+    Greatertechhub is a leading IT services provider that caters to all cloud infrastructure and service needs of corporate companies. We leverage our robust IT infrastructure, alongside solutions from global cloud service providers, to deliver comprehensive and integrated cloud services. By collaborating with partners who specialize in technology and business services, we combine our extensive service offerings with the industry-specific knowledge and technical expertise of our partners to create unique value in the digital transformation journeys of businesses.</p>
+   
+    <h2 className="font-bold text-3xs text-neutral-800 dark:text-neutral-200">
+    Join the<b> Greatertechhub Partner Network and together</b>, we can achieve excellence in IT solutions and drive the future of digital transformation.
+    </h2>
     <form className="my-8" onSubmit={handleSubmit}>
       <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
         <LabelInputContainer>
@@ -35,7 +38,7 @@ function Partnership() {
           <Input id="firstname" placeholder="" type="number" />
         </LabelInputContainer>
         <LabelInputContainer>
-          <Label htmlFor="lastname">Referral Work Title</Label>
+          <Label htmlFor="lastname">Partnership Company</Label>
           <Input id="lastname" placeholder="Domain" type="text" />
         </LabelInputContainer>
       </div>
@@ -48,7 +51,7 @@ function Partnership() {
         <Input id="password" placeholder="www.xyz.com" type="url" />
       </LabelInputContainer>
       <LabelInputContainer className="mb-4">
-        <Label htmlFor="password">Referral Date</Label>
+        <Label htmlFor="password">Partnership Date</Label>
         <Input id="password" placeholder=" Date" type="date" />
       </LabelInputContainer>
       <LabelInputContainer>
@@ -57,7 +60,8 @@ function Partnership() {
         </LabelInputContainer>
       <LabelInputContainer>
           <Label htmlFor="firstname">Additional Information</Label>
-          <Input id="firstname" placeholder="Answer Query" type="text" />
+          {/* <Input id="firstname" placeholder="Answer Query" type="text" /> */}
+          <textarea className="elementor-field-textual elementor-field  elementor-size-sm" name="form_fields[message]" id="form-field-message" rows="4" placeholder="You can write your message here..."></textarea>	
         </LabelInputContainer>
 
       <button
