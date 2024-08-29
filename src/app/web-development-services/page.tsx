@@ -25,11 +25,11 @@ function webdevpage() {
 
       {/* strategy section */}
       <section className='bg-white text-black h-96'>
-        <h1 className='py-10 pl-40'>Website development services company</h1>
-        <p className='pl-40 '>If you're in search of top-quality web development services, you've come to the right place: a web site development services company. We're your ultimate destination for transforming your web dreams into reality. <br />
+        <h1 className='py-10 pl-5 pr-5'>Website development services company</h1>
+        <p className='pl-5 pr-5'>If you're in search of top-quality web development services, you've come to the right place: a web site development services company. We're your ultimate destination for transforming your web dreams into reality. <br />
 
-        Our expert team is highly skilled in web development, and equipped to craft stellar products tailored specifically to your business needs. At our company, we don't just build websites; we become your partners in success. With a proven track record of handling projects of all complexities, we're committed to delivering cutting-edge, customized web solutions that align perfectly with your business objectives.</p>
-
+        Our expert team is highly skilled in web development, and equipped to craft stellar products tailored specifically to your business needs. At our company, we don't just build websites; we become your partners in success. With a proven track record of handling projects of all complexities, we're committed to delivering cutting-edge, customized web solutions that align perfectly with your business objectives. <Button /></p>
+        
       </section>
         {/* outcome section */}
         <section className="text-gray-600 body-font mt-0">
@@ -37,25 +37,25 @@ function webdevpage() {
           <div className="flex flex-wrap -m-4">
             <div className="p-4 lg:w-1/3">
               <div className="h-full bg-white bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                <h2 className="tracking-widest text-xs title-font font-medium text-gray-600 mb-1">Public Cloud</h2>
+                <h2 className="tracking-widest text-xs title-font font-medium text-gray-600 mb-1">Front-end Development</h2>
                 {/* <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Our public cloud services offer online accessibility, scalability, cost-efficiency, and seamless deployment. Pay-as-you-go ensures payment for used resources, enhancing efficiency.</h1> */}
-                <p className="leading-relaxed mb-3">Our public cloud services offer online accessibility, scalability, cost-efficiency, and seamless deployment. Pay-as-you-go ensures payment for used resources, enhancing efficiency.</p>
+                <p className="leading-relaxed mb-3">We use the most popular frontend frameworks like React.js, Vue.js, Angular.js, Next.js, Three.js ,TailwindCSS, Bootstrap that enable us to create the surface layer of your product.</p>
               </div>
             </div>
             <div className="p-4 lg:w-1/3">
               <div className="h-full bg-white bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                <h2 className="tracking-widest text-xs title-font font-medium text-gray-600 mb-1 ">Private Cloud</h2>
+                <h2 className="tracking-widest text-xs title-font font-medium text-gray-600 mb-1 ">Backend Development</h2>
                 {/* <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Ennui Snackwave Thundercats</h1> */}
-                <p className="leading-relaxed mb-3">Our private cloud services enhance security and control for organizations with compliance needs, enabling complete data storage, maintenance, and access oversight.
+                <p className="leading-relaxed mb-3">We use server-side technologies like Python, Ruby on Rails, and Node.js for prototyping and development, producing fast and scalable web apps
                 </p>
               </div>
             </div>
 
             <div className="p-4 lg:w-1/3">
               <div className="h-full bg-white bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                <h2 className="tracking-widest text-xs title-font font-medium text-gray-600 mb-1">Hybrid Cloud</h2>
+                <h2 className="tracking-widest text-xs title-font font-medium text-gray-600 mb-1">Full Stack Development.</h2>
                 {/* <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Selvage Poke Waistcoat Godard</h1> */}
-                <p className="leading-relaxed mb-3">Our Hybrid cloud services offer the best of both worlds, combining the flexibility and scalability of public cloud services with the security and control of private cloud environments.</p>
+                <p className="leading-relaxed mb-3">We deliver end-to-end web development, combining frontend and backend solutions and other technologies necessary to make your product a success.</p>
               </div>
             </div>
 

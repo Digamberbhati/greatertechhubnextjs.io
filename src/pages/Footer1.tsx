@@ -306,7 +306,6 @@ function Footer1() {
                   {/* social media links */}
                   <FloatingDockDemo/>
                 </ul>
-                
               </div>
             </div>
           </div>
@@ -315,10 +314,9 @@ function Footer1() {
             <div className="text-center sm:flex sm:justify-between sm:text-left">
               <p className="text-sm text-gray-400">
                 <span className="block sm:inline">All rights reserved.</span>
-
                 <a
                   className="inline-block text-teal-500 underline transition hover:text-teal-500/75"
-                  href="/"
+                  href="/terms-of-service"
                 >
                   Terms & Conditions
                 </a>
@@ -327,7 +325,7 @@ function Footer1() {
 
                 <a
                   className="inline-block text-teal-500 underline transition hover:text-teal-500/75"
-                  href="/"
+                  href="/privacy-policy"
                 >
                   Privacy Policy
                 </a>
