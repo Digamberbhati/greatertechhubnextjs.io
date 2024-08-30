@@ -12,7 +12,7 @@ function NetworkAndInfrastructutre() {
       {/* hero-section */}
       <HeroSection
      title="Tax Insurance"
-      imgurl="https://images.unsplash.com/photo-1641931186542-a1d713124e3f?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      imgurl="https://img.freepik.com/premium-photo/smart-city-network_1179475-10573.jpg?w=996"
       text="
 Emphasize how your software solutions are designed to seamlessly integrate with tax and insurance processes, making it easier for businesses to manage their financial and compliance needs." /> 
         
