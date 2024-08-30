@@ -1,10 +1,6 @@
 "use client"
+
 import React from 'react'
-import { SparklesCore } from '@/components/ui/sparkle'
-import { FullScreen } from '@tsparticles/engine'
-import { AppleCardsCarouselDemo } from '@/components/ui/appleCardCaraousalDemo'
-import Button from '@/components/ui/button'
-import Steps from '@/components/ui/steps'
 import Banner from '@/components/ui/banner'
 import HeroSection from '@/components/ui/hero'
 
@@ -14,15 +10,12 @@ function cloudServices() {
   return (
     <div>
       <HeroSection
-        title="App Development"
+        title="Cloud"
 
         imgurl="https://images.unsplash.com/photo-1517483000871-1dbf64a6e1c6?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 
-        text="Achieve your digital goals with our professional app development services.
-      We provide innovative, user-centric solutions that enhance functionality and user experience. Connect with us to bring your app vision to life! "
+        text="Our cloud service offers scalable, secure, and cost-effective solutions tailored to your business needs. Enjoy seamless integration, automatic updates, and 24/7 support. Enhance efficiency and flexibility with our reliable cloud platform."
       />
-
-      {/* strategy section */}
       
 
       {/* outcome section */}
@@ -56,7 +49,7 @@ function cloudServices() {
           </div>
         </div>
       </section>
- 
+
       {/* approach section */}
 
       <section className="text-gray-600 body-font">
@@ -153,59 +146,14 @@ function cloudServices() {
         </div>
       </section>
 
-      {/* solution section */}
-
-
-
-      {/* benefits section */}
-
-      <section className='bg-white text-black pl-16 py-20'>
-        <h3 className='mb-10'>Value Proposition</h3>
-
-        <h1 className='font-italic'>Future-proof your business with solutions tailored for you.</h1>
-        <br />
-        <ul>
-          <li> Scalable resources</li>
-          <br />
-          <li>
-          Partnering to product development process</li>
-          <br />
-          <li>
-          Successfully building long term relationship </li>
-          <br />
-          <li> 
-          Client centric processes and engagements</li>
-          <br />
-          <li> 
-          Multiple technology experience</li>
-          <br />
-          <li> 
-          Cost saving upto 50%</li>
-          <br />
-          
-          <li>Allows client to focus on core business</li>
-        </ul>
-  
-      </section>
-
-{/* steps section */}
-<Steps step1="one" 
-       step2="two"
-       step3="three" 
-       step4="four" 
-       finish="Finish"
-       imgurl="https://images.unsplash.com/photo-1496450681664-3df85efbd29f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
-
       {/* banner section */}
-     <Banner title="Cloud Power: Scalable Secure Simple"
-     text1="Effortlessly scale your business with our secure,"
-     text2=" reliable cloud services. Speed, flexibility, and peace of mind."
+      <Banner title="Cloud Power: Scalable Secure Simple"
 
+        text1="Effortlessly scale your business with our secure,"
 
+        text2=" reliable cloud services. Speed, flexibility, and peace of mind."
 
-
-
-     imgurl="https://images.unsplash.com/photo-1536251062688-0185b521f349?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+        imgurl="https://images.unsplash.com/photo-1536251062688-0185b521f349?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
     </div>
 
   )
