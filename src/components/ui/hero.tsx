@@ -10,7 +10,7 @@ export default function HeroSection(props:any) {
         alt="Background Image"
         layout="fill"
         objectFit="cover"
-        quality={75}
+        quality={100}
         className="-z-10"
       />
 
@@ -27,7 +27,7 @@ export default function HeroSection(props:any) {
           <p className="mt-3 text-white sm:mt-5 sm:max-w-xl md:mt-5 text-lg font-light">
            {props.text}
           </p>
-          <div className="mt-5 sm:mt-8 sm:flex justify-start">
+          {/* <div className="mt-5 sm:mt-8 sm:flex justify-start">
             <div className="rounded-md shadow">
               <a
                 href="contact"
@@ -38,7 +38,7 @@ export default function HeroSection(props:any) {
             </div>
             <div className="mt-3 sm:mt-0 sm:ml-3">
             </div>
-          </div>
+          </div> */}
         </div>
       </main>
     </div>

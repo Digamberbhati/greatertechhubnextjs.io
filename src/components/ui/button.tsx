@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from "next/link";
-function Button() {
+function Button(props:any) {
   return (
     <>
-      <button className="bg-blue-500 hover:bg-red duration-1000 text-white font-bold py-2 px-4 rounded ">
-  <Link href='contact'> contact for services</Link>
+      <button className="bg-blue-500 duration-300 text-white font-bold py-2 px-4 rounded hover:bg-transparent hover:border-blue-600 ">
+  <Link href='contact'>{props.text}</Link>
 </button>
         </>
     

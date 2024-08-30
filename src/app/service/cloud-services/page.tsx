@@ -5,25 +5,25 @@ import { FullScreen } from '@tsparticles/engine'
 import { AppleCardsCarouselDemo } from '@/components/ui/appleCardCaraousalDemo'
 import Button from '@/components/ui/button'
 import Steps from '@/components/ui/steps'
+import Banner from '@/components/ui/banner'
+import HeroSection from '@/components/ui/hero'
 
 
 function cloudServices() {
 
   return (
     <div>
-      <div>
-        <img src='https://s7ap1.scene7.com/is/image/TCSCOMprod/modernized-underwriting-platform-insurance-solution-cloud?wid=1900&hei=727&dpr=off' alt='image' height={500} width={1600}></img>
+      <HeroSection
+        title="App Development"
 
-      </div>
+        imgurl="https://images.unsplash.com/photo-1517483000871-1dbf64a6e1c6?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+        text="Achieve your digital goals with our professional app development services.
+      We provide innovative, user-centric solutions that enhance functionality and user experience. Connect with us to bring your app vision to life! "
+      />
 
       {/* strategy section */}
-      <section className='bg-white text-black h-96'>
-        <h1 className='py-10 pl-40'>Leverage Us for Your Best Cloud Strategy</h1>
-        <p className='pl-40 '>Our Cloud Managed services make it possible for organizations to reduce their overheads and better productivity, in addition to lowering costs and reducing time-to-market. <br />
-
-Veritis Cloud solutions have proven to help clients become more agile and responsive to changing market landscape. Our team of experts will work with you to understand your specific requirements and design a custom solution that meets your needs and budget. With our cloud services, you'll be able to focus on your core business while we take care of the rest.</p>
-
-      </section>
+      
 
       {/* outcome section */}
       <section className="text-gray-600 body-font mt-0">
@@ -197,21 +197,15 @@ Veritis Cloud solutions have proven to help clients become more agile and respon
        imgurl="https://images.unsplash.com/photo-1496450681664-3df85efbd29f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
 
       {/* banner section */}
-      <section className="text-white-600 body-font">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center pl-24">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ml-">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white-900">Discover The Power of Real Partnership
-            </h1>
-            <p className="mb-8 leading-relaxed">Ready to take your business to the next level? <br />Schedule a free consultation with our team to discover how we can help!</p>
-            <div className="flex justify-center">
-              <Button />
-            </div>
-          </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img className="object-cover object-center rounded" alt="hero" src="https://img.freepik.com/free-photo/group-colleagues-wearing-protective-face-masks-fist-bumping-while-having-business-meeting-coronavirus-pandemic_637285-6698.jpg?t=st=1724393302~exp=1724396902~hmac=99e66d9333e97ba69b6af4008eca9b9143edb4d7ca44c4910a0ae8918bacd9a7&w=826" />
-          </div>
-        </div>
-      </section>
+     <Banner title="Cloud Power: Scalable Secure Simple"
+     text1="Effortlessly scale your business with our secure,"
+     text2=" reliable cloud services. Speed, flexibility, and peace of mind."
+
+
+
+
+
+     imgurl="https://images.unsplash.com/photo-1536251062688-0185b521f349?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
     </div>
 
   )
