@@ -43,7 +43,7 @@ export const projects = [
     title: "Network and Infrastructure Services",
     description:
       "I'm here to help with any questions or guidance you need regarding business planning. What specific notice or query do you have related to Business Planning? Please feel free to ask, and I'll do my best to assist you..",
-    link: "Network-and-Infrastructure-Services",
+    link: "service/Network-and-Infrastructure-Services",
   },
   {
     title: "Cloud-Services",
@@ -55,13 +55,13 @@ export const projects = [
     title: "Enterprise Resource Planning (ERP) Services",
     description:
       "I'm here to help with any questions or guidance you need regarding business planning. What specific notice or query do you have related to Business Planning? Please feel free to ask, and I'll do my best to assist you..",
-    link: "/ERP-Services",
+    link: "service/ERP-Services",
   },
   {
     title: "Customer Relationship Management (CRM) Services",
     description:
       "I'm here to help with any questions or guidance you need regarding business planning. What specific notice or query do you have related to Business Planning? Please feel free to ask, and I'll do my best to assist you..",
-    link: "CRM-Services",
+    link: "service/CRM-Services",
   },
   {
     title: "IT Asset Management",
