@@ -5,8 +5,6 @@ import Aboutpage from "@/app/about/page";
 import ClientPage from "@/app/client/page";
 import  {ImagesSlider}  from "@/components/ui/images-slider";
 import { motion } from "framer-motion";
-import Link from "next/link";
-import { Review } from "@/app/review/page";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 
 
@@ -59,12 +57,12 @@ const images = [
       >
         <motion.p className="font-bold text-l md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-0">
         <div className="flex flex-col items-center justify-center h-[40rem] ">
-      <p className="text-neutral-500 dark:text-neutral-100 text-base  mb-10">
+      <p className="text-neutral-300 dark:text-neutral-100 text-base  mb-10">
       Smart Tech, Bright Futures
       </p>
       <TextGenerateEffect words={words} />
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 mt-10">
-        {<button  className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-neutral-500 text-sm hover:bg-transparent hover:text-white">
+        {<button  className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent duration-500 text-neutral-300 text-sm hover:bg-transparent hover:text-white">
           Join now
         </button>
        }

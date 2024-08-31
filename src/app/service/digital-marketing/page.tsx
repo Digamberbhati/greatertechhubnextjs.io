@@ -9,9 +9,9 @@ function digitalMarketing() {
 
 <div>
 <HeroSection
-     title="Web Development"
+     title="Digital Marketing"
       imgurl="https://images.unsplash.com/photo-1614020661483-d2bb855eee1d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      text="Elevate your business with our expert web development services. We create stunning, responsive websites tailored to your needs. Let’s build success together!" /> 
+      text="Unlock your brand’s potential with our innovative digital marketing. Drive traffic, boost engagement, and achieve real results. Elevate now!" /> 
       
 
       {/* service section in digital marketing*/}

@@ -34,7 +34,7 @@ const teamPage = () => {
 
               <div className="p-4">
                 <h4 className="text-gray-200 text-base font-bold">Dipanshu</h4>
-                <p className="text-gray-300 text-xs mt-1">Director</p>
+                <p className="text-gray-300 text-xs mt-1">Project manager</p>
 
                 <div className="mt-4">
                   <p className="text-gray-400 text-sm leading-relaxed">Director of the
@@ -49,7 +49,7 @@ const teamPage = () => {
 
               <div className="p-4">
                 <h4 className="text-gray-200 text-base font-bold">Aman</h4>
-                <p className="text-gray-300 text-xs mt-1">Project manager</p>
+                <p className="text-gray-300 text-xs mt-1">Fullstack developer</p>
 
                 <div className="mt-4">
                   <p className="text-gray-400 text-sm leading-relaxed">Having 3+ years of experience.</p>
@@ -91,7 +91,7 @@ const teamPage = () => {
 
               <div className="p-4">
                 <h4 className="text-gray-200 text-base font-bold">Chaman Kumar</h4>
-                <p className="text-gray-300 text-xs mt-1">Software Engineer</p>
+                <p className="text-gray-300 text-xs mt-1">UI/UX Designer</p>
 
                 <div className="mt-4">
                   <p className="text-gray-400 text-sm leading-relaxed">5+ years of experince.</p>

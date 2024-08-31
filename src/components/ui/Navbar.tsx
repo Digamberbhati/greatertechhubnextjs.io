@@ -9,7 +9,7 @@ const Navbar = ({ className }: { className?: string }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <div className="flex items-center  justify-between bg-transparent backdrop-blur-lg sticky top-0 w-full h-13 px-8 py-0 z-100  text-[#F5EBEB] z-30">
+        <div className="flex items-center  justify-between bg-transparent backdrop-blur-lg  fixed top-0 w-full h-13 px-8 py-0 z-100  text-[#F5EBEB] z-30">
             <img  src="/images/logo.png" alt="Logo" className="w-40 h-25" />
             <div className="lg:hidden ">
                 <button
