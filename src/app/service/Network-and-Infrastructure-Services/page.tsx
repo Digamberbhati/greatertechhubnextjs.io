@@ -11,10 +11,10 @@ function NetworkAndInfrastructutre() {
     <div>
       {/* hero-section */}
       <HeroSection
-     title="Tax Insurance"
+     title="Network And Infrastructutre"
       imgurl="https://img.freepik.com/premium-photo/smart-city-network_1179475-10573.jpg?w=996"
       text="
-Emphasize how your software solutions are designed to seamlessly integrate with tax and insurance processes, making it easier for businesses to manage their financial and compliance needs." /> 
+These features help businesses enhance their network performance, maintain security, and optimize their infrastructure management processes." /> 
         
         {/* service we provide section */}
         <section className="text-gray-600 body-font">
@@ -57,7 +57,7 @@ Emphasize how your software solutions are designed to seamlessly integrate with 
        <Banner title="Crafting Your Digital Dreams with Precision and Passion"
        text1="Boost your online presence with our custom,"
        text2=" "
-       imgurl="https://img.freepik.com/free-photo/income-tax-return-deduction-refund-concept_53876-134000.jpg?t=st=1725013365~exp=1725016965~hmac=fcfac579e96c05c764a770b9e601c9622e6c04ecc15140e91473827ea9833eaa&w=826"/>
+       imgurl="https://img.freepik.com/free-photo/high-tech-view-futuristic-earth_23-2151100363.jpg?t=st=1725014244~exp=1725017844~hmac=2d70e4385153827d80d1bd6b3bacb498eebf2fa72e51642e4b07e2b624d43acb&w=1060"/>
 
 
       
