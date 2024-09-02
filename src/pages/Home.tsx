@@ -7,6 +7,7 @@ import  {ImagesSlider}  from "@/components/ui/images-slider";
 import { motion } from "framer-motion";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { OtherActivities } from "@/components/ui/otherActivities";
+import { InfiniteMovingCardsDemo } from "@/app/review/page";
 
 
 export default function Home() {
@@ -78,6 +79,8 @@ const images = [
       <ServicePage/>
       <ClientPage/>
       <OtherActivities/>
+      <InfiniteMovingCardsDemo/>
+     
     
 
 
@@ -89,20 +92,18 @@ const images = [
       {/* Overlay */}
       <div className="relative flex items-center justify-center h-full">
         <div className="text-center text-white p-8">
-          <h2 className="text-3xl font-bold mb-4">Join Us Today!</h2>
+          <h2 className="text-3xl font-bold mb-4">Contact Us Today!</h2>
           <p className="mb-6">Get exclusive access to our latest updates and offers.</p>
           <a
-            href="/contact"
+            href="#"
             className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded shadow-md transition duration-300"
           >
-            Sign Up Now
+            Contact Us
           </a>
         </div>
       </div>
     </div>
-
-
-
+  
     </>
   );
 
