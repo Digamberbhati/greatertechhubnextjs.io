@@ -57,9 +57,9 @@ These features help businesses conduct thorough and effective research, leading 
 
 
         {/* banner section */}
-       <Banner title="Crafting Your Digital Dreams with Precision and Passion"
-       text1="Boost your online presence with our custom,"
-       text2=" "
+       <Banner title="Empowering Decisions with Insightful Research"
+       text1="Optimize your strategy with precise business research."
+       text2=" We deliver actionable insights to propel your success and competitive edge."
        imgurl="https://img.freepik.com/premium-photo/person-is-looking-magnifying-glass-that-has-blue-graph-it_1274269-148914.jpg?w=900"/>
 
 

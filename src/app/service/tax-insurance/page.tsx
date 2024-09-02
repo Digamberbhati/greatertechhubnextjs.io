@@ -52,9 +52,9 @@ Emphasize how your software solutions are designed to seamlessly integrate with 
 
 
         {/* banner section */}
-       <Banner title="Crafting Your Digital Dreams with Precision and Passion"
-       text1="Boost your online presence with our custom,"
-       text2=" "
+       <Banner title="Maximize Savings with Expert Tax & Insurance"
+       text1="Expert tax and insurance services designed to"
+       text2="  maximize savings and protect your assets. Trust us for personalized, reliable solutions."
        imgurl="https://img.freepik.com/free-photo/income-tax-return-deduction-refund-concept_53876-134000.jpg?t=st=1725013365~exp=1725016965~hmac=fcfac579e96c05c764a770b9e601c9622e6c04ecc15140e91473827ea9833eaa&w=826"/>
 
 

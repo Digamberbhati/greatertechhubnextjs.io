@@ -10,7 +10,7 @@ export const ImagesSlider = ({
   overlayClassName,
   className,
   autoplay = true,
-  direction = "up",
+  direction = "down"
 }: {
   images: string[];
   children: React.ReactNode;
@@ -99,14 +99,14 @@ export const ImagesSlider = ({
       },
     },
     upExit: {
-      opacity: 1,
+      opacity: 3,
       y: "-150%",
       transition: {
         duration: 1,
       },
     },
     downExit: {
-      opacity: 1,
+      opacity: 3,
       y: "150%",
       transition: {
         duration: 1,

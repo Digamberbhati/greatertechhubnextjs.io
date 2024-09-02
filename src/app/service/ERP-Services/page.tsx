@@ -51,9 +51,9 @@ These features help businesses streamline their operations, improve productivity
 
 
         {/* banner section */}
-       <Banner title="Crafting Your Digital Dreams with Precision and Passion"
-       text1="Boost your online presence with our custom,"
-       text2=" "
+       <Banner title="Streamline Success with ERP Solutions"
+       text1="Optimize your operations with our ERP solutions—"
+       text2="seamless integration, real-time data, and enhanced efficiency."
        imgurl="https://img.freepik.com/free-vector/erp-infographic_23-2149371099.jpg?t=st=1725032503~exp=1725036103~hmac=6a3da401d237cb594c62b04f4910aa03ddf7a635a907b45c2f8f0513f0eb97fb&w=740"/>
 
 

@@ -6,7 +6,10 @@ import React from 'react'
 const homePage = () => {
   return (
     <>
-      <Home/>
+    <div>
+    <Home/>
+    </div>
+     
       
     </>
   )

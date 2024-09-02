@@ -9,7 +9,7 @@ function It_Assets_Management() {
     <div>
       {/* hero-section */}
     <HeroSection
-     title="It Assets Management"
+     title="IT Assets Management"
       imgurl="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041867.jpg?t=st=1725032655~exp=1725036255~hmac=83b12b1cb60f778415470f8695d3b76c3079d488ad603ca9feafa01a33d8e683&w=900"
       text="
 These features help businesses optimize their IT asset management processes, reduce costs, and maintain a secure and efficient IT environment." /> 
@@ -53,9 +53,9 @@ These features help businesses optimize their IT asset management processes, red
 
 
         {/* banner section */}
-       <Banner title="Crafting Your Digital Dreams with Precision and Passion"
-       text1="Boost your online presence with our custom,"
-       text2=" "
+       <Banner title="Optimize IT and Assets for Maximum Efficiency."
+       text1="Efficiently manage IT and assets with our service,"
+       text2=" ensuring optimal performance, cost savings, and streamlined operations. "
        imgurl="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041866.jpg?t=st=1725032835~exp=1725036435~hmac=c7a156746b71d35628cc61eed64ed312608d683eb95bdf5ae84e50795113579b&w=900"/>
 
 

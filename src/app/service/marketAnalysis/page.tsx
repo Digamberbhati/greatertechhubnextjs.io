@@ -52,9 +52,9 @@ These features provide businesses with a comprehensive view of the market landsc
 
 
         {/* banner section */}
-       <Banner title="Crafting Your Digital Dreams with Precision and Passion"
-       text1="Boost your online presence with our custom,"
-       text2=" "
+       <Banner title="Insightful Market Analysis for Success"
+       text1="Unlock Market Potential with Expert Analysis-"
+       text2="Drive Growth, Make Informed Decisions, and Stay Ahead of the Competition. "
        imgurl="https://img.freepik.com/free-photo/businesspeople-working-finance-accounting-analyze-financi_74952-1411.jpg?t=st=1725014612~exp=1725018212~hmac=aebe8d7ee209e0f8470e0bb70119198987805af4928f67ba9ebcc6a882654f82&w=900"/>
 
 

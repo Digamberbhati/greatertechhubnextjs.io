@@ -54,9 +54,9 @@ These features help businesses enhance their network performance, maintain secur
 
 
         {/* banner section */}
-       <Banner title="Crafting Your Digital Dreams with Precision and Passion"
-       text1="Boost your online presence with our custom,"
-       text2=" "
+       <Banner title="Advanced Infrastructure, Superior Network Experience"
+       text1="Ensure robust connectivity with our"
+       text2=" network and infrastructure services—secure, scalable, and reliable solutions for growth. "
        imgurl="https://img.freepik.com/free-photo/high-tech-view-futuristic-earth_23-2151100363.jpg?t=st=1725014244~exp=1725017844~hmac=2d70e4385153827d80d1bd6b3bacb498eebf2fa72e51642e4b07e2b624d43acb&w=1060"/>
 
 

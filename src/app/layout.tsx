@@ -5,7 +5,7 @@ import Navbar from "@/components/ui/Navbar";
 
 import Link from "next/link";
 import Footer from "@/pages/Footer";
-import Footer1 from "@/pages/Footer1";
+
 
 
 const inter = Inter({ subsets: ["latin"] });

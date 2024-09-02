@@ -54,9 +54,9 @@ These DevOps services help businesses streamline their development processes, en
 
 
         {/* banner section */}
-       <Banner title="Crafting Your Digital Dreams with Precision and Passion"
-       text1="Boost your online presence with our custom,"
-       text2=" "
+       <Banner title="Streamline Development, Accelerate Deployment, Achieve Excellence"
+       text1="Our DevOps service streamlines development and"
+       text2="operations for faster deployments, improved collaboration, and continuous delivery of high-quality software."
        imgurl="https://img.freepik.com/premium-photo/cloud-technology-concept-computing-data-storage-software-infrastructure_29488-7348.jpg?w=1060"/>
 
 

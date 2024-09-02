@@ -40,9 +40,7 @@ const Navbar = ({ className }: { className?: string }) => {
                     <Link href="/careers" className="hover:border-b hover:border-white duration-200">Careers</Link>
                     <MenuItem setActive={setActive} active={active} item="Company">
                         <div className="flex flex-col space-y-4 z-[100] text-sm">
-                            <HoveredLink href="/event">Event</HoveredLink>
                             <HoveredLink href="/team">Team</HoveredLink>
-                            <HoveredLink href="/blog">Blog</HoveredLink>
                             <HoveredLink href="/client">Client</HoveredLink>
                             {/* <HoveredLink href="/careers">Careers</HoveredLink> */}
                             <HoveredLink href="/support">Support</HoveredLink>

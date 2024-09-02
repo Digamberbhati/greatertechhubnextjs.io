@@ -1,6 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import { SparklesCore } from '@/components/ui/sparkle'
 const teamPage = () => {
   return (
 
@@ -29,8 +27,8 @@ const teamPage = () => {
           </div>
 
           <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 max-md:justify-center mt-12">
-            <div className="border rounded-md overflow-hidden max-md:max-w-[300px]">
-              <img src="https://readymadeui.com/team-1.webp" className="w-full h-60 object-contain object-top bg-gray-200" />
+            <div className="border rounded-md overflow-hidden max-md:max-w-[300px] hover:scale-110 duration-300">
+              <img src="https://readymadeui.com/team-1.webp" className="w-full h-60 object-contain object-top bg-gray-200 hover:scale-100"  />
 
               <div className="p-4">
                 <h4 className="text-gray-200 text-base font-bold">Dipanshu</h4>
@@ -44,7 +42,7 @@ const teamPage = () => {
               </div>
             </div>
 
-            <div className="border rounded-md overflow-hidden max-md:max-w-[300px]">
+            <div className="border rounded-md overflow-hidden max-md:max-w-[300px] hover:scale-110 duration-300">
               <img src="https://readymadeui.com/team-2.webp" className="w-full h-60 object-contain object-top bg-gray-200" />
 
               <div className="p-4">
@@ -58,7 +56,7 @@ const teamPage = () => {
             </div>
 
 
-            <div className="border rounded-md overflow-hidden max-md:max-w-[300px]">
+            <div className="border rounded-md overflow-hidden max-md:max-w-[300px] hover:scale-110 duration-300">
               <img src="https://readymadeui.com/team-3.webp" className="w-full h-60 object-contain object-top bg-gray-200" />
 
               <div className="p-4">
@@ -71,7 +69,7 @@ const teamPage = () => {
               </div>
             </div>
 
-            <div className="border rounded-md overflow-hidden max-md:max-w-[300px]">
+            <div className="border rounded-md overflow-hidden max-md:max-w-[300px] hover:scale-110 duration-300">
               <img src="bablu.jpg" className="w-full h-60 object-contain object-top bg-gray-200" />
 
 
@@ -86,7 +84,7 @@ const teamPage = () => {
               </div>
             </div>
 
-            <div className="border rounded-md overflow-hidden max-md:max-w-[300px]">
+            <div className="border rounded-md overflow-hidden max-md:max-w-[300px] hover:scale-110 duration-300">
               <img src="https://readymadeui.com/team-5.webp" className="w-full h-60 object-contain object-top bg-gray-200" />
 
               <div className="p-4">
@@ -99,7 +97,7 @@ const teamPage = () => {
               </div>
             </div>
 
-            <div className="border rounded-md overflow-hidden max-md:max-w-[300px]">
+            <div className="border rounded-md overflow-hidden max-md:max-w-[300px] hover:scale-110 duration-300">
               <img src="https://readymadeui.com/team-6.webp" className="w-full h-60 object-contain object-top bg-gray-200" />
 
               <div className="p-4">

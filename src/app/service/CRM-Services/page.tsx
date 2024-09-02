@@ -1,6 +1,4 @@
 import React from 'react'
-import { SparklesCore } from '@/components/ui/sparkle'
-import Button from '@/components/ui/button'
 import HeroSection from '@/components/ui/hero'
 import Banner from '@/components/ui/banner'
 
@@ -53,9 +51,13 @@ These CRM services help businesses build stronger relationships with their custo
 
 
         {/* banner section */}
-       <Banner title="Crafting Your Digital Dreams with Precision and Passion"
-       text1="Boost your online presence with our custom,"
-       text2=" "
+       <Banner title="Your CRM for Lasting Relationships"
+       text1="Optimize client interactions and drive growth"
+       text2="  with our CRM solution for seamless relationship management and success."
+
+
+
+
        imgurl="https://img.freepik.com/free-photo/customer-relationship-management-concept_23-2150038411.jpg?t=st=1725037521~exp=1725041121~hmac=a4a91e7a5b59a2046ae1fde68b424f5bcb3c30498ef22a8d7a10624fde1ecfcf&w=900"/>
 
 
