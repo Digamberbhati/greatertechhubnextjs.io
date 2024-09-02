@@ -93,7 +93,7 @@ const images = [
           <h2 className="text-3xl font-bold mb-4">Join Us Today!</h2>
           <p className="mb-6">Get exclusive access to our latest updates and offers.</p>
           <a
-            href="#"
+            href="/contact"
             className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded shadow-md transition duration-300"
           >
             Sign Up Now
