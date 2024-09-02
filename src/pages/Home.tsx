@@ -9,6 +9,7 @@ import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { OtherActivities } from "@/components/ui/otherActivities";
 
 
+
 export default function Home() {
 const images = [
     "https://images.unsplash.com/photo-1524868857876-218cafbdda8b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -78,6 +79,30 @@ const images = [
       <ServicePage/>
       <ClientPage/>
       <OtherActivities/>
+    
+
+
+    <div
+      className="relative bg-cover bg-center h-96"
+      style={{ backgroundImage: "url('https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150061993.jpg?t=st=1725272293~exp=1725275893~hmac=afbcdf3ae77ec5b8a0aeee5b99fd85ed7a767474de07c7e272e4b2100b40997b&w=900')", backgroundAttachment: 'fixed' }}
+    >
+      <div className="absolute inset-0 bg-black opacity-50"></div>
+      {/* Overlay */}
+      <div className="relative flex items-center justify-center h-full">
+        <div className="text-center text-white p-8">
+          <h2 className="text-3xl font-bold mb-4">Join Us Today!</h2>
+          <p className="mb-6">Get exclusive access to our latest updates and offers.</p>
+          <a
+            href="#"
+            className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded shadow-md transition duration-300"
+          >
+            Sign Up Now
+          </a>
+        </div>
+      </div>
+    </div>
+
+
 
     </>
   );
