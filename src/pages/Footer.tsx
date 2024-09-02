@@ -13,27 +13,27 @@ const Footer = () => {
     </div>
         </div>
       </div>
-      <div className='flex gap-20 flex-col lg:flex-row '>
+      <div className='flex gap-20 flex-col lg:flex-row  '>
         <div>
           <h2 className='text-xl font-bold pb-4'>Useful Links</h2>
-          <Link href={"/"}> <h4>- Home</h4></Link>
-          <Link href={"/about"}> <h4>- About us</h4></Link>
-          <Link href={"/service"}> <h4>- Service</h4></Link>
-          <Link href={"/contact"}> <h4>- Contact us</h4></Link>
+          <Link href={"/"} > <h4 className='hover:text-gray-300 hover:scale-500 duration-150'>- Home</h4></Link>
+          <Link href={"/about"}> <h4 className='hover:text-gray-300 hover:scale-500 duration-150'>- About us</h4></Link>
+          <Link href={"/service"}> <h4 className='hover:text-gray-300 hover:scale-500 duration-150'>- Service</h4></Link>
+          <Link href={"/contact"}> <h4 className='hover:text-gray-300 hover:scale-500 duration-150'>- Contact us</h4></Link>
           {/* <Link href={"/terms-of-service"}> <h4>- Terms of Services</h4></Link> */}
           {/* <Link href={"/privacy-policy"}> <h4>- Privacy Policy</h4></Link> */}
         </div>
         <div>
           <h2 className='text-xl font-bold pb-4'>Helpful Links</h2>
-          <Link href={"/careers"}> <h4>- Career</h4></Link>
-          <Link href={"/event"}> <h4>- Event</h4></Link>
-          <Link href={"/support"}> <h4>- Support</h4></Link>
+          <Link href={"/careers"}> <h4 className='hover:text-gray-300 hover:scale-500 duration-150'>- Career</h4></Link>
+          <Link href={"/event"}> <h4 className='hover:text-gray-300 hover:scale-500 duration-150'>- Event</h4></Link>
+          <Link href={"/support"}> <h4 className='hover:text-gray-300 hover:scale-500 duration-150'>- Support</h4></Link>
         </div>
 
         <div>
           <h2 className='text-xl font-bold pb-4'>Legal Links</h2>
-          <Link href={"/terms-of-service"}> <h4>- Term of service</h4></Link>
-          <Link href={"/privacy-policy"}> <h4>- Privacy policy</h4></Link>
+          <Link href={"/terms-of-service"}> <h4 className='hover:text-gray-300 hover:scale-500 duration-150'>- Term of service</h4></Link>
+          <Link href={"/privacy-policy"}> <h4 className='hover:text-gray-300 hover:scale-500 duration-150'>- Privacy policy</h4></Link>
           
         </div>
         <div>

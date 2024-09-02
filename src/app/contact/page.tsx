@@ -1,10 +1,8 @@
-
-import { FloatingDockDemo } from '@/components/ui/FooterComponent';
 import React from 'react';
 
 const ContactPage = () => {
   return (
-    <div className=' overflow-x-hidden '>
+    <div className=' overflow-x-hidden mt-56'>
 
       <div className="max-w-5xl max-lg:max-w-3xl mx-auto bg-white my-6 font-[sans-serif] py-8">
         <div className="text-center px-6">
@@ -164,10 +162,10 @@ const ContactPage = () => {
                     </g>
                   </svg>
                 </div>
-
+{/* 
                 <div className="col-span-full">
                   <h6 className="text-sm text-gray-800">Select Subject</h6>
-               <div className="flex max-lg:flex-col gap-6 mt-4">
+               <div className="flex max-lg:flex-col gap-6 mt-4"> */}
                     {/* <div className="flex items-center">
                       <input id="radio1" type="radio" name="value1" className="hidden peer" checked />
                       <label for="radio1"
@@ -194,9 +192,9 @@ const ContactPage = () => {
                       </label>
                       <p className="text-sm text-gray-500 ml-4">Website Feedback</p>
                     </div> * */}
-                  </div>
-                </div>
-              </div>
+                   {/* </div>
+                </div> */}
+              </div> 
 
               <button type="button"
                 className="mt-12 flex items-center justify-center text-sm lg:ml-auto max-lg:w-full rounded-lg px-4 py-3 tracking-wide text-white bg-blue-600 hover:bg-blue-700">
