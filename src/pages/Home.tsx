@@ -9,7 +9,6 @@ import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { OtherActivities } from "@/components/ui/otherActivities";
 
 
-
 export default function Home() {
 const images = [
     "https://images.unsplash.com/photo-1524868857876-218cafbdda8b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -64,7 +63,7 @@ const images = [
       </p>
       <TextGenerateEffect words={words} />
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 mt-10">
-        {<button  className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent duration-500 text-neutral-300 text-sm hover:bg-transparent hover:text-white">
+        {<button  className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent duration-300 text-neutral-300 text-sm hover:bg-transparent hover:text-white">
           Join now
         </button>
        }
@@ -93,7 +92,7 @@ const images = [
           <h2 className="text-3xl font-bold mb-4">Join Us Today!</h2>
           <p className="mb-6">Get exclusive access to our latest updates and offers.</p>
           <a
-            href="/contact"
+            href="#"
             className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded shadow-md transition duration-300"
           >
             Sign Up Now
