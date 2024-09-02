@@ -9,8 +9,6 @@ import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { OtherActivities } from "@/components/ui/otherActivities";
 
 
-
-
 export default function Home() {
 const images = [
     "https://images.unsplash.com/photo-1524868857876-218cafbdda8b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -80,8 +78,6 @@ const images = [
       <ServicePage/>
       <ClientPage/>
       <OtherActivities/>
-  
-  
 
     </>
   );
