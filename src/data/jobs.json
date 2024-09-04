@@ -1,0 +1,38 @@
+[{
+  "id": 1,
+  "topic": "Web Development",
+  "description": "These notes cover a broad overview of web development topics, and the field is continuously evolving. .",
+  "image": "https://greatertechhub.com/assets/img/blog/blog-recent-4.jpg"
+ 
+},
+{
+  "id": 2,
+  "topic": "App development",
+  "description": "WordPress provides a user-friendly environment for website creation, and there are extensive resources and communities available for support and further customization",
+  "image": "https://greatertechhub.com/assets/img/blog/blog-2.jpg"
+ 
+ 
+ 
+},
+{
+  "id": 3,
+  "topic": "Digital Marketing",
+  "description": "A community for project managers across various industries, offering expertise, how-to articles, and certification-related information.....",
+  "image": "https://greatertechhub.com/assets/img/blog/blog-6.jpg"
+
+ 
+},
+{
+  "id": 4,
+  "topic": "Seo expert",
+  "description": "Digital marketing is dynamic, and successful strategies often involve a combination of these elements. .",
+  "image": "https://greatertechhub.com/assets/img/blog/blog-inside-post.jpg"
+
+},
+{
+  "id": 5,
+  "topic": "DevOps engineer",
+  "description": "magine you’re analyzing piles of resumes with a deadline to cater to. With glazing eyes, you go through one after the other resumes. It is super slow, plus a very laborious task, right?",
+  "image": "https://www.systemart.com/blogs/upload/blog/main_image/ai_in_staffing_banner.png"
+
+}]
