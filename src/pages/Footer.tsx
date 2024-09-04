@@ -3,10 +3,12 @@ import React from 'react'
 import { FloatingDockDemo } from '@/components/ui/FooterComponent';
 const Footer = () => {  
   return (
-    <div className=' flex flex-col lg:flex-row justify-around pt-8 mt-4 items-start gap-8 px-12   py-3 tracking-tighter bg-gray-900 '>
+    <div className=' flex flex-col lg:flex-row justify-around pt-8 mt-4 items-start gap-8 px-12   py-3 tracking-tighter bg-black '>
       <div className='flex flex-col gap-2'>
-        <h1 className='text-4xl font-bold'>Greatertechhub</h1>
-        <h3 className='font-light'>Social-media links</h3>  
+        <h1 className='text-4xl font-bold'>Contact Us</h1>
+        <h4><b>Phone:</b> +91 9588160069</h4>
+        <h4><b>Email:</b> info@greatertechhub.com</h4>
+        
         <div className='icons flex gap-2 '>
           <div className='mt-5'>
     <FloatingDockDemo/>
@@ -37,13 +39,12 @@ const Footer = () => {
           
         </div>
         <div>
-          <h2 className='text-xl font-bold pb-4'>Contact us</h2>
+          <h2 className='text-xl font-bold pb-4'>Location</h2>
           <h4>Office No.12, 3rd FLoor Krishna Palace </h4>
           <h4>Ajronda Chowk , Sector 20B</h4>
           <h4>Faridabad ,Haryana 121001</h4>
           <h4>India</h4>
-          <h4><b>Phone:</b> +91 9588160069</h4>
-          <h4><b>Email:</b> info@greatertechhub.com</h4>
+         
         </div>
       </div>
     </div>
