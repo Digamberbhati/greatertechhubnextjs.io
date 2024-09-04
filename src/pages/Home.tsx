@@ -82,6 +82,7 @@ const images = [
       <ServicePage/>
       <ClientPage/>
       <OtherActivities/>
+      
       <InfiniteMovingCardsDemo/>
      
     

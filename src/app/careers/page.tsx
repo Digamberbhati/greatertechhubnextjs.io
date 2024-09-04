@@ -6,23 +6,24 @@ const careerPage = () => {
     <div className='py-32'>
       <h1 className='text-3xl text-[#F5EBEB]  w-full text-center py-8 font-semibold'> Careers</h1>
 
-      <section className="text-gray-600 body-font">
+      <section className="text-white body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap -m-4">
       <div className="p-4 md:w-1/3">
-        <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="blog"/>
+        <div className="h-full border-2 border-white border-opacity-60 rounded-lg overflow-hidden">
+          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://img.freepik.com/free-photo/three-thoughtful-students-using-tablet-computer_1262-15322.jpg?t=st=1725376425~exp=1725380025~hmac=05b0bdbad3daf419b4a88a1c037e4d2f8615bee158870c5644a1b189ce3c7327&w=900" alt="blog"/>
           <div className="p-6">
-            <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Internship</h1>
-            <p className="leading-relaxed mb-3">.</p>
+            {/* <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2> */}
+            <h1 className="title-font text-lg font-medium text-white mb-3">Internship</h1>
+            <p className="leading-relaxed mb-3">Are you ready to accelerate your career in the IT Services industry? Our internship program offers a unique opportunity to gain hands-on experience, work with cutting-edge technology</p>
             <div className="flex items-center flex-wrap ">
-              <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
-                <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+             
+              {/* <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"> Join -Us  */}
+                {/* <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M5 12h14"></path>
                   <path d="M12 5l7 7-7 7"></path>
                 </svg>
-              </a>
+              </a> */}
               {/* <span className="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
                 <svg className="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
                   <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
@@ -39,14 +40,14 @@ const careerPage = () => {
         </div>
       </div>
       <div className="p-4 md:w-1/3">
-        <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/721x401" alt="blog"/>
+        <div className="h-full border-2 border-white border-opacity-60 rounded-lg overflow-hidden">
+          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://img.freepik.com/free-photo/side-view-business-people-walking-upstairs_23-2147702057.jpg?t=st=1725376577~exp=1725380177~hmac=d4ca8624ed63b04afa080fda2fe06f507adb28a82f12fd744cef49731a73a482&w=900" alt="blog"/>
           <div className="p-6">
-            <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Entry-Leval</h1>
-            <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+            {/* <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2> */}
+            <h1 className="title-font text-lg font-medium text-white mb-3">Entry-Leval</h1>
+            <p className="leading-relaxed mb-3"> Are you ready to shift your career into high gear? The IT Services industry offers exciting entry-level opportunities for college  students</p>
             <div className="flex items-center flex-wrap">
-              <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+              {/* <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                 <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M5 12h14"></path>
                   <path d="M12 5l7 7-7 7"></path>
@@ -62,20 +63,20 @@ const careerPage = () => {
                 <svg className="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
                   <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
                 </svg>6
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
       </div>
       <div className="p-4 md:w-1/3">
-        <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="blog"/>
+        <div className="h-full border-2 border-white border-opacity-60 rounded-lg overflow-hidden">
+          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://img.freepik.com/free-photo/group-diverse-business-people-with-growth-graph_53876-47061.jpg?t=st=1725376655~exp=1725380255~hmac=99ae388daf7f52cb60f7967afb3be2a846c5d9b3cb568e6cd0d532cc69211d29&w=740" alt="blog"/>
           <div className="p-6">
-            <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
-            <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+            {/* <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2> */}
+            <h1 className="title-font text-lg font-medium text-white mb-3">Experince Level</h1>
+            <p className="leading-relaxed mb-3">Welcome to Greatertechhub, where innovation meets excellence. We're excited to have you on board and contribute your expertise to our team. As an experienced professional, you'll play a key role in driving our mission forward.</p>
             <div className="flex items-center flex-wrap ">
-              <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+              {/* <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                 <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M5 12h14"></path>
                   <path d="M12 5l7 7-7 7"></path>
@@ -91,7 +92,7 @@ const careerPage = () => {
                 <svg className="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
                   <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
                 </svg>6
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
@@ -128,7 +129,7 @@ const careerPage = () => {
             placeholder-gray-600
             text-gray-300
           "
-          placeholder="Joe Bloggs"
+          placeholder="Full-Name"
         />
       </label>
       <label className="block mb-6">
@@ -152,7 +153,7 @@ const careerPage = () => {
             placeholder-gray-600
             text-gray-300
           "
-          placeholder="joe.bloggs@example.com"
+          placeholder="example@gmail.com"
         />
       </label>
       <label className="block mb-6">
@@ -173,7 +174,7 @@ const careerPage = () => {
             focus:ring-opacity-50
             bg-transparent
             placeholder-gray-600
-            text-gray-300
+            text-black
           "
         >
           <option>Less than a year</option>
@@ -236,8 +237,8 @@ const careerPage = () => {
                 value="yes"
                 type="radio"
                 className="
-                  text-indigo-600
-                  border-gray-600
+                  text-white
+                  border-black
                   rounded-full
                   shadow-sm
                   focus:border-indigo-300
@@ -246,8 +247,8 @@ const careerPage = () => {
                   focus:ring-indigo-200
                   focus:ring-opacity-50
                   bg-transparent
-                  placeholder-gray-600
-                  text-gray-300
+                  placeholder-white
+                  text-white
                 "
                 checked
               />
@@ -291,12 +292,12 @@ const careerPage = () => {
             h-10
             px-5
             text-indigo-100
-            bg-indigo-700
+            bg-grey
             rounded-lg
             transition-colors
             duration-150
             focus:shadow-outline
-            hover:bg-indigo-800
+            hover:bg-black
           "
         >
           Apply
@@ -304,10 +305,9 @@ const careerPage = () => {
       </div>
       <div>
         <div className="mt-2 text-gray-300 text-right text-xs">
-          by
+          .....
           <a href="https://herotofu.com" className="hover:underline" target="_blank"
-            >HeroTofu</a
-          >
+            >Hr@greatertechhub.com</a>
         </div>
       </div>
     </form>
