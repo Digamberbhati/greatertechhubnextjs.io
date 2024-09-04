@@ -1,9 +1,5 @@
 "use client";
 import React,{ Component } from 'react'
-import { SparklesCore } from '@/components/ui/sparkle'
-import  {ImagesSlider}  from "@/components/ui/images-slider";
-import { motion } from "framer-motion";
-import Button from '@/components/ui/button';
 import Banner from '@/components/ui/banner';
 import HeroSection from '@/components/ui/hero';
 function Devops_services() {
