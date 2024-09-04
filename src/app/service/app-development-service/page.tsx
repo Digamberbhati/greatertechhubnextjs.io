@@ -51,13 +51,13 @@ export default function appdevPage() {
       </section>
 
       {/* banner section */}
+      
       <Banner title="Empower Your App Dreams."
         text1="Expert app development services to turn your vision into reality"
         text2=" Custom solutions for every need." 
        imgurl="https://img.freepik.com/free-photo/group-colleagues-wearing-protective-face-masks-fist-bumping-while-having-business-meeting-coronavirus-pandemic_637285-6698.jpg?t=st=1724393302~exp=1724396902~hmac=99e66d9333e97ba69b6af4008eca9b9143edb4d7ca44c4910a0ae8918bacd9a7&w=826"
         />
 
-        
     </>
   )
 
