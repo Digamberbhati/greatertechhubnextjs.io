@@ -43,7 +43,7 @@ const images = [
 
  
   return (  
-    <>
+    <div className="z-[100]">
 
 <ImagesSlider className="h-[40rem]" images={images}>
       <motion.div
@@ -108,7 +108,7 @@ const images = [
       </div>
     </div>
   
-    </>
+    </div>
   );
 
 

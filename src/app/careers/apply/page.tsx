@@ -3,7 +3,7 @@ import React from 'react'
 function Apply() {
     return (
         <>
-            <div className='max-w-screen-lg mx-auto mt-52'>
+            <div className='max-w-screen-lg mx-auto '>
 
                 <div className="w-full md:w-96 md:max-w-full mx-auto">
                     <div className="p-6 border border-gray-600 sm:rounded-md bg-gray-800">

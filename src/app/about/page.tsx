@@ -2,7 +2,7 @@
 import React from "react";
 import { StickyScroll } from "../../components/ui/sticky-scroll-reveal";
 import Image from "next/image";
- 
+
 const content = [
     {
       title: "Business Planning",
@@ -53,7 +53,7 @@ const Aboutpage = () => {
 
     <>
     
-    <div className='py-32 max-w-screen-lg mx-auto z-0'>
+    <div className='py-32 max-w-screen-lg mx-auto min-h-[50vh] z-0'>
         <h1 className='text-3xl text-[#F5EBEB]  w-full text-center py-8 font-semibold'>Why Choose Us</h1>
         <StickyScroll content={content} />
     </div>
