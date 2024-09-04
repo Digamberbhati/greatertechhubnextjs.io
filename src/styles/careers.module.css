@@ -1,0 +1,16 @@
+/* styles/Careers.module.css */
+.container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .jobTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .jobLocation {
+    color: gray;
+  }
+  
