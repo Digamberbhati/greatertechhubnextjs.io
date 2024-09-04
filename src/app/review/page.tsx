@@ -47,7 +47,7 @@ const testimonials = [
   {
     quote:
       "The digital marketing team has done a great job with our social media presence. The content is engaging and reflects our brand well.",
-    name: "Rahul Rajput",
+    name: "Rahul Rajput CDT",
     title: "Vr2020 Dental Designing Solutions & Digital Laboratory Pvt. Ltd company Owner",
   },
 ];
