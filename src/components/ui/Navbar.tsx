@@ -1,16 +1,39 @@
 'use client';
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "../ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-
+import { useMotionValueEvent, useScroll } from "framer-motion"
 const Navbar = ({ className }: { className?: string }) => {
     const [active, setActive] = useState<string | null>(null);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+//     const [paddingX, setPaddingX] = useState(8);
 
+//   const { scrollYProgress } = useScroll();
+
+//   useMotionValueEvent(scrollYProgress, 'change', (latest) => {
+//     const scroll = Math.floor(latest * 100);
+
+//     if (scroll >= 4) {
+//       setPaddingX(88);
+//     } else {
+//       setPaddingX(8);
+//     }
+//   });
+    
+
+    
     return (
-        <div className="flex items-center  justify-between bg-transparent backdrop-blur-lg  fixed top-0 w-full h-13 px-8 py-0 z-100  text-[#F5EBEB] z-30">
-            <img  src="/images/logo.png" alt="Logo" className="w-40 h-25" />
+        <div
+        className="flex items-center justify-between bg-transparent backdrop-blur-lg fixed top-0 w-full z-[100] text-[#F5EBEB] h-[12vh] px-8 "
+        // style={{
+        //   paddingLeft: `${paddingX}px`,
+        //   paddingRight: `${paddingX}px`,
+        //   transition: 'padding-left 0.3s ease, padding-right 0.3s ease',
+        // }}
+      >
+  
+            <img  src="/images/logo.png" alt="Logo" className="w-40 " />
             <div className="lg:hidden ">
                 <button
                     className="text-white focus:outline-none pr-2 "
@@ -49,7 +72,7 @@ const Navbar = ({ className }: { className?: string }) => {
                     </MenuItem>
                 </Menu>
             </div>
-            <Link href="" className="hidden lg:flex border border-zinc-600 h-6 justify-center items-center bg-black px-8 py-8 rounded-full hover:bg-transparent duration-150">
+            <Link href="" className="hidden lg:flex border-2 border-zinc-600 h-6 justify-center items-center bg-black px-10 py-8 rounded-full hover:bg-transparent duration-150 mt-2">
                 Refer&Earn
             </Link>
         </div>
