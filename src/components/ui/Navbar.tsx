@@ -25,7 +25,7 @@ const Navbar = ({ className }: { className?: string }) => {
     
     return (
         <div
-        className="flex items-center justify-between bg-transparent backdrop-blur-lg fixed top-0 w-full z-[100] text-[#F5EBEB] h-[12vh] px-8 "
+        className="flex items-center justify-between bg-black backdrop-blur-lg fixed top-0 w-full z-[100] text-[#F5EBEB] h-[12vh] px-8 "
         // style={{
         //   paddingLeft: `${paddingX}px`,
         //   paddingRight: `${paddingX}px`,
