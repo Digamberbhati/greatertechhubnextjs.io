@@ -7,33 +7,36 @@ import { useMotionValueEvent, useScroll } from "framer-motion"
 const Navbar = ({ className }: { className?: string }) => {
     const [active, setActive] = useState<string | null>(null);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-//     const [paddingX, setPaddingX] = useState(8);
+    const [paddingX, setPaddingX] = useState(8);
 
-//   const { scrollYProgress } = useScroll();
+  const { scrollYProgress } = useScroll();
 
-//   useMotionValueEvent(scrollYProgress, 'change', (latest) => {
-//     const scroll = Math.floor(latest * 100);
+  useMotionValueEvent(scrollYProgress, 'change', (latest) => {
+    const scroll = Math.floor(latest * 100);
 
-//     if (scroll >= 4) {
-//       setPaddingX(88);
-//     } else {
-//       setPaddingX(8);
-//     }
-//   });
+    if (scroll >= 8) {
+      setPaddingX(88);
+    } else {
+      setPaddingX(8);
+    }
+  });
     
 
     
     return (
         <div
-        className="flex items-center justify-between bg-black backdrop-blur-lg fixed top-0 w-full z-[100] text-[#F5EBEB] h-[12vh] px-8 "
-        // style={{
-        //   paddingLeft: `${paddingX}px`,
-        //   paddingRight: `${paddingX}px`,
-        //   transition: 'padding-left 0.3s ease, padding-right 0.3s ease',
-        // }}
-      >
+        className="flex items-center justify-between  bg-black  fixed top-0 w-full z-[100] text-[#F5EBEB] h-[14vh]   "
+        style={{
+          paddingLeft: `${paddingX}px`,
+          paddingRight: `${paddingX}px`,
+          transition: 'padding-left 0.3s ease, padding-right 0.3s ease',
+        }}
+      >            
+      <div>
+
+                <img  src="/images/newlogo.png" alt="Logo" className="h-12"  />
+      </div>
   
-            <img  src="/images/logo.png" alt="Logo" className="w-40 " />
             <div className="lg:hidden ">
                 <button
                     className="text-white focus:outline-none pr-2 "
@@ -44,7 +47,8 @@ const Navbar = ({ className }: { className?: string }) => {
                     </svg>
                 </button>
             </div>
-            <div className={cn("lg:flex items-center", className, isMenuOpen ? "block" : "hidden")}>
+
+            <div className={cn("lg:flex items-start justify-between  ", className, isMenuOpen ? "block" : "hidden")}>
                 {isMenuOpen && (
                     <button
                         className="absolute top-1 right-4 text-white focus:outline-none lg:hidden"
@@ -54,13 +58,18 @@ const Navbar = ({ className }: { className?: string }) => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path></svg>
                     </button>
                 )}
+
                 <Menu setActive={setActive}>
                 
+
+                    
                     <Link href="/" className="hover:border-b hover:border-white duration-200">Home</Link>
                     <Link href="/about" className="hover:border-b hover:border-white duration-200">About</Link>
                     <Link href="/service" className="hover:border-b hover:border-white duration-200">Service</Link>
                     <Link href="/contact" className="hover:border-b hover:border-white duration-200">Contact</Link>
                     <Link href="/careers" className="hover:border-b hover:border-white duration-200">Careers</Link>
+                    <Link href="/refer&earn" className="hover:border-b hover:border-white duration-200">
+                    Refer&Earn</Link>
                     <MenuItem setActive={setActive} active={active} item="Company">
                         <div className="flex flex-col space-y-4 z-[100] text-sm">
                             <HoveredLink href="/team">Team</HoveredLink>
@@ -72,9 +81,7 @@ const Navbar = ({ className }: { className?: string }) => {
                     </MenuItem>
                 </Menu>
             </div>
-            <Link href="" className="hidden lg:flex border-2 border-zinc-600 h-6 justify-center items-center bg-black px-10 py-8 rounded-full hover:bg-transparent duration-150 mt-2">
-                Refer&Earn
-            </Link>
+          
         </div>
     );
 }
