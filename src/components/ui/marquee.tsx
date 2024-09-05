@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import Marquee from 'react-fast-marquee'
-import { contain } from 'three/src/extras/TextureUtils.js'
+
 
 const MarqueeComponent = () => {
     
