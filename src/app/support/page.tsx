@@ -1,8 +1,14 @@
+'use client'
+
 import { SparklesCore } from "@/components/ui/sparkle";
+import Link from "next/link";
 
 import React from "react";
 
 const supportPage = () => {
+
+
+
   return (
     <div className="w-full min-h-screen relative" >
 
@@ -95,11 +101,11 @@ const supportPage = () => {
       </h1>
       <p className="mb-8 leading-relaxed">We know personal recommendations carry a lot of weight, and we value our client's judgment. If you know anyone looking for assistance in the tech landscape, we're all ears!</p>
       <div className="flex justify-center">
-        <button className="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none  rounded text-lg">Contact</button>
+        <Link href="/contact" className=" z-50 inline-flex text-white bg-black border py-2 px-6 focus:outline-none  rounded text-lg">Contact</Link>
        
       </div>
     </div>
-    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 z-50">
+    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
       <img className="object-cover object-center rounded" alt="hero" src="/images/reffral.png"/>
     </div>
   </div>
