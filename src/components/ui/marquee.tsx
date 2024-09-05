@@ -18,6 +18,7 @@ const MarqueeComponent = () => {
         "/images/clients/sfci.png",
         "/images/clients/sofsecure.png",
         "/images/clients/auto.png",
+        "/images/clients/lokesh.png",
         "/images/clients/vrdental.png",
         "/images/clients/allaboutFoodist.png",
         "/images/clients/certificate.png",
@@ -27,7 +28,8 @@ const MarqueeComponent = () => {
         "/images/clients/mamta.png",
         "/images/clients/sfci.png",
         "/images/clients/sofsecure.png",
-        "/images/clients/auto.png"
+        "/images/clients/auto.png",
+        "/images/clients/lokesh.png",
       
 
     ])
