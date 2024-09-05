@@ -119,7 +119,8 @@ const Contact = () => {
                     id="first-name"
                     name="first-name"
                     type="text"
-                    className="mt-2 w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm text-black outline-none "
+                    className="mt-2 w-full rounded-lg border border-gray-200 p-4 pr-12 text-sm shadow-sm bg-transparent text-white outline-none "
+                    placeholder='First name'
                   />
                 </div>
                 <div className="relative">
@@ -130,7 +131,8 @@ const Contact = () => {
                     id="last-name"
                     name="last-name"
                     type="text"
-                    className="mt-2 w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm text-black outline-none"
+                    className="mt-2 w-full rounded-lg border border-gray-200 p-4 pr-12 text-sm shadow-sm bg-transparent text-white outline-none"
+                    placeholder='Last name'
                   />
                 </div>
               </div>
@@ -142,7 +144,8 @@ const Contact = () => {
                   id="email"
                   name="email"
                   type="email"
-                  className="mt-2 w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm text-black outline-none"
+                  className="mt-2 w-full rounded-lg border border-gray-200 p-4 pr-12 text-sm shadow-sm bg-transparent text-white outline-none"
+                  placeholder='jonedoe@example.com'
                 />
               </div>
               <div className="relative">
@@ -152,7 +155,8 @@ const Contact = () => {
                 <textarea
                   id="message"
                   name="message"
-                  className="mt-2 w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm text-black outline-none h-28"
+                  className="mt-2 w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm border bg-transparent text-white outline-none h-28"
+                  placeholder='Write your message here'
                 ></textarea>
               </div>
               <div className="relative">
