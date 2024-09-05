@@ -2,6 +2,7 @@
 import React from "react";
 import { StickyScroll } from "../../components/ui/sticky-scroll-reveal";
 import Image from "next/image";
+import Eyes from "@/components/Eyes";
 
 const content = [
     {
@@ -51,6 +52,7 @@ const content = [
 const Aboutpage = () => {
   return (
 
+    
     <>
     {/* <section className="text-gray-600 body-font overflow-hidden">
   <div className="container px-5 py-24 mx-auto">
@@ -87,9 +89,12 @@ const Aboutpage = () => {
   </div>
 </section> */}
     
-    <div className='py-32 max-w-screen-lg mx-auto min-h-[50vh] z-0'>
-        <h1 className='text-3xl text-[#F5EBEB]  w-full text-center py-8 font-semibold'>Why Choose Us</h1>
+    <div className='py-32  mx-auto min-h-[50vh] z-0'>
+        <Eyes/>
+        <div className="max-w-screen-lg mx-auto mt-20">
+
         <StickyScroll content={content} />
+        </div>
     </div>
     </>
   )

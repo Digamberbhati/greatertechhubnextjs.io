@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactPage = () => {
   return (
-    <div className=' overflow-x-hidden'>
+    <div className=' mt-20 overflow-x-hidden'>
 
       <div className="max-w-5xl max-lg:max-w-3xl mx-auto bg-white my-6 font-[sans-serif] py-8">
         <div className="text-center px-6">
