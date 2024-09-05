@@ -2,22 +2,6 @@ import React from 'react'
 const teamPage = () => {
   return (
 
-
-
-    // <div className="h-[full] relative w-full bg-green flex flex-col items-center justify-center overflow-hidden rounded-md">
-    //    <div className="w-full absolute inset-0 h-screen">
-    //     <SparklesCore
-    //     id="tsparticlesfullpage"
-    //       background="transparent"
-    //       minSize={0.6}
-    //       maxSize={1.4}
-    //       particleDensity={100}
-    //        className="w-full h-full"
-    // particleColor="#FFFFFF"
-    //     />
-    //   </div>
-      
-
     <div className='mt-3'>
       <div className="font-[sans-serif] my-4 mt-52 z-auto">
         <div className="max-w-5xl max-lg:max-w-2xl mx-auto">

@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { OtherActivities } from "@/components/ui/otherActivities";
 import { InfiniteMovingCardsDemo } from "@/app/review/page";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -68,7 +69,7 @@ const images = [
       <TextGenerateEffect words={words} />
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 mt-10">
         {<button  className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent duration-300 text-neutral-300 text-sm hover:bg-transparent hover:text-white">
-          Join now
+        <Link href="/contact">join us</Link>
         </button>
        }
       </div>
@@ -99,9 +100,8 @@ const images = [
           <h2 className="text-3xl font-bold mb-4">Contact Us Today!</h2>
           <p className="mb-6">Get exclusive access to our latest updates and offers.</p>
           <a
-            href="#"
-            className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded shadow-md transition duration-300"
-          >
+            href="/contact"
+            className="bg-gray-800 hover:bg-transparent text-white font-semibold py-2 px-6 rounded shadow-md transition duration-300">
             Contact Us
           </a>
         </div>

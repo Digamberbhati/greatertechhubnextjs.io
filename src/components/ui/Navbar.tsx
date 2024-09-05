@@ -72,7 +72,7 @@ const Navbar = ({ className }: { className?: string }) => {
                     Refer&Earn</Link>
                     <MenuItem setActive={setActive} active={active} item="Company">
                         <div className="flex flex-col space-y-4 z-[100] text-sm">
-                            <HoveredLink href="/team">Team</HoveredLink>
+                            {/* <HoveredLink href="/team">Team</HoveredLink> */}
                             <HoveredLink href="/client">Client</HoveredLink>
                             {/* <HoveredLink href="/careers">Careers</HoveredLink> */}
                             <HoveredLink href="/support">Support</HoveredLink>
