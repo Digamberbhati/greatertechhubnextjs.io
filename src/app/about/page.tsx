@@ -54,6 +54,40 @@ const Aboutpage = () => {
 
     
     <>
+    {/* <section className="text-gray-600 body-font overflow-hidden">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="-my-8 divide-y-2 divide-gray-100">
+      <div className="py-8 flex flex-wrap md:flex-nowrap">
+        <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+          <span className="font-semibold title-font text-gray-700">Cutting-Edge Technology</span>
+        </div>
+        <div className="md:flex-grow">
+          
+          <p className="leading-relaxed"> We utilize the latest advancements in technology to ensure that our solutions are not only current but also future-proof. Our team stays ahead of industry trends to provide innovative and efficient IT solutions.</p>
+        </div>
+      </div>
+      <div className="py-8 flex flex-wrap md:flex-nowrap">
+        <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+          <span className="font-semibold title-font text-gray-700">Customized Solutions</span>
+          
+        </div>
+        <div className="md:flex-grow">
+          
+          <p className="leading-relaxed">We understand that every business has unique needs. Our approach is highly personalized, offering tailored solutions that fit your specific requirements and help you achieve your business objectives effectively.</p>
+        </div>
+      </div>
+      <div className="py-8 flex flex-wrap md:flex-nowrap">
+        <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+          <span className="font-semibold title-font text-gray-700">Expert Team</span>
+        </div>
+        <div className="md:flex-grow">
+         
+          <p className="leading-relaxed">Our team of highly skilled and certified professionals brings a wealth of experience and expertise across various IT domains. We are committed to delivering top-notch service and support, ensuring your technology works seamlessly.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> */}
     
     <div className='py-32  mx-auto min-h-[50vh] z-0'>
         <Eyes/>
