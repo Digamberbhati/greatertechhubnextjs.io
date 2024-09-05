@@ -6,8 +6,9 @@ const CareerPage = () => {
   return (
  <>
    <div className='py-32'>
-      <h1 className='text-3xl text-[#F5EBEB] w-full text-center py-8 font-semibold'></h1>
+      <h1 className='text-3xl text-[#F5EBEB] w-full text-center py-8 font-semibold'>Work With Us</h1>
       <div className='container mx-auto px-4'>
+     
         <div className='flex flex-wrap flex-col lg:flex-row'>
           {data.map((post,id) => (
             <div className='flex-shrink-0 w-full sm:w-1/2 md:w-1/3' key={post.id}>

@@ -1,7 +1,7 @@
 "use client";
 import React, { Component } from "react";
 import ServicePage from "@/app/service/page";
-import Aboutpage from "@/app/about/page";
+import Aboutpage from "@/app/about2/page";
 import ClientPage from "@/app/client/page";
 import  {ImagesSlider}  from "@/components/ui/images-slider";
 import { motion } from "framer-motion";

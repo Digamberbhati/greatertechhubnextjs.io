@@ -10,7 +10,7 @@ function Partnership() {
     console.log("Form submitted");
   };
   return (
-    <div className="  mt-20 p-4 md:p-8 shadow-input bg-white dark:bg-black">
+    <div className="  p-4 md:p-8 shadow-input bg-white dark:bg-black">
     <h2 className="font-bold text-2xl text-neutral-800 dark:text-neutral-200">
     Partnership Form
     </h2>
@@ -61,7 +61,7 @@ function Partnership() {
       <LabelInputContainer>
           <Label htmlFor="firstname">Additional Information</Label>
           {/* <Input id="firstname" placeholder="Answer Query" type="text" /> */}
-          <textarea className="elementor-field-textual elementor-field  elementor-size-sm" name="form_fields[message]" id="form-field-message" rows="4" placeholder="You can write your message here..."></textarea>	
+          <textarea className="elementor-field-textual elementor-field  elementor-size-sm" name="form_fields[message]" id="form-field-message" rows={4} placeholder="You can write your message here..."></textarea>	
         </LabelInputContainer>
 
       <button

@@ -6,7 +6,7 @@ import React from 'react'
 const homePage = () => {
   return (
     
-    <div>
+    <div className='mt-20'>
     <Home/>
     </div>
      

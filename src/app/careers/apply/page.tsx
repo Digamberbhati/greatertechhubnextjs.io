@@ -1,36 +1,20 @@
-import React from 'react'
+import React from "react";
 
 function Apply() {
     return (
         <>
-            <div className='max-w-screen-lg mx-auto '>
-
-                <div className="w-full md:w-96 md:max-w-full mx-auto">
+            <div className="max-w-screen-lg mx-auto px-4  sm:px-0 mt-20">
+                <div className="w-full mx-auto">
+                    <h1  className='text-3xl text-[#F5EBEB] w-full text-center py-8 font-semibold'>Apply Now</h1>
                     <div className="p-6 border border-gray-600 sm:rounded-md bg-gray-800">
-                        <form
-
-                        >
+                        <form>
                             <label className="block mb-6">
                                 <span className="text-gray-300">Your name</span>
                                 <input
                                     required
                                     name="name"
                                     type="text"
-                                    className="
-                                      block
-  w-full
-  mt-1
-  border-gray-600
-  rounded-md
-  shadow-sm
-  focus:border-indigo-300
-  focus:ring
-  focus:ring-indigo-200
-  focus:ring-opacity-50
-  bg-transparent
-  placeholder-gray-400
-  text-gray-300
-  "
+                                    className="block w-full mt-1 border-gray-600 rounded-sm shadow-sm bg-transparent placeholder-gray-400 text-gray-300 border-b outline-none"
                                     placeholder="Full-Name"
                                 />
                             </label>
@@ -40,97 +24,40 @@ function Apply() {
                                     required
                                     name="email"
                                     type="email"
-                                    className="
-  block
-  w-full
-  mt-1
-  border-gray-600
-  rounded-md
-  shadow-sm
-  focus:border-indigo-300
-  focus:ring
-  focus:ring-indigo-200
-  focus:ring-opacity-50
-  bg-transparent
-  placeholder-gray-400
-  text-gray-300
-  "
+                                    className="block w-full mt-1 border-gray-600 rounded-sm shadow-sm bg-transparent placeholder-gray-400 text-gray-300 border-b outline-none"
                                     placeholder="example@gmail.com"
                                 />
                             </label>
-
                             <label className="block mb-6">
-                                <span className="text-gray-300">position Appying for</span>
+                                <span className="text-gray-300">Position Applying for</span>
                                 <input
                                     required
-                                    name="positon"
+                                    name="position"
                                     type="text"
-                                    className="
-  block
-  w-full
-  mt-1
-  border-gray-600
-  rounded-md
-  shadow-sm
-  focus:border-indigo-300
-  focus:ring
-  focus:ring-indigo-200
-  focus:ring-opacity-50
-  bg-transparent
-  placeholder-gray-400
-  text-gray-300
-  "
-                                    placeholder="position"
+                                    className="block w-full mt-1 border-gray-600 rounded-sm shadow-sm bg-transparent placeholder-gray-400 text-gray-300 border-b outline-none"
+                                    placeholder="Position"
                                 />
                             </label>
-                            
                             <label className="block mb-6">
                                 <span className="text-gray-300">Years of experience</span>
                                 <select
                                     required
                                     name="experience"
-                                    className="
-  block
-  w-full
-  mt-1
-  border-gray-600
-  rounded-md
-  shadow-sm
-  focus:border-indigo-300
-  focus:ring
-  focus:ring-indigo-200
-  focus:ring-opacity-50
-  bg-transparent
-  placeholder-gray-400
-  text-gray-500
-  "
+                                    className="block w-full mt-1 border-gray-600 rounded-sm shadow-sm bg-transparent placeholder-gray-400 text-gray-400 border-b outline-none"
                                 >
-                                    <option>Less than a year</option>
-                                    <option>1 - 2 years</option>
-                                    <option>2 - 4 years</option>
-                                    <option>4 - 7 years</option>
-                                    <option>7 - 10 years</option>
-                                    <option>10+ years</option>
+                                    <option className="bg-[#384a63]">Less than a year</option>
+                                    <option className="bg-[#384a63]" >1 - 2 years</option>
+                                    <option className="bg-[#384a63]" >2 - 4 years</option>
+                                    <option className="bg-[#384a63]" >4 - 7 years</option>
+                                    <option className="bg-[#384a63]" >7 - 10 years</option>
+                                    <option className="bg-[#384a63]" >10+ years</option>
                                 </select>
                             </label>
                             <label className="block mb-6">
                                 <span className="text-gray-300">Tell us more about yourself</span>
                                 <textarea
                                     name="message"
-                                    className="
-  block
-  w-full
-  mt-1
-  border-gray-600
-  rounded-md
-  shadow-sm
-  focus:border-indigo-300
-  focus:ring
-  focus:ring-indigo-200
-  focus:ring-opacity-50
-  bg-transparent
-  placeholder-gray-400
-  text-gray-300"
+                                    className="block w-full mt-1 border-gray-600 rounded-sm shadow-sm bg-transparent placeholder-gray-400 text-gray-300 border-b outline-none"
                                     rows={3}
                                     placeholder="What motivates you?"
                                 ></textarea>
@@ -141,18 +68,7 @@ function Apply() {
                                     required
                                     name="cv"
                                     type="file"
-                                    className="
-  block
-  w-full
-  mt-1
-  focus:border-indigo-300
-  focus:ring
-  focus:ring-indigo-200
-  focus:ring-opacity-50
-  bg-transparent
-  placeholder-gray-400
-  text-gray-300
-  "
+                                    className="block w-full mt-1 border-gray-600 rounded-sm shadow-sm bg-transparent placeholder-gray-400 text-gray-300 border-b outline-none"
                                 />
                             </label>
                             <div className="mb-6">
@@ -163,24 +79,12 @@ function Apply() {
                                                 name="remote"
                                                 value="yes"
                                                 type="radio"
-                                                className="
-  text-white
-  border-black
-  rounded-full
-  shadow-sm
-  focus:border-indigo-300
-  focus:ring
-  focus:ring-offset-0
-  focus:ring-indigo-200
-  focus:ring-opacity-50
-  bg-transparent
-  placeholder-white
-  text-white
-  "
+                                                className="text-white border-black rounded-full shadow-sm focus:border-indigo-300 focus:ring focus:ring-offset-0 focus:ring-indigo-200 focus:ring-opacity-50 bg-transparent placeholder-white"
                                                 checked
                                             />
-                                            <span className="ml-2 text-gray-300"
-                                            >You'd like to work remotely</span>
+                                            <span className="ml-2 text-gray-300">
+                                                You'd like to work remotely
+                                            </span>
                                         </label>
                                     </div>
                                     <div>
@@ -189,23 +93,11 @@ function Apply() {
                                                 name="remote"
                                                 value="no"
                                                 type="radio"
-                                                className="
-  text-indigo-600
-  border-gray-600
-  rounded-full
-  shadow-sm
-  focus:border-indigo-300
-  focus:ring
-  focus:ring-offset-0
-  focus:ring-indigo-200
-  focus:ring-opacity-50
-  bg-transparent
-  placeholder-gray-400
-  text-gray-300
-  "
+                                                className="text-indigo-600 border-gray-600 rounded-full shadow-sm focus:border-indigo-300 focus:ring focus:ring-offset-0 focus:ring-indigo-200 focus:ring-opacity-50 bg-transparent placeholder-gray-400"
                                             />
-                                            <span className="ml-2 text-gray-300"
-                                            >You'd prefer to work onsite</span>
+                                            <span className="ml-2 text-gray-300">
+                                                You'd prefer to work onsite
+                                            </span>
                                         </label>
                                     </div>
                                 </div>
@@ -213,38 +105,28 @@ function Apply() {
                             <div className="mb-6">
                                 <button
                                     type="submit"
-                                    className="
-  h-10
-  px-5
-  text-indigo-100
-  bg-blue-500
-  bg-grey
-  rounded-lg
-  transition-colors
-  duration-150
-  focus:shadow-outline
-  hover:bg-blue-600
-  duration-150
-  "
+                                    className="h-10 px-5 text-indigo-100 bg-blue-500 rounded-lg transition-colors duration-150 focus:shadow-outline hover:bg-blue-600"
                                 >
                                     Apply
                                 </button>
                             </div>
                             <div>
                                 <div className="mt-2 text-gray-300 text-right text-xs">
-                                    .....
-                                    <a href="https://herotofu.com" className="hover:underline" target="_blank"
-                                    >Hr@greatertechhub.com</a>
+                                    <a
+                                        href="mailto:hr@greatertechhub.com"
+                                        className="hover:underline"
+                                    >
+                                        hr@greatertechhub.com
+                                    </a>
+
                                 </div>
                             </div>
                         </form>
                     </div>
                 </div>
-
             </div>
-
         </>
-    )
+    );
 }
 
-export default Apply
+export default Apply;

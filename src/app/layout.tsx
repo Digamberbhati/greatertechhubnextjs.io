@@ -19,8 +19,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+      </head>
       <body className={inter.className}>
-        <nav className="sticky top-0 w-full bg-yellow-400 z-[999]">
+        <nav className="sticky top-0 w-full  z-[999]">
           <Navbar />
         </nav>
         <main>
