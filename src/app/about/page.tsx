@@ -1,103 +1,80 @@
-"use client";
-import React from "react";
-import { StickyScroll } from "../../components/ui/sticky-scroll-reveal";
-import Image from "next/image";
-import Eyes from "@/components/Eyes";
+import Eyes from '@/components/Eyes'
+import React from 'react'
 
-const content = [
-    {
-      title: "Business Planning",
-      description:
-        "I'm here to help with any questions or guidance you need regarding business planning. What specific notice or query do you have related to Business Planning? Please feel free to ask, and I'll do my best to assist you.",
-      content: (
-        <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-  <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Business Planning" className="h-full w-full object-cover object-center duration-100"/>
-</div>
-
-      ),
-    },
-    {
-      title: "Financial Analaysis",
-      description:
-        "We provide market challenges analysis to help businesses identify and address the obstacles they face in their respective industries.",
-      content: (
-        <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-  <img src="https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGZpbmFuY2lhbCUyMGFuYWx5c2lzfGVufDB8fDB8fHww" alt="Financial Analysis  " className="h-full w-full object-cover object-center duration-100"/>
-</div>
-
-      ),
-    },
-    {
-      title: "Legal Advisory",
-      description:
-        "I'm here to assist you with any questions or guidance you need regarding legal advisory matters. What specific notice or query do you have related to Legal Advisory? Please feel free to ask, and I'll do my best to provide you with relevant information or suggestions",
-      content: (
-        <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-          <img src="https://plus.unsplash.com/premium_photo-1661333820879-517c5e808bfe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGF3eWVyfGVufDB8fDB8fHww" alt="Leagel Advisory" className="h-full w-full object-cover object-center duration-100" />
-        </div>
-      ),
-    },
-    {
-      title: "Market Challenges",
-      description:
-        "We provide market challenges analysis to help businesses identify and address the obstacles they face in their respective industries.",
-      content: (
-        <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-         <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWFya2V0JTIwY2hhbGxlbmdlfGVufDB8fDB8fHww" alt="Market Challenges" className="h-full w-full object-cover object-center duration-100" />
-        </div>
-      ),
-    },
-  ];
-
-const Aboutpage = () => {
+function About2() {
   return (
+    <div>
 
-    
-    <>
-    {/* <section className="text-gray-600 body-font overflow-hidden">
-  <div className="container px-5 py-24 mx-auto">
-    <div className="-my-8 divide-y-2 divide-gray-100">
-      <div className="py-8 flex flex-wrap md:flex-nowrap">
-        <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-          <span className="font-semibold title-font text-gray-700">Cutting-Edge Technology</span>
-        </div>
-        <div className="md:flex-grow">
-          
-          <p className="leading-relaxed"> We utilize the latest advancements in technology to ensure that our solutions are not only current but also future-proof. Our team stays ahead of industry trends to provide innovative and efficient IT solutions.</p>
-        </div>
-      </div>
-      <div className="py-8 flex flex-wrap md:flex-nowrap">
-        <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-          <span className="font-semibold title-font text-gray-700">Customized Solutions</span>
-          
-        </div>
-        <div className="md:flex-grow">
-          
-          <p className="leading-relaxed">We understand that every business has unique needs. Our approach is highly personalized, offering tailored solutions that fit your specific requirements and help you achieve your business objectives effectively.</p>
-        </div>
-      </div>
-      <div className="py-8 flex flex-wrap md:flex-nowrap">
-        <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-          <span className="font-semibold title-font text-gray-700">Expert Team</span>
-        </div>
-        <div className="md:flex-grow">
-         
-          <p className="leading-relaxed">Our team of highly skilled and certified professionals brings a wealth of experience and expertise across various IT domains. We are committed to delivering top-notch service and support, ensuring your technology works seamlessly.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> */}
-    
-    <div className='py-32  mx-auto min-h-[50vh] z-0'>
-        <Eyes/>
-        <div className="max-w-screen-lg mx-auto mt-20">
+      <div className='py-32  mx-auto min-h-[50vh] z-0'><Eyes /></div>
 
-        <StickyScroll content={content} />
+
+      <section className="overflow-hidden bg-white py-8 sm:py-16 mt-16">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+            <div className="lg:pr-8 lg:pt-0">
+              <div className="lg:max-w-lg">
+                {/* <h2 className="text-base font-semibold leading-7 text-indigo-600">Produce faster</h2> */}
+                <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl pl-10 pt-0">Our expertise</p>
+                {/* <p className="mt-6 text-lg leading-8 text-gray-600">We've built an API that allows you to scale your podcast
+            production workflow.
+          </p> */}
+
+                <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none px-1">
+                  <div className="relative pl-9">
+                    <dt className="inline font-semibold text-gray-900">
+                      Cutting-Edge Technology:
+                    </dt>
+
+                    <dd className="inline"> We use the latest technologies to provide innovative and efficient IT solutions.
+                    </dd>
+                  </div>
+
+                  <div className="relative pl-9">
+                    <dt className="inline font-semibold text-gray-900">
+
+                      Proven Track Record:
+                    </dt>
+                    <dd className="inline"> Our successful projects and satisfied clients showcase our reliability.</dd>
+                  </div>
+
+                  <div className="relative pl-9">
+                    <dt className="inline font-semibold text-gray-900">
+                      Comprehensive Support: </dt>
+
+                    <dd className="inline">We tailor solutions to your needs and offer exceptional support..
+
+
+                    </dd>
+                  </div>
+
+                  <div className="relative pl-9">
+                    <dt className="inline font-semibold text-gray-900">
+                      Customized Solutions: </dt>
+
+                    <dd className="inline">Personalized IT strategies with customized solutions for your business success.
+                    </dd>
+                  </div>
+
+                  <div className="relative pl-9">
+                    <dt className="inline font-semibold text-gray-900">
+                      Expert Team:</dt>
+
+                    <dd className="inline"> Our team comprises seasoned professionals with extensive experience in various IT fields, ensuring high-quality service and expert guidance.
+
+
+                    </dd>
+                  </div>
+                </dl>
+
+              </div>
+
+            </div><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw4fHxjb21wdXRlcnxlbnwwfDB8fHwxNjkxODE2NjY3fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Product screenshot" className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="1280" height="720px" />
+          </div>
         </div>
+      </section>
     </div>
-    </>
+
   )
 }
 
-export default Aboutpage
+export default About2
