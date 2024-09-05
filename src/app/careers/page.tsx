@@ -7,6 +7,7 @@ const CareerPage = () => {
  <>
    <div className='py-32'>
       <h1 className='text-3xl text-[#F5EBEB] w-full text-center py-8 font-semibold'>Work With Us</h1>
+      <p className='text-xl text-[#F5EBEB] w-full text-center font-semibold'>Elevate Your Career and Discover Opportunities with Us</p>
       <div className='container mx-auto px-4'>
      
         <div className='flex flex-wrap flex-col lg:flex-row'>
