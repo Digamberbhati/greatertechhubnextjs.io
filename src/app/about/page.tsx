@@ -51,6 +51,7 @@ const content = [
 const Aboutpage = () => {
   return (
 
+    
     <>
     
     <div className='py-32 max-w-screen-lg mx-auto min-h-[50vh] z-0'>
