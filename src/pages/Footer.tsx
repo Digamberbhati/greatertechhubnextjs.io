@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className=' flex flex-col lg:flex-row justify-around pt-8 mt-4 items-start gap-8 px-12   py-3 tracking-tighter bg-black '>
       <div className='flex flex-col gap-2'>
-        <h1 className='text-4xl font-bold'>Contact Us</h1>
+        <h1 className='text-2xl font-bold'>Contact Us</h1>
         <h4><b>Phone:</b> +91 9588160069</h4>
         <h4><b>Email:</b> info@greatertechhub.com</h4>
         
@@ -28,7 +28,7 @@ const Footer = () => {
         <div>
           <h2 className='text-xl font-bold pb-4'>Helpful Links</h2>
           <Link href={"/careers"}> <h4 className='hover:text-gray-300 hover:scale-500 duration-150'>- Career</h4></Link>
-          <Link href={"/event"}> <h4 className='hover:text-gray-300 hover:scale-500 duration-150'>- Event</h4></Link>
+          {/* <Link href={"/event"}> <h4 className='hover:text-gray-300 hover:scale-500 duration-150'>- Event</h4></Link> */}
           <Link href={"/support"}> <h4 className='hover:text-gray-300 hover:scale-500 duration-150'>- Support</h4></Link>
         </div>
 
