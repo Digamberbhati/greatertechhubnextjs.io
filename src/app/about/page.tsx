@@ -52,6 +52,7 @@ const content = [
 const Aboutpage = () => {
   return (
 
+    
     <>
     
     <div className='py-32  mx-auto min-h-[50vh] z-0'>
