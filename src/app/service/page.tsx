@@ -1,5 +1,6 @@
 'use client'
 
+import IconCloud from '@/components/cloud/cloud';
 import { HoverEffect } from '@/components/ui/card-hover-effect'
 import React from 'react'
 export const projects = [
@@ -78,12 +79,50 @@ export const projects = [
 
 ];
 
+const slugs = [
+  "typescript",
+  "javascript",
+  "dart",
+  "java",
+  "react",
+  "flutter",
+  "android",
+  "html5",
+  "css3",
+  "nodedotjs",
+  "express",
+  "nextdotjs",
+  "prisma",
+  "amazonaws",
+  "postgresql",
+  "firebase",
+  "nginx",
+  "vercel",
+  "testinglibrary",
+  "jest",
+  "cypress",
+  "docker",
+  "git",
+  "jira",
+  "github",
+  "gitlab",
+  "visualstudiocode",
+  "androidstudio",
+  "sonarqube",
+  "figma",
+  "threejs",
+];
+
 const ServicePage = () => {
   return (
     <div className=" max-w-5xl -z-10 py-32 mx-auto my-0  px-8">
 
       
     <h1 className='text-3xl text-[#F5EBEB]  w-full text-center py-8 font-semibold '>Our Services</h1>
+<div className=''>
+
+    <IconCloud iconSlugs={slugs} />
+</div>
     <HoverEffect items={projects} />
   </div>
   )
