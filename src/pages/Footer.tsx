@@ -3,6 +3,7 @@ import React from 'react'
 import { FloatingDockDemo } from '@/components/ui/FooterComponent';
 const Footer = () => {  
   return (
+    <>
     <div className=' flex flex-col lg:flex-row justify-around pt-8 mt-4 items-start gap-8 px-12   py-3 tracking-tighter bg-black '>
       <div className='flex flex-col gap-2'>
         <h1 className='text-2xl font-bold'>Contact Us</h1>
@@ -52,6 +53,8 @@ const Footer = () => {
         </div>
       </div>
     </div>
+      <p className='text-center my-2 pb-4'>© Copyright Greatertechhub. All Rights Reserved</p>
+      </>
   )
 }
 

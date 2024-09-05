@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
 import { FloatingDock } from "@/components/ui/floating-doc";
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaWhatsapp } from "react-icons/fa";
 import { FaSquareInstagram, FaSquareXTwitter,  FaLinkedin  } from "react-icons/fa6";
 
 export function FloatingDockDemo() {
@@ -38,6 +38,15 @@ export function FloatingDockDemo() {
       href: "https://www.linkedin.com/company/greatertechhub/",
     },
 
+    {
+      title: "WhatsApp",
+      icon: (
+        <FaWhatsapp className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "https://wa.me/+919588160069",
+    
+    },
+
   
   ];
   return (
@@ -45,6 +54,7 @@ export function FloatingDockDemo() {
       <FloatingDock
        // mobileClassName="translate-y-10" // only for demo, remove for production
         items={links}
+       
       />
     </div>
   );
