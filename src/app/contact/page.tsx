@@ -43,7 +43,7 @@ const Contact = () => {
       <div className="max-w-5xl max-lg:max-w-3xl mx-auto rounded-md bg-transparent backdrop-blur-sm border my-6 font-[sans-serif] py-8">
         <div className="text-center px-6">
           <h2 className="text-gray-100 text-3xl font-extrabold">Contact Us</h2>
-          <p className="text-sm text-gray-500 mt-4">
+          <p className="text-sm text-gray-400 mt-4">
             Have some big idea or brand to develop and need help?
           </p>
         </div>
@@ -162,8 +162,7 @@ const Contact = () => {
               <div className="relative">
                 <button
                   type="submit"
-                  className="py-2 px-4 text-sm bg-[#1c9cf6] text-gray-100 rounded-lg"
-                >
+                  className="py-2 px-4 text-sm bg-gray-800 duration-300 hover:bg-transparent text-gray-100 rounded-lg">
                   Send Message
                 </button>
               </div>
