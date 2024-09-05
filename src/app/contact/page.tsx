@@ -6,7 +6,7 @@ const Contact = () => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+    formData.append("access_key", "8739b33b-939a-4751-ad7b-f09ad3a1c955");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -23,6 +23,8 @@ const Contact = () => {
     const result = await response.json();
     if (result.success) {
       console.log(result);
+      alert("Message Sent Sucessfully")
+     
     }
   }
 
