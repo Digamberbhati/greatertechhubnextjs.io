@@ -25,7 +25,7 @@ const Navbar = ({ className }: { className?: string }) => {
     
     return (
         <div
-        className="flex items-center justify-between  bg-black  fixed top-0 left-0 w-full z-[999] text-[#F5EBEB] h-[14vh]   "
+        className="flex items-center justify-between  bg-black  fixed top-0 left-0 w-full z-[999] text-[#F5EBEB] h-[14vh] "
         style={{
           paddingLeft: `${paddingX}px`,
           paddingRight: `${paddingX}px`,
@@ -48,7 +48,7 @@ const Navbar = ({ className }: { className?: string }) => {
                 </button>
             </div>
 
-            <div className={cn("lg:flex items-start justify-between  ", className, isMenuOpen ? "block" : "hidden")}>
+            <div className={cn("lg:flex items-start justify-between mr-5 ", className, isMenuOpen ? "block" : "hidden")}>
                 {isMenuOpen && (
                     <button
                         className="absolute top-1 right-4 text-white focus:outline-none lg:hidden"
