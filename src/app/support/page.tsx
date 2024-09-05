@@ -1,11 +1,12 @@
 import { SparklesCore } from "@/components/ui/sparkle";
-import { Block } from "@react-three/fiber/dist/declarations/src/core/utils";
+
 import React from "react";
 
 const supportPage = () => {
   return (
-    <div className="h-[40rem] relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-      <div className="w-full absolute inset-0 h-screen">
+    <div className="w-full min-h-screen relative" >
+
+      <div className="w-full h-[180vh] absolute left-0 top-0 ">
         <SparklesCore
           id="tsparticlesfullpage"
           background="transparent"
@@ -14,16 +15,17 @@ const supportPage = () => {
           particleDensity={100}
           className="w-full h-full"
           particleColor="#FFFFFF" />
-      </div>
 
-      {/* testimonial */}
-      <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
+          </div>
+
+          <section className="text-gray-600 body-font ">
+        <div className="container px-5 py-24 mx-auto ">
           <div className="flex flex-col text-center w-full mb-20">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Support</h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">How can we help you?</p>
           </div>
           <div className="flex flex-wrap -m-2">
+
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                 <img alt="team" className="w-16 h-16 bg-white-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://img.freepik.com/free-vector/email-icon-pin-isolated_1284-41831.jpg?t=st=1724584650~exp=1724588250~hmac=caaac64cd932a4db48a0bc98dd1334f12e033e1076f500d25e53258891984aa1&w=740" />
@@ -78,7 +80,15 @@ const supportPage = () => {
                 </div>
               </div>
             </div>
-            <section className="text-gray-600 body-font">
+         
+          </div>
+        </div>
+
+        
+      </section>
+
+
+      <section className="text-gray-600  body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Referral Program
@@ -89,14 +99,14 @@ const supportPage = () => {
        
       </div>
     </div>
-    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
+    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 z-50">
+      <img className="object-cover object-center rounded" alt="hero" src="/images/reffral.png"/>
     </div>
   </div>
 </section>
-          </div>
-        </div>
-      </section>
+
+
+
     </div>
     
 
@@ -106,3 +116,4 @@ const supportPage = () => {
 };
 
 export default supportPage;
+
