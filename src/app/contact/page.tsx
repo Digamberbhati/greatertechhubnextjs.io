@@ -4,7 +4,7 @@ const ContactPage = () => {
   return (
     <div 
     style={{
-      backgroundImage: `linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.5),rgba(0,0,0,.7)), url(${'/images/map.png'})`,
+      backgroundImage: `linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.2),rgba(0,0,0,.3)), url(${'/images/sky.jpg'})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
