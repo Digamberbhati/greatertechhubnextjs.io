@@ -101,7 +101,7 @@ const supportPage = () => {
       </h1>
       <p className="mb-8 leading-relaxed">We know personal recommendations carry a lot of weight, and we value our client's judgment. If you know anyone looking for assistance in the tech landscape, we're all ears!</p>
       <div className="flex justify-center">
-        <Link href="/contact" className=" z-50 inline-flex text-white bg-black border py-2 px-6 focus:outline-none  rounded text-lg">Contact</Link>
+        <Link href="/contact" className=" z-50 inline-flex text-white bg-gray-800 hover:bg-transparent duration-300 py-2 px-6 focus:outline-none  rounded text-lg">Contact</Link>
        
       </div>
     </div>
