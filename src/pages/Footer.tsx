@@ -41,11 +41,11 @@ const Footer = () => {
         </div>
         <div>
           <h2 className='text-xl font-bold pb-4'>Location</h2>
-          <h2 className='text-red-700'>India</h2>
+          <h2 className='text-red-500'>India</h2>
          <h5>3rd FLoor Krishna Palace 
           Ajronda Chowk , </h5><h5>Sector 20B  Faridabad ,Haryana 121001</h5>
           
-          <h2 className='text-red-700'>Australia</h2>
+          <h2 className='text-red-500'>Australia</h2>
          <h5>28 Woodley Cres, Glendenning NSW 2761, </h5>
         
           
@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-      <p className='text-center my-2 pb-4'>© Copyright Greatertechhub. All Rights Reserved</p>
+      <p className='text-center my-2 pb-4'>©2024 Copyright Greatertechhub. All Rights Reserved</p>
       </>
   )
 }
