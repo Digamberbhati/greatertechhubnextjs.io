@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useRef } from "react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
@@ -10,10 +10,36 @@ import {
 } from "@tabler/icons-react";
 
 export default function ReferAndEarn() {
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    console.log("Form submitted");
-  };
+  const formRef = useRef<HTMLFormElement>(null); 
+  
+  async function handleSubmit(event: any) {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+   
+    formData.append("access_key", "8739b33b-939a-4751-ad7b-f09ad3a1c955");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    });
+ 
+    const result = await response.json();
+    if (result.success) {
+      console.log(result);
+      alert("Message Sent Sucessfully")
+      if(formRef.current){
+        formRef.current.reset()
+      }
+     
+    }
+  }
   return (
     <div className=" mt-20  p-4 md:p-8 shadow-input bg-white dark:bg-black">
       <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
@@ -23,46 +49,46 @@ export default function ReferAndEarn() {
       It's simple. We know personal recommendations carry a lot of weight, and we value our clients' judgment. If you know anyone looking for assistance in the tech landscape, we're all ears! We'd love to connect with other businesses that you think could benefit from our services.
       </p>
 
-      <form className="my-8" onSubmit={handleSubmit}>
+      <form className="my-8" onSubmit={handleSubmit} ref={formRef}>
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
           <LabelInputContainer>
-            <Label htmlFor="firstname">Full Name</Label>
-            <Input id="firstname" placeholder="First-Name" type="text" />
+            <Label htmlFor="FullName">Full Name</Label>
+            <Input id="FullName" placeholder="Full Name" type="text" name="FullName" />
           </LabelInputContainer>
           <LabelInputContainer>
-            <Label htmlFor="lastname">Company Name</Label>
-            <Input id="lastname" placeholder="Last" type="text" />
+            <Label htmlFor="CompanyName">Company Name</Label>
+            <Input id="CompanyName" placeholder="Company Name" type="text" name="CompanyName" />
           </LabelInputContainer>
         </div>
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
           <LabelInputContainer>
-            <Label htmlFor="firstname">Phone Number</Label>
-            <Input id="firstname" placeholder="" type="number" />
+            <Label htmlFor="PhoneNumber">Phone Number</Label>
+            <Input id="PhoneNumber" placeholder="Phone Number" type="number" name="PhoneNumber" />
           </LabelInputContainer>
           <LabelInputContainer>
-            <Label htmlFor="lastname">Referral Work Title</Label>
-            <Input id="lastname" placeholder="Domain" type="text" />
+            <Label htmlFor="Reffral">Referral Work Title</Label>
+            <Input id="Reffral" placeholder="Domain" type="text" name="Reffral" />
           </LabelInputContainer>
         </div>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="email">Email Address</Label>
-          <Input id="email" placeholder="info@gmail.com" type="email" />
+          <Input id="email" placeholder="info@gmail.com" type="email" name="email" />
         </LabelInputContainer>
         <LabelInputContainer className="mb-4">
-          <Label htmlFor="password">Company URL</Label>
-          <Input id="password" placeholder="www.xyz.com" type="url" />
+          <Label htmlFor="url">Company URL</Label>
+          <Input id="url" placeholder="www.xyz.com" type="url" name="url" />
         </LabelInputContainer>
         <LabelInputContainer className="mb-4">
-          <Label htmlFor="password">Referral Date</Label>
-          <Input id="password" placeholder=" Date" type="date" />
+          <Label htmlFor="refDate">Referral Date</Label>
+          <Input id="refDate" placeholder=" Date" type="date" name="refDate" />
         </LabelInputContainer>
         <LabelInputContainer>
-            <Label htmlFor="firstname">Documonent Information</Label>
-            <Input id="firstname" placeholder="" type="file" />
+            <Label htmlFor="document">Documonent Information</Label>
+            <Input id="document" placeholder="" type="file" name="document" />
           </LabelInputContainer>
         <LabelInputContainer>
-            <Label htmlFor="firstname">Additional Information</Label>
-            <Input id="firstname" placeholder="Answer Query" type="text" />
+            <Label htmlFor="addInfo">Additional Information</Label>
+            <Input id="addInfo" placeholder="Answer Query" type="addInfo" name="addInfo" />
           </LabelInputContainer>
 
         <button

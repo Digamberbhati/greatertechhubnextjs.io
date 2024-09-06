@@ -1,11 +1,13 @@
 'use client'
-import React from 'react';
+import React, { useRef } from 'react';
 
 const Contact = () => {
+  const formRef = useRef<HTMLFormElement>(null); 
+  
   async function handleSubmit(event: any) {
     event.preventDefault();
     const formData = new FormData(event.target);
-
+   
     formData.append("access_key", "8739b33b-939a-4751-ad7b-f09ad3a1c955");
 
     const object = Object.fromEntries(formData);
@@ -19,11 +21,14 @@ const Contact = () => {
       },
       body: json,
     });
-
+ 
     const result = await response.json();
     if (result.success) {
       console.log(result);
       alert("Message Sent Sucessfully")
+      if(formRef.current){
+        formRef.current.reset()
+      }
      
     }
   }
@@ -109,17 +114,21 @@ const Contact = () => {
 
 
           <div className="lg:col-span-2">
-            <form onSubmit={handleSubmit} className="space-y-6  backdrop-blur-sm p-4 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-lg">
+
+
+            <form ref={formRef} onSubmit={handleSubmit} className="space-y-6  backdrop-blur-sm p-4 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-lg">
               <div className="grid gap-4 sm:grid-cols-2">
                 <div className="relative">
                   <label htmlFor="first-name" className="text-gray-200 block">
                     First name
+                    
                   </label>
                   <input
                     id="first-name"
                     name="first-name"
                     type="text"
-                    className="mt-2 w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm text-black outline-none "
+                    className="mt-2 w-full rounded-lg border border-gray-200 p-4 pr-12 text-sm shadow-sm bg-transparent text-white outline-none "
+                    placeholder='First name'
                   />
                 </div>
                 <div className="relative">
@@ -130,7 +139,8 @@ const Contact = () => {
                     id="last-name"
                     name="last-name"
                     type="text"
-                    className="mt-2 w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm text-black outline-none"
+                    className="mt-2 w-full rounded-lg border border-gray-200 p-4 pr-12 text-sm shadow-sm bg-transparent text-white outline-none"
+                    placeholder='Last name'
                   />
                 </div>
               </div>
@@ -142,7 +152,8 @@ const Contact = () => {
                   id="email"
                   name="email"
                   type="email"
-                  className="mt-2 w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm text-black outline-none"
+                  className="mt-2 w-full rounded-lg border border-gray-200 p-4 pr-12 text-sm shadow-sm bg-transparent text-white outline-none"
+                  placeholder='jonedoe@example.com'
                 />
               </div>
               <div className="relative">
@@ -152,7 +163,8 @@ const Contact = () => {
                 <textarea
                   id="message"
                   name="message"
-                  className="mt-2 w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm text-black outline-none h-28"
+                  className="mt-2 w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm border bg-transparent text-white outline-none h-28"
+                  placeholder='Write your message here'
                 ></textarea>
               </div>
               <div className="relative">
