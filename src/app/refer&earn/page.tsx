@@ -41,7 +41,7 @@ export default function ReferAndEarn() {
     }
   }
   return (
-    <div className=" mt-20  p-4 md:p-8 shadow-input bg-white dark:bg-black">
+    <div className=" mt-20  p-4 md:p-8 shadow-input bg-custom-white dark:bg-custom-black">
       <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
       Referral Program
       </h2>

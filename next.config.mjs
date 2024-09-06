@@ -7,22 +7,18 @@ const nextConfig = {
         
         protocol: 'https',
         hostname: 'greatertechhub.com',
-        pathname: '/path/to/images/**',
       },
       {
         protocol: 'https',
         hostname: 'img.freepik.com',
-        pathname: '/**',
       },
       {
         protocol: 'https',
         hostname: 'assets.aceternity.com',
-        pathname: '/**',
       },
       {
         protocol: 'https',
         hostname: 'images.unsplash.com',
-        pathname: '/**',
       },
       // Add more patterns as needed
     ],

@@ -68,7 +68,7 @@ const images = [
       </p>
       <TextGenerateEffect words={words} />
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 mt-10">
-        {<button  className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent duration-300 text-neutral-300 text-sm hover:bg-transparent hover:text-white">
+        {<button  className="w-40 h-10 rounded-xl bg-custom-black border dark:border-white border-transparent duration-300 text-neutral-300 text-sm hover:bg-transparent hover:text-white">
         <Link href="/contact">join us</Link>
         </button>
        }
@@ -93,7 +93,7 @@ const images = [
       className="relative bg-cover bg-center h-96"
       style={{ backgroundImage: "url('https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150061993.jpg?t=st=1725272293~exp=1725275893~hmac=afbcdf3ae77ec5b8a0aeee5b99fd85ed7a767474de07c7e272e4b2100b40997b&w=900')", backgroundAttachment: 'fixed' }}
     >
-      <div className="absolute inset-0 bg-black opacity-50"></div>
+      <div className="absolute inset-0 bg-custom-black opacity-50"></div>
       {/* Overlay */}
       <div className="relative flex items-center justify-center h-full">
         <div className="text-center text-white p-8">

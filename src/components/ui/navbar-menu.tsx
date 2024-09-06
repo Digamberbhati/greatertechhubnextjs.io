@@ -28,7 +28,7 @@ export const MenuItem = ({
     <div onMouseEnter={() => setActive(item)} className="relative ">
       <motion.p
         transition={{ duration: 0.3 }}
-        className="cursor-pointer text-white hover:opacity-[0.9] "
+        className="cursor-pointer text-custom-text hover:opacity-[0.9] "
       >
         {item}
       </motion.p>
@@ -43,7 +43,7 @@ export const MenuItem = ({
               <motion.div
                 transition={transition}
                 layoutId="active" // layoutId ensures smooth animation
-                className="bg-black  backdrop-blur-sm rounded-2xl overflow-hidden border border-white/[0.2] dark:border-white/[0.2] shadow-xl"
+                className="bg-custom-black  backdrop-blur-sm rounded-2xl overflow-hidden border border-custom-text/[0.2] dark:border-custom-text/[0.2] shadow-xl"
               >
                 <motion.div
                   layout // layout ensures smooth animation
@@ -98,10 +98,10 @@ export const ProductItem = ({
         className="flex-shrink-0 rounded-md  z-50 shadow-2xl"
       />
       <div>
-        <h4 className="text-xl font-bold mb-1 text-black z-50 dark:text-white">
+        <h4 className="text-xl font-bold mb-1 text-black z-50 dark:text-custom-text">
           {title}
         </h4>
-        <p className="text-neutral-700 text-sm max-w-[10rem] z-50 bg-black dark:text-neutral-300">
+        <p className="text-neutral-700 text-sm max-w-[10rem] z-50 bg-custom-black dark:text-neutral-300">
           {description}
         </p>
       </div>
@@ -113,7 +113,7 @@ export const HoveredLink = ({ children, ...rest }: any) => {
   return (
     <Link
       {...rest}
-      className="text-white z-50  hover:text-zinc-400  "
+      className="text-custom-text z-50  hover:text-zinc-400  "
     >
       {children}
     </Link>

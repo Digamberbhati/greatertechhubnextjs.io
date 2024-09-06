@@ -27,7 +27,7 @@ const [rotate, setRotate] = useState(0)
 
 
   return (
-    <div className='eyes w-full h-screen overflow-hidden bg-black text-zinc-100'>
+    <div className='eyes w-full h-screen overflow-hidden bg-custom-black text-zinc-100'>
     <div className='w-full h-full relative flex flex-col items-center justify-center  text-[16vw] leading-none font-black uppercase'>
         <h1>Why</h1>
         <h1 className='tracking-wider'>

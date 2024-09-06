@@ -7,7 +7,7 @@ import React, { useEffect, useState } from "react";
 export function InfiniteMovingCardsDemo() {
   return (
     
-    <div className="h-[40rem] rounded-md flex flex-col antialiased bg-black  items-center justify-center relative overflow-hidden">
+    <div className="h-[40rem] rounded-md flex flex-col antialiased bg-custom-black  items-center justify-center relative overflow-hidden">
       <h1 className="mt-10 text-center text-zinc-100 text-3xl mb-4 text-bold">Feedback</h1>
       <InfiniteMovingCards
         items={testimonials}

@@ -20,7 +20,7 @@ export function Card({ topic, description, image}: CardProps) {
 
   return (
     <CardContainer className="inter-var">
-      <CardBody className="relative group/card  bg-black text-zinc-100 border-white/[0.21] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
+      <CardBody className="relative group/card  bg-custom-black text-zinc-100 border-white/[0.21] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
         <CardItem translateZ="50" className="text-xl font-bold">
         {truncateText(topic, 28)}
         </CardItem>
