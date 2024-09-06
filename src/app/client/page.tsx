@@ -8,8 +8,8 @@ const ClientPage = () => {
   return (
     
 
-    <div className='bg-white mt-8'>
-      <h1 className='text-3xl text-black  w-full text-center pt-20 font-semibold'>Our Clients</h1>
+    <div className=' mt-8'>
+      <h1 className='text-3xl text-custom-heading  w-full text-center pt-20 font-semibold'>Our Clients</h1>
 <Marquee/>
     </div>
   )

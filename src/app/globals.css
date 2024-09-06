@@ -7,7 +7,11 @@ padding: 0;
 box-sizing: border-box;
 }
 
- 
+:root {
+  --custom-black: #1e1e24;  /* Define the color variable */
+  --custom-text: #a1a1aa;
+}
+
 
 
 html,body{
@@ -16,9 +20,8 @@ width: 100%;
 } 
 
 body{
-  background-color: #000;
-  color: #fff;
-  font-style:'sans serif';
+  background-color: var(--custom-black);
+  color: var(--custom-text);
 }
 
 ::selection{

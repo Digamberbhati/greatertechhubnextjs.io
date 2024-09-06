@@ -8,7 +8,7 @@ function About2() {
       <div className='py-32  mx-auto min-h-[50vh] z-0'><Eyes /></div>
 
 
-      <section className="overflow-hidden bg-white py-8 sm:py-16 mt-16">
+      <section className="overflow-hidden bg-custom-white py-8 sm:py-16 mt-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="lg:pr-8 lg:pt-0">

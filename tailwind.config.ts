@@ -26,8 +26,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'custom-black': '#DC143C', // Custom crimson color
-        'custom-green': '#32CD32', // Another custom color
+        'custom-black': '#1e1e24', // Custom crimson color
+        'custom-text': '#a1a1aa', // Another custom color
+        'custom-white': "#e4e4e7",
+        'custom-heading': "#e4e4e7",
+
+
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

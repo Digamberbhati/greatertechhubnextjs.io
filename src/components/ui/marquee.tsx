@@ -35,7 +35,7 @@ const MarqueeComponent = () => {
     ])
 
     return (
-        <div className='w-full py-20 overflow-hidden bg-white flex flex-col gap-8'>
+        <div className='w-full py-20 overflow-hidden  flex flex-col gap-8'>
             <Marquee pauseOnHover speed={70} >
             {images.map((item, index) => (
                 <Image

@@ -4,7 +4,7 @@ import { SparklesCore } from '@/components/ui/sparkle'
 const eventPage = () => {
   return (
 
-    <div className="h-[40rem] relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+    <div className="h-[40rem] relative w-full bg-custom-black flex flex-col items-center justify-center overflow-hidden rounded-md">
     <div className="w-full absolute inset-0 h-screen">
       <SparklesCore
         id="tsparticlesfullpage"
