@@ -1,11 +1,13 @@
 'use client'
-import React from 'react';
+import React, { useRef } from 'react';
 
 const Contact = () => {
+  const formRef = useRef<HTMLFormElement>(null); 
+  
   async function handleSubmit(event: any) {
     event.preventDefault();
     const formData = new FormData(event.target);
-
+   
     formData.append("access_key", "8739b33b-939a-4751-ad7b-f09ad3a1c955");
 
     const object = Object.fromEntries(formData);
@@ -19,11 +21,14 @@ const Contact = () => {
       },
       body: json,
     });
-
+ 
     const result = await response.json();
     if (result.success) {
       console.log(result);
       alert("Message Sent Sucessfully")
+      if(formRef.current){
+        formRef.current.reset()
+      }
      
     }
   }
@@ -109,11 +114,14 @@ const Contact = () => {
 
 
           <div className="lg:col-span-2">
-            <form onSubmit={handleSubmit} className="space-y-6  backdrop-blur-sm p-4 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-lg">
+
+
+            <form ref={formRef} onSubmit={handleSubmit} className="space-y-6  backdrop-blur-sm p-4 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-lg">
               <div className="grid gap-4 sm:grid-cols-2">
                 <div className="relative">
                   <label htmlFor="first-name" className="text-gray-200 block">
                     First name
+                    
                   </label>
                   <input
                     id="first-name"

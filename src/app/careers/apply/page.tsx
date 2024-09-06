@@ -1,15 +1,50 @@
-import React from "react";
+'use client'
+import React, { useRef } from "react";
 
 function Apply() {
+
+    const formRef = useRef<any>(null); 
+
+    async function handleSubmit(event: any) {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+       
+        formData.append("access_key", "8739b33b-939a-4751-ad7b-f09ad3a1c955");
+    
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+    
+        const response = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: json,
+        });
+     
+        const result = await response.json();
+        if (result.success) {
+          console.log(result);
+          alert("Message Sent Sucessfully")
+          if(formRef.current){
+            formRef.current.reset()
+          }
+         
+        }
+      }
     return (
         <>
             <div className="max-w-screen-lg mx-auto px-4  sm:px-0 mt-20">
                 <div className="w-full mx-auto">
                     <h1  className='text-3xl text-[#F5EBEB] w-full text-center py-8 font-semibold'>Apply Now</h1>
                     <div className="p-6 border border-gray-600 sm:rounded-md bg-gray-800">
-                        <form>
+                        <form 
+                        ref={formRef}
+                        onSubmit={handleSubmit}
+                        >
                             <label className="block mb-6">
-                                <span className="text-gray-300">Your name</span>
+                                <span className="text-gray-300">Full name</span>
                                 <input
                                     required
                                     name="name"
