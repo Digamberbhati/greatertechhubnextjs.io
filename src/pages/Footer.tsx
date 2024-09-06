@@ -43,7 +43,7 @@ const Footer = () => {
           <h2 className='text-xl font-bold pb-4'>Location</h2>
           <h2 className='text-red-500'>India</h2>
          <h5>3rd FLoor Krishna Palace 
-          Ajronda Chowk , </h5><h5>Sector 20B  Faridabad ,Haryana 121001</h5>
+          Ajronda Chowk  </h5><h5>Sector 20B  Faridabad ,Haryana 121001</h5>
           
           <h2 className='text-red-500'>Australia</h2>
          <h5>28 Woodley Cres, Glendenning NSW 2761, </h5>
