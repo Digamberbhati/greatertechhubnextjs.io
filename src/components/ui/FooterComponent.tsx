@@ -3,6 +3,7 @@ import React from "react";
 import { FloatingDock } from "@/components/ui/floating-doc";
 import { FaFacebook, FaWhatsapp } from "react-icons/fa";
 import { FaSquareInstagram, FaSquareXTwitter,  FaLinkedin  } from "react-icons/fa6";
+import { IconTarget } from "@tabler/icons-react";
 
 export function FloatingDockDemo() {
   const links = [
@@ -12,13 +13,14 @@ export function FloatingDockDemo() {
         <FaSquareInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "https://www.instagram.com/greatertechhub/",
+    
     },
 
     {
       title: "Facebook",
       icon: (
         <FaFacebook
-        className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        className="h-full w-full text-neutral-500 dark:text-neutral-300 " />
       ),
       href: "https://www.facebook.com/profile.php?id=61557357627522",
     },
@@ -41,7 +43,7 @@ export function FloatingDockDemo() {
     {
       title: "WhatsApp",
       icon: (
-        <FaWhatsapp className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <FaWhatsapp className="h-full w-full text-neutral-500 dark:text-neutral-300 target:" />
       ),
       href: "https://wa.me/+919588160069",
     
@@ -50,7 +52,7 @@ export function FloatingDockDemo() {
   
   ];
   return (
-    <div className="flex items-start justify-start h-[auto] w-full">
+    <div className="flex items-start justify-start h-[auto] w-full target-blank">
       <FloatingDock
        // mobileClassName="translate-y-10" // only for demo, remove for production
         items={links}
