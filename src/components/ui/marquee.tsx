@@ -50,19 +50,7 @@ const MarqueeComponent = () => {
                 ))}
             </Marquee>
 
-            <Marquee pauseOnHover direction='right' speed={70}>
-            {images.map((item, index) => (
-                    <Image
-                    key={index}
-                    src={item}
-                    width={200}
-                    height={200}
-                    className='grayscale object-contain w-24 h-12 sm:w-32 sm:h-16 md:w-48 md:h-24 lg:w-64 lg:h-32 hover:grayscale-0 duration-200 '
-                    alt={`Image ${index + 1}`}
-                />
-                
-                ))}
-            </Marquee>
+            
         </div>
     )
 }
