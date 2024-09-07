@@ -9,6 +9,9 @@ interface CardProps {
   topic: string;
   description: string;
   image: string;
+  author?: string; // unused but required
+  date?: string;   // unused but required
+  blogLink?: string; // unused but required
   key: number;
 }
 
