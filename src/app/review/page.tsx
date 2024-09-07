@@ -1,10 +1,14 @@
 "use client";
 
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 
-export function InfiniteMovingCardsDemo() {
+
+
+
+
+export default function InfiniteMovingCardsDemo() {
   return (
     
     <div className="h-[40rem] rounded-md flex flex-col antialiased bg-custom-black  items-center justify-center relative overflow-hidden">

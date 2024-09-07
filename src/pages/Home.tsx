@@ -7,8 +7,9 @@ import  {ImagesSlider}  from "@/components/ui/images-slider";
 import { motion } from "framer-motion";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { OtherActivities } from "@/components/ui/otherActivities";
-import { InfiniteMovingCardsDemo } from "@/app/review/page";
+
 import Link from "next/link";
+import InfiniteMovingCardsDemo from "@/app/review/page";
 
 
 export default function Home() {

@@ -1,8 +1,5 @@
+'use client'
 import React from 'react'
-import { SparklesCore } from '@/components/ui/sparkle'
-import { FloatingDock } from '@/components/ui/floating-doc'
-import { FloatingDockDemo } from '@/components/ui/FooterComponent'
-import Button from '@/components/ui/button'
 import Banner from '@/components/ui/banner'
 import HeroSection from '@/components/ui/hero'
 

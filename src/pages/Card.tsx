@@ -1,4 +1,4 @@
-"use client";
+'use client'
 
 import Image from "next/image";
 import React from "react";
@@ -9,10 +9,13 @@ interface CardProps {
   topic: string;
   description: string;
   image: string;
+  author?: string; // unused but required
+  date?: string;   // unused but required
+  blogLink?: string; // unused but required
   key: number;
 }
 
-export function Card({ topic, description, image}: CardProps) {
+const Card: React.FC<CardProps> = ({ topic = '', description = '', image }) => {
   // Function to truncate text
   const truncateText = (text: string, maxLength: number) => {
     return text.length > maxLength ? `${text.substring(0, maxLength)}...` : text;
@@ -20,25 +23,22 @@ export function Card({ topic, description, image}: CardProps) {
 
   return (
     <CardContainer className="inter-var">
-      <CardBody className="relative group/card  bg-custom-black text-zinc-100 border-white/[0.21] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
+      <CardBody className="relative group/card bg-custom-black text-zinc-100 border-white/[0.21] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
         <CardItem translateZ="50" className="text-xl font-bold">
-        {truncateText(topic, 28)}
+          {truncateText(topic, 28)}
         </CardItem>
 
-        <CardItem
-          as="p"
-          className="text-sm max-w-sm text-wrap mt-2 truncate" >
+        <CardItem as="p" className="text-sm max-w-sm text-wrap mt-2 truncate">
           {truncateText(description, 100)}
         </CardItem>
 
-        <CardItem transla
-        teZ="100" className="w-full mt-4">
+        <CardItem translateZ="100" className="w-full mt-4">
           <Image
             src={image}
-            height="1000"
-            width="1000"
-            className="h-60 w-full object-cover rounded-xl "
-            alt={topic}
+            height={1000}
+            width={1000}
+            className="h-60 w-full object-cover rounded-xl"
+            alt={topic || 'Image'}
           />
         </CardItem>
 
@@ -56,3 +56,5 @@ export function Card({ topic, description, image}: CardProps) {
     </CardContainer>
   );
 }
+
+export default Card;
