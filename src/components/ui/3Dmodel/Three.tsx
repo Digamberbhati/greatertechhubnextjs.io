@@ -1,5 +1,4 @@
-"use Client";
-
+"use Client";'use client'
 import ClyAnimation from "./ClyAnimation";
 
 

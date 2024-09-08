@@ -1,6 +1,7 @@
+'use client'
 import React from 'react';
-import { Card } from '@/pages/Card';
 import data from '@/data/blog.json';
+import Card from '@/pages/Card';
 
 const blogPage = () => {
   return (

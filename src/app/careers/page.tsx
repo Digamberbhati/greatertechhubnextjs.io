@@ -1,6 +1,8 @@
+'use client'
 import React from 'react';
-import { Card } from '@/pages/Card';
+
 import data from '@/data/jobs.json';
+import Card from '@/pages/Card';
 
 const CareerPage = () => {
   return (
@@ -13,7 +15,7 @@ const CareerPage = () => {
         <div className='flex flex-wrap flex-col lg:flex-row'>
           {data.map((post,id) => (
             <div className='flex-shrink-0 w-full sm:w-1/2 md:w-1/3' key={post.id}>
-              <Card key={post.id}
+              <Card key={id}
                 topic={post.topic}
                 description={post.description}
                 image={post.image}/>

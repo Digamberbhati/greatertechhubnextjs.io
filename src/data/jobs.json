@@ -2,14 +2,14 @@
   "id": 1,
   "topic": "Web Development",
   "description": "These notes cover a broad overview of web development topics, and the field is continuously evolving. .",
-  "image": "https://greatertechhub.com/assets/img/blog/blog-recent-4.jpg"
+  "image": "/images/web.png"
  
 },
 {
   "id": 2,
   "topic": "App development",
   "description": "WordPress provides a user-friendly environment for website creation, and there are extensive resources and communities available for support and further customization",
-  "image": "https://greatertechhub.com/assets/img/blog/blog-2.jpg"
+  "image": "/images/app.jpg"
  
  
  
@@ -18,7 +18,7 @@
   "id": 3,
   "topic": "Digital Marketing",
   "description": "A community for project managers across various industries, offering expertise, how-to articles, and certification-related information.....",
-  "image": "https://greatertechhub.com/assets/img/blog/blog-6.jpg"
+  "image": "/images/digital.jpg"
 
  
 },
@@ -26,7 +26,7 @@
   "id": 4,
   "topic": "Seo expert",
   "description": "Digital marketing is dynamic, and successful strategies often involve a combination of these elements. .",
-  "image": "https://greatertechhub.com/assets/img/blog/blog-inside-post.jpg"
+  "image": "/images/seo.jpg"
 
 },
 {

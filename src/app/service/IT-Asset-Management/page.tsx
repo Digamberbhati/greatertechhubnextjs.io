@@ -1,6 +1,5 @@
+'use client'
 import React from 'react'
-import { SparklesCore } from '@/components/ui/sparkle'
-import Button from '@/components/ui/button'
 import HeroSection from '@/components/ui/hero'
 import Banner from '@/components/ui/banner'
 

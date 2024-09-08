@@ -1,3 +1,4 @@
+'use client'
 // Import the Image component from Next.js
 import Image from 'next/image';
 
