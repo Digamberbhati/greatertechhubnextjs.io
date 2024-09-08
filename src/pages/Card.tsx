@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../components/ui/3d-card";
@@ -10,14 +9,14 @@ interface CardProps {
   description: string;
   image: string;
   author?: string; // unused but required
-  date?: string;   // unused but required
+  date?: string;   // unused but required 
   blogLink?: string; // unused but required
   key: number;
 }
 
 export function Card({ topic, description, image}: CardProps) {
   // Function to truncate text
-  const truncateText = (text: string, maxLength: number) => {
+  const  truncateText = (text: string, maxLength: number) => {
     return text.length > maxLength ? `${text.substring(0, maxLength)}...` : text;
   };
 
